@@ -1,0 +1,22 @@
+[
+  {
+    "id": "source-official-steam-store",
+    "name": "SpiritVale Official Steam Store",
+    "sourceType": "official-steam",
+    "url": "https://store.steampowered.com/app/3767850/SpiritVale/",
+    "owner": "Baikun Interactive",
+    "accessedAt": "2026-08-01T00:00:00Z",
+    "reliability": "primary",
+    "notes": "Official product page used to verify the seven listed base-class names and the Guide-system statements about class-based action MMO play, cooperative combat, character growth, skills, equipment, cards, artifacts, upgrading, and multiplayer."
+  },
+  {
+    "id": "source-official-press-kit",
+    "name": "SpiritVale Official Press Kit",
+    "sourceType": "official-press-kit",
+    "url": "https://impress.games/press-kit/baikun-interactive/spiritvale",
+    "owner": "Baikun Interactive",
+    "accessedAt": "2026-08-01T00:00:00Z",
+    "reliability": "primary",
+    "notes": "Official Baikun Interactive Press Kit used for verified source assets."
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {"id": "guide-type-beginner", "slug": "beginner", "name": "Beginner", "description": null, "verificationStatus": "unverified"},
+  {"id": "guide-type-classes", "slug": "classes", "name": "Classes", "description": null, "verificationStatus": "unverified"},
+  {"id": "guide-type-leveling", "slug": "leveling", "name": "Leveling", "description": null, "verificationStatus": "unverified"},
+  {"id": "guide-type-stats", "slug": "stats", "name": "Stats", "description": null, "verificationStatus": "unverified"},
+  {"id": "guide-type-cards", "slug": "cards", "name": "Cards", "description": null, "verificationStatus": "unverified"}
+]

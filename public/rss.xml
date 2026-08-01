@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>PlayAIG Updates</title>
+    <link>https://playaig.com/</link>
+    <description>Latest verified guides from PlayAIG.</description>
+    <lastBuildDate>Sat, 01 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>SpiritVale Beginner Guide</title>
+      <link>https://playaig.com/guides/beginner-guide/</link>
+      <guid isPermaLink="true">https://playaig.com/guides/beginner-guide/</guid>
+      <description>A sourced introduction to the SpiritVale systems described by official materials.</description>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpiritVale Class Guide</title>
+      <link>https://playaig.com/guides/class-guide/</link>
+      <guid isPermaLink="true">https://playaig.com/guides/class-guide/</guid>
+      <description>The verified names of SpiritVale&apos;s seven base classes and the limits of current class information.</description>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpiritVale Leveling Guide</title>
+      <link>https://playaig.com/guides/leveling-guide/</link>
+      <guid isPermaLink="true">https://playaig.com/guides/leveling-guide/</guid>
+      <description>A guide to official progression signals without a fabricated leveling route.</description>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpiritVale Stats Guide</title>
+      <link>https://playaig.com/guides/stats-guide/</link>
+      <guid isPermaLink="true">https://playaig.com/guides/stats-guide/</guid>
+      <description>A verification-first view of character, equipment, and refining systems.</description>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpiritVale Card System Guide</title>
+      <link>https://playaig.com/guides/card-system-guide/</link>
+      <guid isPermaLink="true">https://playaig.com/guides/card-system-guide/</guid>
+      <description>A first-party-source overview of the confirmed card and build references in SpiritVale.</description>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

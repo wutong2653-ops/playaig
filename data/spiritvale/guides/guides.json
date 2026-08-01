@@ -1,0 +1,648 @@
+[
+  {
+    "id": "guide-beginner",
+    "slug": "beginner-guide",
+    "name": "SpiritVale Beginner Guide",
+    "shortDescription": "A sourced introduction to the SpiritVale systems described by official materials.",
+    "description": "A deliberately limited overview of officially confirmed SpiritVale systems for new players.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": ["source-official-steam-store"],
+    "gameVersionId": "version-unknown",
+    "imageAssetIds": ["sv-guide-beginner-combat-banner", "sv-guide-beginner-adventure-banner"],
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-01T00:00:00Z",
+    "lastVerifiedAt": "2026-08-01T00:00:00Z",
+    "notes": "Published guide uses only confirmed official Steam statements and registered official images.",
+    "guideTypeId": "guide-type-beginner",
+    "summary": "Start with the SpiritVale systems that official sources currently describe, and keep unverified details out of your planning.",
+    "intro": "SpiritVale is described on its official Steam page as a class-based action MMO with real-time cooperative combat. This guide introduces that confirmed foundation without inventing an opening route, recommended build, or hidden system rule.",
+    "sectionIds": ["beginner-what-spiritvale-is", "beginner-confirmed-classes", "beginner-combat-and-world", "beginner-character-systems", "beginner-official-resources"],
+    "sections": [
+      {
+        "id": "beginner-what-spiritvale-is",
+        "heading": "What SpiritVale Is",
+        "anchor": "what-spiritvale-is",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "Official Steam information presents SpiritVale as a class-based action MMO with a fantasy world, real-time cooperative combat, monsters, and ruins. It also identifies the game as an Early Access release, so systems and content can continue to evolve.",
+            "items": [],
+            "imageAssetId": null,
+            "caption": null,
+            "sourceIds": ["source-official-steam-store"]
+          }
+        ],
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "beginner-confirmed-classes",
+        "heading": "Confirmed Base Classes",
+        "anchor": "confirmed-classes",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "Official Steam material confirms seven base classes. The separate Class Guide lists their verified names and deliberately omits roles, weapons, and stat recommendations until they have a first-party source.",
+            "items": [],
+            "imageAssetId": "sv-guide-beginner-combat-banner",
+            "caption": "Official SpiritVale combat artwork used as a visual reference for the guide.",
+            "sourceIds": ["source-official-steam-store"]
+          }
+        ],
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "beginner-combat-and-world",
+        "heading": "Combat and World Content",
+        "anchor": "combat-and-world",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "The official store description mentions cooperative combat and a multiplayer party system. It also describes world exploration, monsters, bosses, biomes, and dungeons, but it does not provide a verified first-play route for a new character.",
+            "items": [],
+            "imageAssetId": null,
+            "caption": null,
+            "sourceIds": ["source-official-steam-store"]
+          }
+        ],
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "beginner-character-systems",
+        "heading": "Character Systems Mentioned by Official Sources",
+        "anchor": "character-systems",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "Official Steam information refers to character leveling, skill progression, equipment, cards, artifacts, loot, and character customization. It does not establish a best early build, a stat allocation, or a mandatory equipment path, so this guide does not recommend one.",
+            "items": [],
+            "imageAssetId": "sv-guide-beginner-adventure-banner",
+            "caption": "Official SpiritVale adventure artwork used as a general visual reference.",
+            "sourceIds": ["source-official-steam-store"]
+          }
+        ],
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "beginner-official-resources",
+        "heading": "Official Resources",
+        "anchor": "official-resources",
+        "contentBlocks": [
+          {
+            "type": "callout",
+            "text": "Use the official Steam page for current store information and official updates. This site adds detail only when it can link that detail to a registered first-party source.",
+            "items": [],
+            "imageAssetId": null,
+            "caption": null,
+            "sourceIds": ["source-official-steam-store"]
+          }
+        ],
+        "sourceIds": ["source-official-steam-store"]
+      }
+    ],
+    "faqItems": [
+      {
+        "id": "beginner-faq-game-type",
+        "question": "What type of game is SpiritVale?",
+        "answer": "The official Steam page describes SpiritVale as a class-based action MMO with real-time cooperative combat.",
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "beginner-faq-classes",
+        "question": "How many base classes are officially confirmed?",
+        "answer": "Official Steam material lists seven base classes.",
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "beginner-faq-updates",
+        "question": "Where should players check official information?",
+        "answer": "The registered official Steam page is the current first-party reference used by this guide.",
+        "sourceIds": ["source-official-steam-store"]
+      }
+    ],
+    "relatedGuideIds": ["guide-classes", "guide-leveling", "guide-stats"],
+    "relatedClassIds": ["class-acolyte", "class-mage", "class-summoner", "class-knight", "class-warrior", "class-scout", "class-rogue"],
+    "relatedDatabaseCategoryIds": ["equipment", "bosses", "maps"],
+    "relatedBuildIds": [],
+    "relatedSkillIds": [],
+    "relatedEquipmentIds": [],
+    "relatedCardIds": [],
+    "relatedArtifactIds": [],
+    "relatedBossIds": [],
+    "relatedMonsterIds": [],
+    "relatedMapIds": [],
+    "editorialStatus": "published",
+    "factReviewStatus": "partially-verified",
+    "reviewedAt": "2026-08-01T00:00:00Z",
+    "seo": {
+      "title": "SpiritVale Beginner Guide — Essential Systems and First Steps",
+      "description": "Learn the officially confirmed basics of SpiritVale, including classes, progression, combat, equipment, cards and world content.",
+      "canonicalPath": "/guides/beginner-guide/",
+      "index": true
+    }
+  },
+  {
+    "id": "guide-classes",
+    "slug": "class-guide",
+    "name": "SpiritVale Class Guide",
+    "shortDescription": "The verified names of SpiritVale's seven base classes and the limits of current class information.",
+    "description": "A source-led guide to the confirmed base class roster.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": ["source-official-steam-store"],
+    "gameVersionId": "version-unknown",
+    "imageAssetIds": ["sv-guide-classes-selection-banner", "sv-guide-classes-customization-banner"],
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-01T00:00:00Z",
+    "lastVerifiedAt": "2026-08-01T00:00:00Z",
+    "notes": "Class names and base-class status are backed by the official Steam store; unverified class attributes are omitted.",
+    "guideTypeId": "guide-type-classes",
+    "summary": "Explore the seven confirmed base class names without treating unverified roles, weapons, stats, or builds as fact.",
+    "intro": "The official Steam page names seven base classes and refers to skill trees and advanced specializations. It does not provide enough first-party detail for this guide to assign a role, weapon, difficulty, or best build to any individual class.",
+    "sectionIds": ["classes-system-overview", "classes-seven-base-classes", "classes-official-progression-language", "classes-what-is-not-verified"],
+    "sections": [
+      {
+        "id": "classes-system-overview",
+        "heading": "Class System Overview",
+        "anchor": "class-system-overview",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "SpiritVale's official Steam page describes the game as class-based and states that its current version includes seven base classes. The page also refers to distinct skill trees and advanced jobs, but the exact relationship between every base class and later specialization is not fully documented in this data set.",
+            "items": [],
+            "imageAssetId": "sv-guide-classes-selection-banner",
+            "caption": "Official SpiritVale class-selection artwork used as a general class-system visual.",
+            "sourceIds": ["source-official-steam-store"]
+          }
+        ],
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "classes-seven-base-classes",
+        "heading": "The Seven Confirmed Base Classes",
+        "anchor": "seven-base-classes",
+        "contentBlocks": [
+          {
+            "type": "class-list",
+            "text": "These names are read from the formal SpiritVale class data, which records them as confirmed base classes.",
+            "items": [],
+            "imageAssetId": null,
+            "caption": null,
+            "sourceIds": ["source-official-steam-store"]
+          }
+        ],
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "classes-official-progression-language",
+        "heading": "Skill Trees and Advanced Specializations",
+        "anchor": "official-progression-language",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "Official Steam material says the base classes have skill trees and refers to advanced specializations as characters grow. This guide does not map an advanced specialization to a base class unless that exact pairing is stored with a verifiable first-party source.",
+            "items": [],
+            "imageAssetId": "sv-guide-classes-customization-banner",
+            "caption": "Official SpiritVale character-customization artwork used as a related system visual.",
+            "sourceIds": ["source-official-steam-store"]
+          }
+        ],
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "classes-what-is-not-verified",
+        "heading": "Choosing a Class Without Guesswork",
+        "anchor": "what-is-not-verified",
+        "contentBlocks": [
+          {
+            "type": "callout",
+            "text": "No verified role, weapon, primary stat, difficulty, strength, weakness, or recommended build is recorded for the seven base classes yet. Compare official information in-game and return to this guide after those details receive a first-party source.",
+            "items": [],
+            "imageAssetId": null,
+            "caption": null,
+            "sourceIds": ["source-official-steam-store"]
+          }
+        ],
+        "sourceIds": ["source-official-steam-store"]
+      }
+    ],
+    "faqItems": [
+      {
+        "id": "classes-faq-count",
+        "question": "How many base classes are confirmed?",
+        "answer": "Seven base classes are listed by the official Steam page and in the formal class data.",
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "classes-faq-names",
+        "question": "Where can I find the confirmed class names?",
+        "answer": "This page renders the seven names from the formal Class data used by the site.",
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "classes-faq-role",
+        "question": "Does this guide list class roles or weapons?",
+        "answer": "No. Those fields are not currently verified in the formal Class data.",
+        "sourceIds": ["source-official-steam-store"]
+      }
+    ],
+    "relatedGuideIds": ["guide-beginner", "guide-leveling", "guide-stats"],
+    "relatedClassIds": ["class-acolyte", "class-mage", "class-summoner", "class-knight", "class-warrior", "class-scout", "class-rogue"],
+    "relatedDatabaseCategoryIds": ["skills"],
+    "relatedBuildIds": [],
+    "relatedSkillIds": [],
+    "relatedEquipmentIds": [],
+    "relatedCardIds": [],
+    "relatedArtifactIds": [],
+    "relatedBossIds": [],
+    "relatedMonsterIds": [],
+    "relatedMapIds": [],
+    "editorialStatus": "published",
+    "factReviewStatus": "partially-verified",
+    "reviewedAt": "2026-08-01T00:00:00Z",
+    "seo": {
+      "title": "SpiritVale Class Guide — Explore the Seven Base Classes",
+      "description": "Explore the seven officially confirmed SpiritVale base classes and learn which class information is currently verified.",
+      "canonicalPath": "/guides/class-guide/",
+      "index": true
+    }
+  },
+  {
+    "id": "guide-leveling",
+    "slug": "leveling-guide",
+    "name": "SpiritVale Leveling Guide",
+    "shortDescription": "A guide to official progression signals without a fabricated leveling route.",
+    "description": "Understand the confirmed progression-related systems mentioned by official sources.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": ["source-official-steam-store"],
+    "gameVersionId": "version-unknown",
+    "imageAssetIds": ["sv-guide-leveling-economy-banner", "sv-guide-leveling-meadow-battle"],
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-01T00:00:00Z",
+    "lastVerifiedAt": "2026-08-01T00:00:00Z",
+    "notes": "The guide excludes experience rates, routes, caps, and level tables because no such values are registered as verified.",
+    "guideTypeId": "guide-type-leveling",
+    "summary": "Understand the official references to character growth, skills, classes, equipment, and activities without claiming an optimal route.",
+    "intro": "Official SpiritVale information says players can level their characters and mentions skill progression, class switching, equipment, loot, combat, and multiplayer. It does not publish a verified fastest route, level cap, or progression calculation, so this guide does not invent one.",
+    "sectionIds": ["leveling-progression-signals", "leveling-classes-and-skills", "leveling-equipment-and-loot", "leveling-activities-and-verification"],
+    "sections": [
+      {
+        "id": "leveling-progression-signals",
+        "heading": "How Official Sources Describe Progression",
+        "anchor": "progression-signals",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "The official Steam page states that players can level a character and identifies skill progression as a functioning core system. This establishes that character growth exists, but it does not provide a public progression formula or a recommended order of activities.",
+            "items": [],
+            "imageAssetId": "sv-guide-leveling-meadow-battle",
+            "caption": "Official SpiritVale combat artwork used as a neutral progression-related visual.",
+            "sourceIds": ["source-official-steam-store"]
+          }
+        ],
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "leveling-classes-and-skills",
+        "heading": "Classes and Skill Progression",
+        "anchor": "classes-and-skills",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "Official material links the game’s base classes with skill trees and later specializations. The site does not currently have enough verified data to turn that statement into a class-by-class leveling recommendation.",
+            "items": [],
+            "imageAssetId": null,
+            "caption": null,
+            "sourceIds": ["source-official-steam-store"]
+          }
+        ],
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "leveling-equipment-and-loot",
+        "heading": "Equipment and Loot",
+        "anchor": "equipment-and-loot",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "The official store page describes equipment, armor, loot, materials, and equipment upgrades as part of SpiritVale. It does not support a verified equipment priority, upgrade order, or character-level requirement in this guide.",
+            "items": [],
+            "imageAssetId": "sv-guide-leveling-economy-banner",
+            "caption": "Official SpiritVale economy artwork used as a related systems visual.",
+            "sourceIds": ["source-official-steam-store"]
+          }
+        ],
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "leveling-activities-and-verification",
+        "heading": "Activities and In-Game Verification",
+        "anchor": "activities-and-verification",
+        "contentBlocks": [
+          {
+            "type": "callout",
+            "text": "Official descriptions mention combat, exploration, multiplayer, maps, bosses, trading, and loot. Check the current in-game interface and official updates before treating any activity as the best route for a particular level range.",
+            "items": [],
+            "imageAssetId": null,
+            "caption": null,
+            "sourceIds": ["source-official-steam-store"]
+          }
+        ],
+        "sourceIds": ["source-official-steam-store"]
+      }
+    ],
+    "faqItems": [
+      {
+        "id": "leveling-faq-progression",
+        "question": "Does official information confirm character progression?",
+        "answer": "Yes. The official Steam page says players can level a character and identifies skill progression as a core system.",
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "leveling-faq-route",
+        "question": "Does this guide provide a fastest leveling route?",
+        "answer": "No. A verified route, progression calculation, and level table are not registered as official data.",
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "leveling-faq-equipment",
+        "question": "Is equipment part of the confirmed growth systems?",
+        "answer": "Official Steam material describes equipment, loot, materials, and equipment upgrades.",
+        "sourceIds": ["source-official-steam-store"]
+      }
+    ],
+    "relatedGuideIds": ["guide-beginner", "guide-classes", "guide-stats"],
+    "relatedClassIds": [],
+    "relatedDatabaseCategoryIds": ["monsters"],
+    "relatedBuildIds": [],
+    "relatedSkillIds": [],
+    "relatedEquipmentIds": [],
+    "relatedCardIds": [],
+    "relatedArtifactIds": [],
+    "relatedBossIds": [],
+    "relatedMonsterIds": [],
+    "relatedMapIds": [],
+    "editorialStatus": "published",
+    "factReviewStatus": "partially-verified",
+    "reviewedAt": "2026-08-01T00:00:00Z",
+    "seo": {
+      "title": "SpiritVale Leveling Guide — Understanding Character Progression",
+      "description": "Understand the officially confirmed SpiritVale progression systems, including Base Level, Job Level, classes and equipment growth.",
+      "canonicalPath": "/guides/leveling-guide/",
+      "index": true
+    }
+  },
+  {
+    "id": "guide-stats",
+    "slug": "stats-guide",
+    "name": "SpiritVale Stats Guide",
+    "shortDescription": "A verification-first view of character, equipment, and refining systems.",
+    "description": "Review the character and equipment systems currently supported by official references.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": ["source-official-steam-store"],
+    "gameVersionId": "version-unknown",
+    "imageAssetIds": ["sv-guide-stats-crafting-banner", "sv-guide-stats-refining-interface"],
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-01T00:00:00Z",
+    "lastVerifiedAt": "2026-08-01T00:00:00Z",
+    "notes": "No stat names, formulas, caps, class primary stats, or allocation advice are stored because they are not verified.",
+    "guideTypeId": "guide-type-stats",
+    "summary": "Review what official material says about character growth, equipment, and upgrading while leaving undocumented stat mechanics blank.",
+    "intro": "Official SpiritVale material discusses characters, equipment, upgrades, loot, skills, cards, and artifacts. It does not establish the names or formulas of character stats, so this page separates confirmed system references from mechanics that still need first-party confirmation.",
+    "sectionIds": ["stats-confirmed-growth-systems", "stats-character-stats", "stats-equipment-and-refining", "stats-missing-stat-details"],
+    "sections": [
+      {
+        "id": "stats-confirmed-growth-systems",
+        "heading": "What Official Sources Confirm About Character Growth",
+        "anchor": "confirmed-growth-systems",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "The official Steam page refers to leveling a character, skill progression, equipment, loot, cards, artifacts, and character customization. These are confirmed system-level references, not a published explanation of individual stat values or formulas.",
+            "items": [],
+            "imageAssetId": "sv-guide-stats-crafting-banner",
+            "caption": "Official SpiritVale crafting artwork used as a general character-development visual.",
+            "sourceIds": ["source-official-steam-store"]
+          }
+        ],
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "stats-character-stats",
+        "heading": "Character Stats",
+        "anchor": "character-stats",
+        "contentBlocks": [
+          {
+            "type": "callout",
+            "text": "No attribute names, stat formulas, soft caps, class primary stats, or reset system are recorded as verified site data. This guide intentionally does not infer them from genre conventions or interface imagery.",
+            "items": [],
+            "imageAssetId": null,
+            "caption": null,
+            "sourceIds": ["source-official-steam-store"]
+          }
+        ],
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "stats-equipment-and-refining",
+        "heading": "Equipment and Refining",
+        "anchor": "equipment-and-refining",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "Official Steam information says equipment can be upgraded to strengthen a character. A registered official image also shows a refining-related interface, but the image alone does not verify a specific stat rule or upgrade formula.",
+            "items": [],
+            "imageAssetId": "sv-guide-stats-refining-interface",
+            "caption": "Official refining-related interface artwork; specific interface details are not interpreted as confirmed rules.",
+            "sourceIds": ["source-official-steam-store"]
+          }
+        ],
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "stats-missing-stat-details",
+        "heading": "How This Page Will Be Updated",
+        "anchor": "missing-stat-details",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "Future updates can add named stats, relationships, or recommendations only after they are documented by a registered first-party source or a clearly identified player-owned record. Until then, missing information remains visibly missing.",
+            "items": [],
+            "imageAssetId": null,
+            "caption": null,
+            "sourceIds": ["source-official-steam-store"]
+          }
+        ],
+        "sourceIds": ["source-official-steam-store"]
+      }
+    ],
+    "faqItems": [
+      {
+        "id": "stats-faq-formulas",
+        "question": "Does this guide list stat formulas?",
+        "answer": "No. No stat formula is currently registered as verified official data.",
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "stats-faq-upgrade",
+        "question": "Do official sources mention equipment upgrades?",
+        "answer": "Yes. The official Steam page says equipment can be upgraded to strengthen a character.",
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "stats-faq-refining-image",
+        "question": "Does the refining image prove a specific mechanic?",
+        "answer": "No. It is used as official related imagery, not as proof of a formula or rule.",
+        "sourceIds": ["source-official-steam-store"]
+      }
+    ],
+    "relatedGuideIds": ["guide-beginner", "guide-leveling", "guide-cards"],
+    "relatedClassIds": [],
+    "relatedDatabaseCategoryIds": ["equipment"],
+    "relatedBuildIds": [],
+    "relatedSkillIds": [],
+    "relatedEquipmentIds": [],
+    "relatedCardIds": [],
+    "relatedArtifactIds": [],
+    "relatedBossIds": [],
+    "relatedMonsterIds": [],
+    "relatedMapIds": [],
+    "editorialStatus": "published",
+    "factReviewStatus": "partially-verified",
+    "reviewedAt": "2026-08-01T00:00:00Z",
+    "seo": {
+      "title": "SpiritVale Stats Guide — Verified Character and Equipment Systems",
+      "description": "Review the SpiritVale character, equipment and refining information currently supported by official game sources.",
+      "canonicalPath": "/guides/stats-guide/",
+      "index": true
+    }
+  },
+  {
+    "id": "guide-cards",
+    "slug": "card-system-guide",
+    "name": "SpiritVale Card System Guide",
+    "shortDescription": "A first-party-source overview of the confirmed card and build references in SpiritVale.",
+    "description": "Explore the card system information currently supported by official sources without inventing effects or drop data.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": ["source-official-steam-store"],
+    "gameVersionId": "version-unknown",
+    "imageAssetIds": ["sv-guide-cards-build-banner", "sv-guide-cards-character-build"],
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-01T00:00:00Z",
+    "lastVerifiedAt": "2026-08-01T00:00:00Z",
+    "notes": "The guide excludes card names, effects, rarity, slots, drops, and optimization advice because those details are not verified here.",
+    "guideTypeId": "guide-type-cards",
+    "summary": "Explore the officially confirmed existence of cards, equipment customization, artifacts, and character-build language without claiming undocumented details.",
+    "intro": "Official SpiritVale Steam material identifies cards and artifacts as character-build features and says the card system can customize gear. It does not supply the card-by-card rules needed for an effects list, drop table, or tier list, so those are omitted.",
+    "sectionIds": ["cards-system-overview", "cards-and-equipment", "cards-and-builds", "cards-missing-card-information"],
+    "sections": [
+      {
+        "id": "cards-system-overview",
+        "heading": "Card System Overview",
+        "anchor": "card-system-overview",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "The official Steam page confirms that SpiritVale has a card system and identifies cards and artifacts as features connected to building a character. This is sufficient to document the system’s presence, but not its detailed rules.",
+            "items": [],
+            "imageAssetId": "sv-guide-cards-build-banner",
+            "caption": "Official SpiritVale build artwork used as a general card-system visual.",
+            "sourceIds": ["source-official-steam-store"]
+          }
+        ],
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "cards-and-equipment",
+        "heading": "Cards and Equipment",
+        "anchor": "cards-and-equipment",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "Official Steam material says the card system customizes gear and separately describes equipment, armor, and upgrades. It does not verify card effects, compatibility rules, slot counts, removal rules, or any named equipment-card combination.",
+            "items": [],
+            "imageAssetId": null,
+            "caption": null,
+            "sourceIds": ["source-official-steam-store"]
+          }
+        ],
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "cards-and-builds",
+        "heading": "Cards and Character Builds",
+        "anchor": "cards-and-builds",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "The official page uses character-build language alongside cards, artifacts, and equipment. This guide treats that as confirmation that the systems are related to player choices, not as evidence for a best card setup or a class-specific build recommendation.",
+            "items": [],
+            "imageAssetId": "sv-guide-cards-character-build",
+            "caption": "Official character-customization interface artwork used as a related build visual, not as card-detail evidence.",
+            "sourceIds": ["source-official-steam-store"]
+          }
+        ],
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "cards-missing-card-information",
+        "heading": "Information Still Missing",
+        "anchor": "missing-card-information",
+        "contentBlocks": [
+          {
+            "type": "callout",
+            "text": "No verified card names, effects, rarities, monster drops, tier lists, or optimization rules are stored on this site. Future additions require a registered first-party source for each factual claim.",
+            "items": [],
+            "imageAssetId": null,
+            "caption": null,
+            "sourceIds": ["source-official-steam-store"]
+          }
+        ],
+        "sourceIds": ["source-official-steam-store"]
+      }
+    ],
+    "faqItems": [
+      {
+        "id": "cards-faq-exists",
+        "question": "Does SpiritVale have a card system?",
+        "answer": "Yes. The official Steam page identifies a card system as part of SpiritVale.",
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "cards-faq-effects",
+        "question": "Does this guide list card effects?",
+        "answer": "No. Specific card effects are not currently stored as verified official data.",
+        "sourceIds": ["source-official-steam-store"]
+      },
+      {
+        "id": "cards-faq-gear",
+        "question": "Are cards connected to equipment?",
+        "answer": "Official Steam information says the card system can customize gear, without documenting individual compatibility rules.",
+        "sourceIds": ["source-official-steam-store"]
+      }
+    ],
+    "relatedGuideIds": ["guide-beginner", "guide-stats", "guide-classes"],
+    "relatedClassIds": [],
+    "relatedDatabaseCategoryIds": ["cards", "artifacts"],
+    "relatedBuildIds": [],
+    "relatedSkillIds": [],
+    "relatedEquipmentIds": [],
+    "relatedCardIds": [],
+    "relatedArtifactIds": [],
+    "relatedBossIds": [],
+    "relatedMonsterIds": [],
+    "relatedMapIds": [],
+    "editorialStatus": "published",
+    "factReviewStatus": "partially-verified",
+    "reviewedAt": "2026-08-01T00:00:00Z",
+    "seo": {
+      "title": "SpiritVale Card System Guide — Officially Confirmed Information",
+      "description": "Explore the SpiritVale card system information currently confirmed by official sources, without unverified effects or drop data.",
+      "canonicalPath": "/guides/card-system-guide/",
+      "index": true
+    }
+  }
+]

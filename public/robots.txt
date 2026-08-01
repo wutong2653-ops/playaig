@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /playground/
+Disallow: /search/
+Disallow: /404/
+Disallow: /src/
+Disallow: /node_modules/
+
+Sitemap: https://playaig.com/sitemap.xml
