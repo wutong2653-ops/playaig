@@ -69,7 +69,7 @@ function setCanonical(canonicalPath: string) {
 }
 
 function setStructuredData(records: Record<string, unknown>[]) {
-  document.head.querySelectorAll("script[data-spiritvale-jsonld]").forEach((element) => element.remove());
+  document.head.querySelectorAll('script[type="application/ld+json"]').forEach((element) => element.remove());
   records.forEach((record, index) => {
     const script = document.createElement("script");
     script.dataset.spiritvaleJsonld = String(index);

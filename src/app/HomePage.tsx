@@ -91,7 +91,7 @@ export function HomePage() {
             />
           </Section>
 
-          <Section aria-label="Quick search">
+          <Section aria-label="Quick search" className="home-section--quick-search">
             <FeatureSection description="Start with the references already being verified for SpiritVale." title="Find your next reference">
               <form className="home-search-form" onSubmit={submitSearch}>
                 <SearchBar

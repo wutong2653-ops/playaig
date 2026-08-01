@@ -9,7 +9,7 @@
     "typecheck": "tsc -b --pretty false",
     "lint": "eslint .",
     "playground": "vite --host 127.0.0.1",
-    "test": "node scripts/validate-spiritvale-homepage.mjs && node scripts/validate-spiritvale-guides.mjs && node scripts/validate-spiritvale-classes.mjs && node scripts/validate-spiritvale-database.mjs && node scripts/validate-spiritvale-search.mjs"
+    "test": "node scripts/validate-spiritvale-homepage.mjs && node scripts/validate-spiritvale-guides.mjs && node scripts/validate-spiritvale-classes.mjs && node scripts/validate-spiritvale-database.mjs && node scripts/validate-spiritvale-search.mjs && node scripts/validate-playaig-release-ui.mjs"
   },
   "dependencies": {
     "react": "^19.1.1",

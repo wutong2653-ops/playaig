@@ -14,7 +14,8 @@
 .site-mobile-menu { border-block-end: var(--sv-border-width) solid var(--sv-color-border); background: var(--sv-color-surface); }
 .site-mobile-menu__content { display: grid; gap: var(--sv-space-12); padding-block: var(--sv-space-16); }
 .site-mobile-menu__label { color: var(--sv-color-text-muted); font-size: var(--sv-font-caption-size); font-weight: 700; text-transform: uppercase; }
-.home-section--hero { padding-block-start: var(--sv-space-32); }
+.home-section--hero { padding-block-start: var(--sv-space-32); padding-block-end: var(--sv-space-24); }
+.home-section--quick-search { padding-block-start: var(--sv-space-24); }
 .home-hero__actions { display: flex; flex-wrap: wrap; gap: var(--sv-space-12); }
 .home-hero__actions a { text-decoration: none; }
 .home-search-form { display: flex; flex-wrap: wrap; gap: var(--sv-space-12); }
