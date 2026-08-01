@@ -5,17 +5,8 @@ const exploreLinks = [
   { label: "Home", path: "/" },
   { label: "Guides", path: "/guides/" },
   { label: "Classes", path: "/classes/" },
-  { label: "Builds", path: "/builds/" },
+  { label: "Database", path: "/database/" },
   { label: "Bosses", path: "/database/bosses/" }
-];
-
-const databaseLinks = [
-  { label: "Skills", path: "/database/skills/" },
-  { label: "Equipment", path: "/database/equipment/" },
-  { label: "Cards", path: "/database/cards/" },
-  { label: "Artifacts", path: "/database/artifacts/" },
-  { label: "Monsters", path: "/database/monsters/" },
-  { label: "Maps", path: "/database/maps/" }
 ];
 
 const resourceLinks = [
@@ -29,8 +20,12 @@ export function Footer() {
   return (
     <footer className="site-footer">
       <div className="sv-container site-footer__grid">
+        <section className="site-footer__brand">
+          <p className="site-footer__brand-name">PlayAIG</p>
+          <p className="site-footer__channel">SpiritVale Wiki</p>
+          <p>Verified game information based on official sources.</p>
+        </section>
         <FooterColumn links={exploreLinks} title="Explore" />
-        <FooterColumn links={databaseLinks} title="Database" />
         <FooterColumn links={resourceLinks} title="Resources">
           {steamSource ? <a href={steamSource.url} rel="noopener noreferrer" target="_blank">Official Steam</a> : null}
         </FooterColumn>

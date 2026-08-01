@@ -55,8 +55,12 @@ export function App() {
             <HeroBanner
               actions={<Button startIcon={<Icon name="arrowRight" />}>Primary action</Button>}
               description="HeroBanner accepts imageAssetId but resolves no image path itself."
+              eyebrow="PlayAIG"
+              gameName="SpiritVale"
               imageAssetId="sv-home-hero"
+              status={<Badge>Verified Game Wiki</Badge>}
               title="Component preview"
+              trustSignals={<><Tag>Official Sources</Tag><Tag>Verified Information</Tag></>}
             />
             <FeatureSection description="Base controls demonstrate default, hover, focus, disabled, and loading states." title="Base components">
               <div className="sv-playground-row">

@@ -16,8 +16,22 @@ if (!siteCss.includes(".home-section--hero { padding-block-start: var(--sv-space
   fail("Hero and Quick Search must use the intentional tokenized 48px boundary gap.");
 }
 if (/home-section--(?:hero|quick-search)[^{]*\{[^}]*margin/i.test(siteCss)) fail("Homepage spacing repair must not use margin masking.");
-if (!homePage.includes("<HeroBanner") || !homePage.includes('imageAssetId="sv-home-hero"') || !homePage.includes("<FeatureSection") || !homePage.includes('id="start-here"') || !homePage.includes('id="classes"') || !homePage.includes('id="database"') || !homePage.includes('id="guides"') || !homePage.includes('id="explore"') || !homePage.includes('id="updates"')) {
+if (!homePage.includes("<HeroBanner") || !homePage.includes('imageAssetId="sv-home-hero"') || !homePage.includes("<FeatureSection") || !homePage.includes('id="classes"') || !homePage.includes('id="database"') || !homePage.includes('id="guides"') || !homePage.includes('id="explore"') || !homePage.includes('id="updates"')) {
   fail("Homepage section structure is incomplete.");
+}
+if (homePage.includes('id="start-here"')) fail("Start Here must be folded into the data-driven Featured Guides section.");
+if (!homePage.includes('title="SpiritVale Wiki, Guides and Game Database"') || !homePage.includes('description="Explore verified SpiritVale guides, classes, progression references and game database resources based on official sources."')) {
+  fail("Homepage Hero title or approved description is missing.");
+}
+if (!homePage.includes('eyebrow="PlayAIG"') || !homePage.includes('gameName="SpiritVale"') || !homePage.includes('Verified Game Wiki')) {
+  fail("Homepage brand hierarchy or verification status is missing.");
+}
+if (!homePage.includes('placeholder="Search guides, classes, bosses and game data..."') || !siteCss.includes("max-inline-size: var(--sv-hero-content-max)")) {
+  fail("Quick Search must retain approved copy and its constrained desktop width.");
+}
+const orderedSections = ['id="guides"', 'id="classes"', 'id="database"', 'id="explore"', 'id="updates"'];
+if (orderedSections.some((section, index) => index > 0 && homePage.indexOf(section) < homePage.indexOf(orderedSections[index - 1]))) {
+  fail("Homepage sections must follow the release visual order.");
 }
 if (!homePage.includes('priority />')) fail("Homepage Hero image must remain priority loaded.");
 for (const asset of assets) {
@@ -30,6 +44,6 @@ if (!indexHtml.includes(siteUrl) || /spiritvale\.example|localhost|127\.0\.0\.1|
 
 console.log("PlayAIG homepage release UI validation PASSED");
 console.log("Hero-to-Quick-Search boundary gap: 48px via existing spacing tokens");
-console.log("Homepage sections: 9");
+console.log("Homepage modules: Header, Hero, Quick Search, Featured Guides, Classes, Database, Explore, Updates, Footer");
 console.log("Registered assets checked: " + assets.length);
 console.log("Production discovery artifacts checked: 5");

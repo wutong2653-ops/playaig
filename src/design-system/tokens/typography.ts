@@ -1,6 +1,9 @@
 export const typographyTokens = {
   fontFamily: { display: "ui-rounded, system-ui, sans-serif", body: "Inter, ui-sans-serif, system-ui, sans-serif", code: "ui-monospace, SFMono-Regular, monospace" },
   display: { fontSize: "3.5rem", lineHeight: "1.05", fontWeight: 800 },
+  hero: { fontSize: "clamp(2.375rem, 4.75vw, 4.5rem)", lineHeight: "1.04", fontWeight: 800 },
+  section: { fontSize: "clamp(2rem, 2.8vw, 2.5rem)", lineHeight: "1.12", fontWeight: 800 },
+  cardTitle: { fontSize: "1.375rem", lineHeight: "1.2", fontWeight: 750 },
   h1: { fontSize: "2.5rem", lineHeight: "1.1", fontWeight: 800 },
   h2: { fontSize: "2rem", lineHeight: "1.2", fontWeight: 750 },
   h3: { fontSize: "1.5rem", lineHeight: "1.25", fontWeight: 700 },

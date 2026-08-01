@@ -14,7 +14,8 @@ import {
   SearchBar,
   Section
 } from "../design-system";
-import { AssetImage, databaseCategories, getClasses, getGuides, getOfficialSteamSource, getStartHereGuides } from "../data";
+import { AssetImage, databaseCategories, getClasses, getGuides, getOfficialSteamSource, getGuideCategories } from "../data";
+import type { SpiritValeGuide } from "../data";
 import { applyHomepageMetadata } from "./site";
 
 const worldFeatures = [
@@ -40,15 +41,19 @@ const worldFeatures = [
   }
 ] as const;
 
-function guideDescription() {
-  return "A guide shell is being prepared with verified information.";
+function guideDescription(guide: SpiritValeGuide) {
+  return guide.summary ?? guide.shortDescription ?? guide.description ?? "Verified information will be added as official sources become available.";
+}
+
+function verificationLabel(guide: SpiritValeGuide) {
+  return guide.factReviewStatus === "verified" ? "Verified Information" : "Partially Verified";
 }
 
 export function HomePage() {
   const [query, setQuery] = useState("");
   const classes = getClasses();
   const guides = getGuides();
-  const startHereGuides = getStartHereGuides();
+  const guideCategories = getGuideCategories();
   const steamSource = getOfficialSteamSource();
 
   useEffect(() => {
@@ -80,25 +85,30 @@ export function HomePage() {
             <HeroBanner
               actions={
                 <div className="home-hero__actions">
-                  <a className="sv-button sv-button--primary sv-focusable" href="/classes/">Explore Classes</a>
-                  <a className="sv-button sv-button--outline sv-focusable" href="/guides/">Browse Guides</a>
+                  <a className="sv-button sv-button--primary sv-focusable" href="/guides/">Explore Guides</a>
+                  <a className="sv-button sv-button--outline sv-focusable" href="/classes/">Browse Classes</a>
                 </div>
               }
-              description="Explore SpiritVale classes, guides, skills, equipment, cards, monsters, bosses and essential progression resources."
+              className="home-hero"
+              description="Explore verified SpiritVale guides, classes, progression references and game database resources based on official sources."
+              eyebrow="PlayAIG"
+              gameName="SpiritVale"
               imageAssetId="sv-home-hero"
               media={<AssetImage imageAssetId="sv-home-hero" priority />}
-              title="SpiritVale Wiki, Builds and Game Database"
+              status={<Badge className="home-hero__status-badge">Verified Game Wiki</Badge>}
+              title="SpiritVale Wiki, Guides and Game Database"
+              trustSignals={<><Badge>Official Sources</Badge><Badge>Verified Information</Badge><Badge>No Unverified Data</Badge></>}
             />
           </Section>
 
           <Section aria-label="Quick search" className="home-section--quick-search">
-            <FeatureSection description="Start with the references already being verified for SpiritVale." title="Find your next reference">
+            <FeatureSection className="home-search-section" description="Search the verified reference collection and continue where official information is available." title="Find your next reference">
               <form className="home-search-form" onSubmit={submitSearch}>
                 <SearchBar
                   aria-label="Search SpiritVale references"
                   onKeyDown={submitSearchOnEnter}
                   onValueChange={setQuery}
-                  placeholder="Search classes, guides, skills, equipment and bosses..."
+                  placeholder="Search guides, classes, bosses and game data..."
                   value={query}
                 />
                 <Button type="submit">Search</Button>
@@ -106,36 +116,43 @@ export function HomePage() {
             </FeatureSection>
           </Section>
 
-          <Section id="start-here">
-            <FeatureSection description="Start with the essential systems and progression basics." title="Start Here">
-              {startHereGuides.length ? (
-                <Grid>
-                  {startHereGuides.map((guide) => (
-                    <a className="home-card-link sv-focusable" href={guide.seo.canonicalPath} key={guide.id}>
-                      <GuideCard
-                        description={guideDescription()}
-                        imageAssetId={guide.imageAssetIds[0]}
-                        media={<AssetImage imageAssetId={guide.imageAssetIds[0]} />}
-                        meta={<Badge>Guide coming soon</Badge>}
-                        title={guide.name}
-                      />
-                    </a>
-                  ))}
+          <Section id="guides" className="home-section--guides">
+            <FeatureSection className="home-guides-section" description="Start with the essential systems and progression basics, then continue through the current source-led guide collection." title="Featured Guides">
+              {guides.length ? (
+                <Grid className="home-guide-grid">
+                  {guides.map((guide, index) => {
+                    const guideType = guideCategories.find((category) => category.id === guide.guideTypeId)?.name ?? "Guide";
+                    const imageAssetId = guide.imageAssetIds[index === 0 ? 0 : 1] ?? guide.imageAssetIds[0];
+                    return (
+                      <a className="home-card-link home-guide-link sv-focusable" href={guide.seo.canonicalPath} key={guide.id}>
+                        <GuideCard
+                          className={index === 0 ? "home-guide-card home-guide-card--lead" : "home-guide-card"}
+                          description={guideDescription(guide)}
+                          imageAssetId={imageAssetId}
+                          media={<AssetImage imageAssetId={imageAssetId} />}
+                          meta={<><Badge>{guideType}</Badge><Badge tone={guide.factReviewStatus === "verified" ? "success" : "warning"}>{verificationLabel(guide)}</Badge></>}
+                          title={guide.name}
+                          variant={index === 0 ? "featured" : "default"}
+                        />
+                      </a>
+                    );
+                  })}
                 </Grid>
-              ) : <EmptyState description="Guide data collection is in progress." title="Start Here is coming soon" />}
+              ) : <EmptyState description="Guide data collection is in progress." title="Featured guides are coming soon" />}
             </FeatureSection>
           </Section>
 
           <Section id="classes">
-            <FeatureSection description="The seven verified base class names are shown here without inferred roles, weapons, or skills." title="Explore Classes" variant="highlighted">
+            <FeatureSection className="home-classes-section" description="The seven verified base class names are shown here without inferred roles, weapons, or skills." title="Explore Classes" variant="highlighted">
               {classes.length ? (
-                <Grid>
+                <Grid className="home-class-grid">
                   {classes.map((gameClass) => (
                     <a className="home-card-link sv-focusable" href={"/classes/" + gameClass.slug + "/"} key={gameClass.id}>
                       <ClassCard
-                        description="Guide coming soon"
-                        meta={<Badge>Base Class</Badge>}
-                        title={gameClass.name}
+                        className="home-class-card"
+                        description="Officially confirmed base class."
+                        meta={<><Badge>Base Class</Badge><Badge tone="warning">Partially Verified</Badge></>}
+                        title={<><span aria-hidden="true" className="home-class-card__initial">{gameClass.name.slice(0, 1)}</span><span>{gameClass.name}</span></>}
                         variant="compact"
                       />
                     </a>
@@ -146,14 +163,15 @@ export function HomePage() {
           </Section>
 
           <Section id="database">
-            <FeatureSection description="Data collection is in progress. These links lead to safely marked planned sections, not unverified database records." title="Game Database">
-              <Grid>
+            <FeatureSection className="home-database-section" description="Data collection is in progress. These links lead to safely marked planned sections, not unverified database records." title="Game Database">
+              <Grid className="home-database-grid">
                 {databaseCategories.map((category) => (
                   <a className="home-card-link sv-focusable" href={category.path} key={category.id}>
                     <DatabaseCard
+                      className="home-database-card"
                       description={category.description}
-                      meta={<Badge tone="warning">Coming soon</Badge>}
-                      title={<><Icon name={category.icon} /> {category.label}</>}
+                      meta={<Badge tone="warning">Data Collection In Progress</Badge>}
+                      title={<><span className="home-database-card__icon"><Icon name={category.icon} /></span><span>{category.label}</span></>}
                       variant="compact"
                     />
                   </a>
@@ -162,29 +180,8 @@ export function HomePage() {
             </FeatureSection>
           </Section>
 
-          <Section id="guides">
-            <FeatureSection description="Guide pages will publish only after their content is verified." title="Featured Guides">
-              {guides.length ? (
-                <Grid>
-                  {guides.map((guide) => (
-                    <a className="home-card-link sv-focusable" href={guide.seo.canonicalPath} key={guide.id}>
-                      <GuideCard
-                        description={guideDescription()}
-                        imageAssetId={guide.imageAssetIds[1] ?? guide.imageAssetIds[0]}
-                        media={<AssetImage imageAssetId={guide.imageAssetIds[1] ?? guide.imageAssetIds[0]} />}
-                        meta={<Badge>Guide coming soon</Badge>}
-                        title={guide.name}
-                        variant="featured"
-                      />
-                    </a>
-                  ))}
-                </Grid>
-              ) : <EmptyState description="Guide data collection is in progress." title="Featured guides are coming soon" />}
-            </FeatureSection>
-          </Section>
-
           <Section id="explore">
-            <FeatureSection description="A visual index built from registered official images, without assigning unverified proper names to maps, bosses, or story locations." title="Explore SpiritVale" variant="highlighted">
+            <FeatureSection className="home-explore-section" description="A visual index built from registered official images, without assigning unverified proper names to maps, bosses, or story locations." title="Explore SpiritVale" variant="highlighted">
               <div className="home-world-grid">
                 {worldFeatures.map((feature) => (
                   <article className="home-world-card" key={feature.title}>
@@ -199,10 +196,10 @@ export function HomePage() {
             </FeatureSection>
           </Section>
 
-          <Section id="updates">
+          <Section id="updates" className="home-section--updates">
             <EmptyState
               action={steamSource ? <a className="sv-button sv-button--outline sv-focusable" href={steamSource.url} rel="noopener noreferrer" target="_blank">Visit Official Steam Page</a> : undefined}
-              description="Official update coverage and change summaries will appear here after they are verified."
+              description="Verified official updates and change summaries will appear here when new information is available."
               title="Latest SpiritVale Updates"
             />
           </Section>

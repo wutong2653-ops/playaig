@@ -45,27 +45,39 @@ function AssetCard({
 export type HeroBannerProps = Omit<HTMLAttributes<HTMLElement>, "title"> & {
   actions?: ReactNode;
   description?: ReactNode;
+  eyebrow?: ReactNode;
+  gameName?: ReactNode;
   imageAssetId?: string;
   media?: ReactNode;
+  status?: ReactNode;
   title: ReactNode;
+  trustSignals?: ReactNode;
 };
 
 export function HeroBanner({
   actions,
   className,
   description,
+  eyebrow,
+  gameName,
   imageAssetId,
   media,
+  status,
   title,
+  trustSignals,
   ...props
 }: HeroBannerProps) {
   return (
     <section {...props} className={cn("sv-hero", className)} data-asset-id={imageAssetId}>
       {media ? <div className="sv-hero__media">{media}</div> : null}
       <div className="sv-hero__content">
+        {eyebrow ? <p className="sv-hero__eyebrow">{eyebrow}</p> : null}
+        {gameName ? <p className="sv-hero__game-name">{gameName}</p> : null}
         <h1>{title}</h1>
+        {status ? <div className="sv-hero__status">{status}</div> : null}
         {description ? <p>{description}</p> : null}
         {actions ? <div className="sv-hero__actions">{actions}</div> : null}
+        {trustSignals ? <div className="sv-hero__trust">{trustSignals}</div> : null}
       </div>
     </section>
   );

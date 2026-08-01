@@ -5,7 +5,7 @@ Every component is TypeScript-only, controlled where it has interaction, and ind
 ## Base
 
 - Button: primary, secondary, outline, and ghost variants; disabled and loading disable the native control.
-- IconButton: requires label for the accessible name.
+- IconButton: requires label for the accessible name; the shared Icon set includes menu, search, sun, and moon glyphs for navigation and theme controls.
 - Badge: primary, success, warning, or danger tone; accepts loading and disabled presentation state.
 - Chip: button-style compact option with disabled/loading support.
 - Tag: compact metadata label with disabled/loading presentation state.
@@ -25,7 +25,7 @@ Every component is TypeScript-only, controlled where it has interaction, and ind
 
 ## SpiritVale
 
-HeroBanner, ClassCard, GuideCard, BuildCard, BossCard, MonsterCard, and DatabaseCard all accept imageAssetId. The value is deliberately not a URL and appears only as a data attribute for the application asset resolver. HeroBanner and cards can receive resolver-backed media through their media slot without ever accepting a raw image path.
+HeroBanner, ClassCard, GuideCard, BuildCard, BossCard, MonsterCard, and DatabaseCard all accept imageAssetId. The value is deliberately not a URL and appears only as a data attribute for the application asset resolver. HeroBanner and cards can receive resolver-backed media through their media slot without ever accepting a raw image path. HeroBanner also exposes optional `eyebrow`, `gameName`, `status`, and `trustSignals` slots so a channel can create a clear, accessible brand hierarchy without creating a second Hero component.
 
 ClassCard provides default and compact variants. GuideCard provides default and featured variants. DatabaseCard provides default and compact variants. FeatureSection provides default and highlighted variants.
 

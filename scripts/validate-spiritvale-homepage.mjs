@@ -42,7 +42,7 @@ if (sources.length < 1 || !sources.some((source) => source.id === "source-offici
 
 const assetIdMatches = [...homePage.matchAll(/imageAssetId(?:=|:)\s*\{?["']([^"']+)["']/g)].map((match) => match[1]);
 const guideAssetIds = guides.flatMap((guide) => guide.imageAssetIds);
-const allHomepageAssetIds = new Set([...assetIdMatches, ...guideAssetIds, "sv-brand-logo-wordmark"]);
+const allHomepageAssetIds = new Set([...assetIdMatches, ...guideAssetIds, "sv-brand-icon"]);
 const missingAssetIds = [...allHomepageAssetIds].filter((id) => !assetIds.has(id));
 
 if (missingAssetIds.length) {
@@ -56,7 +56,7 @@ if (assetImage.includes('src="/images/') || assetImage.includes("src='/images/")
 }
 
 const h1Count = (homePage.match(/<h1/g) ?? []).length;
-if (h1Count !== 0 || !homePage.includes('title="SpiritVale Wiki, Builds and Game Database"')) {
+if (h1Count !== 0 || !homePage.includes('title="SpiritVale Wiki, Guides and Game Database"')) {
   fail("Homepage must delegate exactly one required H1 to HeroBanner.");
 }
 if (!site.includes('"@type": "WebSite"') || !site.includes("homepageMetadata")) {
@@ -70,6 +70,28 @@ if (!app.includes('pathname === "/" ? <HomePage /> : <NotFoundPage') || !app.inc
 }
 if (!homePage.includes("href={guide.seo.canonicalPath}") || !homePage.includes('href={"/classes/" + gameClass.slug + "/"}') || !homePage.includes("href={category.path}")) {
   fail("Guide, class, and database cards must use their configured safe target paths.");
+}
+if (!homePage.includes('eyebrow="PlayAIG"') || !homePage.includes('gameName="SpiritVale"') || !homePage.includes('Verified Game Wiki') || !homePage.includes('Explore Guides') || !homePage.includes('Browse Classes')) {
+  fail("Homepage Hero identity, verification status, or required calls to action are missing.");
+}
+if (!homePage.includes('placeholder="Search guides, classes, bosses and game data..."')) {
+  fail("Homepage Quick Search placeholder must use the approved copy.");
+}
+for (const trustSignal of ["Official Sources", "Verified Information", "No Unverified Data"]) {
+  if (!homePage.includes(trustSignal)) fail("Homepage trust signal is missing: " + trustSignal + ".");
+}
+for (const requiredSection of ['id="guides"', 'id="classes"', 'id="database"', 'id="explore"', 'id="updates"']) {
+  if (!homePage.includes(requiredSection)) fail("Homepage section is missing: " + requiredSection + ".");
+}
+const orderedSections = ['id="guides"', 'id="classes"', 'id="database"', 'id="explore"', 'id="updates"'];
+if (orderedSections.some((section, index) => index > 0 && homePage.indexOf(section) < homePage.indexOf(orderedSections[index - 1]))) {
+  fail("Homepage content sections are not in the required visual order.");
+}
+if (!homePage.includes("guides.map((guide, index)") || !homePage.includes("guideCategories.find")) {
+  fail("Homepage guide cards must be rendered from SV-04 guide and category data.");
+}
+if (!homePage.includes("classes.map((gameClass)") || !homePage.includes("databaseCategories.map((category)")) {
+  fail("Homepage class and database cards must be rendered from existing data sources.");
 }
 
 const forbiddenClaims = ["438 equipment", "230 monsters", "20 bosses", "0+ items", "player count", "download count"];
@@ -86,4 +108,5 @@ console.log("Sources from SV-04: " + sources.length);
 console.log("Resolved homepage asset IDs: " + allHomepageAssetIds.size);
 console.log("Missing homepage asset IDs: 0");
 console.log("Homepage H1 count: 1 (HeroBanner)");
+console.log("Hero, Quick Search, trust signals, and visual section order: present");
 console.log("Metadata and WebSite JSON-LD: present");

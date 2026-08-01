@@ -62,9 +62,12 @@ export function Header({ mode, onToggleTheme, pathname }: HeaderProps) {
   return (
     <header className="site-header">
       <div className="sv-container site-header__inner">
-        <a aria-label="SpiritVale Wiki home" className="site-logo sv-focusable" href="/">
-          <AssetImage imageAssetId="sv-brand-logo-wordmark" />
-          <span>SpiritVale Wiki</span>
+        <a aria-label="PlayAIG SpiritVale Wiki home" className="site-logo sv-focusable" href="/">
+          <AssetImage imageAssetId="sv-brand-icon" />
+          <span className="site-logo__copy">
+            <span className="site-logo__primary">PlayAIG</span>
+            <span className="site-logo__channel">SpiritVale Wiki</span>
+          </span>
         </a>
         <nav aria-label="Primary navigation" className="site-nav">
           {primaryNavigation.map((item) => (
@@ -81,7 +84,7 @@ export function Header({ mode, onToggleTheme, pathname }: HeaderProps) {
             <SearchBar aria-label="Search SpiritVale" onValueChange={setSearchQuery} placeholder="Search SpiritVale..." value={searchQuery} />
           </form>
           <IconButton
-            icon={<Icon name="menu" />}
+            icon={<Icon name={mode === "dark" ? "sun" : "moon"} />}
             label={mode === "dark" ? "Switch to light theme" : "Switch to dark theme"}
             onClick={onToggleTheme}
           />
