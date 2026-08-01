@@ -47,6 +47,19 @@ for (const rhythmRule of [
 if (!siteCss.includes(".home-guides-section") || !siteCss.includes("box-shadow: var(--sv-shadow-md)") || !siteCss.includes(".home-explore-section")) {
   fail("Featured Guides and Explore SpiritVale must retain the intended visual emphasis.");
 }
+for (const cardRule of [
+  ".home-guide-card .sv-card__asset",
+  "-webkit-line-clamp: 2",
+  "-webkit-line-clamp: 3",
+  ".home-class-card__initial",
+  ".home-database-card__icon",
+  ".home-database-card {"
+]) {
+  if (!siteCss.includes(cardRule)) fail("Homepage card visual hierarchy rule is missing: " + cardRule + ".");
+}
+if (!siteCss.includes("box-shadow: var(--sv-shadow-sm)") || !siteCss.includes("box-shadow: var(--sv-shadow-md)")) {
+  fail("Homepage cards must retain tokenized default and hover elevation.");
+}
 if (!homePage.includes('priority />')) fail("Homepage Hero image must remain priority loaded.");
 for (const asset of assets) {
   if (!asset.file || !existsSync(resolve(root, asset.file))) fail("Registered asset is missing: " + asset.id);
@@ -60,5 +73,6 @@ console.log("PlayAIG homepage release UI validation PASSED");
 console.log("Hero-to-Quick-Search boundary gap: 48px via existing spacing tokens");
 console.log("Homepage modules: Header, Hero, Quick Search, Featured Guides, Classes, Database, Explore, Updates, Footer");
 console.log("Homepage rhythm: featured guides and Explore SpiritVale emphasized; utility and update sections restrained");
+console.log("Homepage card system: guide content hierarchy, class identity, and database scanning hierarchy present");
 console.log("Registered assets checked: " + assets.length);
 console.log("Production discovery artifacts checked: 5");
