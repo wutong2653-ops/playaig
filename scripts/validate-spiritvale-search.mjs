@@ -99,6 +99,14 @@ for (const route of expectedStaticRoutes) {
   if (!html.includes('og:site_name" content="PlayAIG"') || !html.includes('twitter:site" content="PlayAIG"')) fail(route + " is missing PlayAIG social branding.");
   if (nonProductionHosts.some((host) => html.includes(host))) fail(route + " contains a non-production host.");
 }
+for (const [file, path, title] of [["dist-playground/search/index.html", "/search/", "Search SpiritVale"], ["dist-playground/404.html", "/404/", "Page not found | PlayAIG"]]) {
+  if (!existsSync(resolve(root, file))) fail("Missing static runtime route: " + path);
+  const html = readText(file);
+  if (!html.includes("<title>" + title + "</title>") || !html.includes('rel="canonical" href="' + siteUrl + path + '"') || !html.includes('meta name="robots" content="noindex,follow"')) {
+    fail(path + " must have its static noindex metadata.");
+  }
+  if (html.includes("application/ld+json")) fail(path + " must not include unsupported JSON-LD.");
+}
 for (const file of ["sitemap.xml", "robots.txt", "rss.xml", "opensearch.xml"]) if (!existsSync(resolve(root, "dist-playground", file))) fail("SEO discovery output is missing from build: " + file);
 
 console.log("SpiritVale search and technical SEO validation PASSED");

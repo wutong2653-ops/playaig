@@ -1,4 +1,4 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
 const root = process.cwd();
@@ -112,6 +112,49 @@ const organizationJsonLd = {
 };
 const rootIndex = resolve(outputRoot, "index.html");
 const baseHtml = await readFile(rootIndex, "utf8");
+const defaultTitle = "PlayAIG — Verified Game Wikis, Guides and Databases";
+const defaultDescription = siteDescription;
+
+function staticRouteHtml({ title, description, canonicalPath, robots }) {
+  const canonical = absolute(canonicalPath);
+  const head = [
+    '<link rel="canonical" href="' + canonical + '">',
+    '<meta property="og:title" content="' + escapeXml(title) + '">',
+    '<meta property="og:description" content="' + escapeXml(description) + '">',
+    '<meta property="og:type" content="website">',
+    '<meta property="og:site_name" content="' + siteName + '">',
+    '<meta property="og:url" content="' + canonical + '">',
+    '<meta name="twitter:card" content="summary_large_image">',
+    '<meta name="twitter:site" content="' + siteName + '">',
+    '<meta name="robots" content="' + robots + '">'
+  ].join("");
+  return baseHtml
+    .replace('<title>' + defaultTitle + '</title>', '<title>' + escapeXml(title) + '</title>')
+    .replace('content="' + defaultDescription + '"', 'content="' + escapeXml(description) + '"')
+    .replace("</head>", head + "</head>");
+}
+
+await mkdir(resolve(outputRoot, "search"), { recursive: true });
+await writeFile(
+  resolve(outputRoot, "search", "index.html"),
+  staticRouteHtml({
+    title: "Search SpiritVale",
+    description: "Search the currently indexed and verified SpiritVale Guides, Classes, and Database categories.",
+    canonicalPath: "/search/",
+    robots: "noindex,follow"
+  })
+);
+
+await writeFile(
+  resolve(outputRoot, "404.html"),
+  staticRouteHtml({
+    title: "Page not found | PlayAIG",
+    description: "The requested SpiritVale page is unavailable.",
+    canonicalPath: "/404/",
+    robots: "noindex,follow"
+  })
+);
+
 const homepageHead = [
   '<link rel="canonical" href="' + absolute("/") + '">',
   '<meta property="og:title" content="' + homepageTitle + '">',
