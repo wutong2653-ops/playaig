@@ -12,10 +12,10 @@ const siteUrl = "https://playaig.com";
 
 if (!homePage.includes('className="home-section--hero"')) fail("Homepage Hero section marker is missing.");
 if (!homePage.includes('className="home-section--quick-search"')) fail("Homepage Quick Search section marker is missing.");
-if (!siteCss.includes(".home-section--hero { padding-block-start: var(--sv-space-32); padding-block-end: var(--sv-space-24); }") || !siteCss.includes(".home-section--quick-search { padding-block-start: var(--sv-space-24); }")) {
+if (!siteCss.includes(".home-section--hero { padding-block-start: var(--sv-space-32); padding-block-end: var(--sv-space-24); }") || !siteCss.includes(".home-section--quick-search { padding-block-start: var(--sv-space-24); padding-block-end: var(--sv-space-48); }")) {
   fail("Hero and Quick Search must use the intentional tokenized 48px boundary gap.");
 }
-if (/home-section--(?:hero|quick-search)[^{]*\{[^}]*margin/i.test(siteCss)) fail("Homepage spacing repair must not use margin masking.");
+if (/home-section--(?:hero|quick-search|guides|classes|database|explore|updates)[^{]*\{[^}]*margin/i.test(siteCss)) fail("Homepage spacing repair must not use margin masking.");
 if (!homePage.includes("<HeroBanner") || !homePage.includes('imageAssetId="sv-home-hero"') || !homePage.includes("<FeatureSection") || !homePage.includes('id="classes"') || !homePage.includes('id="database"') || !homePage.includes('id="guides"') || !homePage.includes('id="explore"') || !homePage.includes('id="updates"')) {
   fail("Homepage section structure is incomplete.");
 }
@@ -33,6 +33,20 @@ const orderedSections = ['id="guides"', 'id="classes"', 'id="database"', 'id="ex
 if (orderedSections.some((section, index) => index > 0 && homePage.indexOf(section) < homePage.indexOf(orderedSections[index - 1]))) {
   fail("Homepage sections must follow the release visual order.");
 }
+for (const marker of ["home-section--guides", "home-section--classes", "home-section--database", "home-section--explore", "home-section--updates"]) {
+  if (!homePage.includes(marker)) fail("Homepage rhythm section marker is missing: " + marker + ".");
+}
+for (const rhythmRule of [
+  ".home-section--guides { padding-block: var(--sv-space-48) var(--sv-space-64); }",
+  ".home-section--classes, .home-section--database { padding-block: var(--sv-space-48); }",
+  ".home-section--explore { padding-block: var(--sv-space-64); }",
+  ".home-section--updates { padding-block: var(--sv-space-48); }"
+]) {
+  if (!siteCss.includes(rhythmRule)) fail("Homepage rhythm must use the specified existing spacing tokens.");
+}
+if (!siteCss.includes(".home-guides-section") || !siteCss.includes("box-shadow: var(--sv-shadow-md)") || !siteCss.includes(".home-explore-section")) {
+  fail("Featured Guides and Explore SpiritVale must retain the intended visual emphasis.");
+}
 if (!homePage.includes('priority />')) fail("Homepage Hero image must remain priority loaded.");
 for (const asset of assets) {
   if (!asset.file || !existsSync(resolve(root, asset.file))) fail("Registered asset is missing: " + asset.id);
@@ -45,5 +59,6 @@ if (!indexHtml.includes(siteUrl) || /spiritvale\.example|localhost|127\.0\.0\.1|
 console.log("PlayAIG homepage release UI validation PASSED");
 console.log("Hero-to-Quick-Search boundary gap: 48px via existing spacing tokens");
 console.log("Homepage modules: Header, Hero, Quick Search, Featured Guides, Classes, Database, Explore, Updates, Footer");
+console.log("Homepage rhythm: featured guides and Explore SpiritVale emphasized; utility and update sections restrained");
 console.log("Registered assets checked: " + assets.length);
 console.log("Production discovery artifacts checked: 5");

@@ -142,7 +142,7 @@ export function HomePage() {
             </FeatureSection>
           </Section>
 
-          <Section id="classes">
+          <Section id="classes" className="home-section--classes">
             <FeatureSection className="home-classes-section" description="The seven verified base class names are shown here without inferred roles, weapons, or skills." title="Explore Classes" variant="highlighted">
               {classes.length ? (
                 <Grid className="home-class-grid">
@@ -162,7 +162,7 @@ export function HomePage() {
             </FeatureSection>
           </Section>
 
-          <Section id="database">
+          <Section id="database" className="home-section--database">
             <FeatureSection className="home-database-section" description="Data collection is in progress. These links lead to safely marked planned sections, not unverified database records." title="Game Database">
               <Grid className="home-database-grid">
                 {databaseCategories.map((category) => (
@@ -180,7 +180,7 @@ export function HomePage() {
             </FeatureSection>
           </Section>
 
-          <Section id="explore">
+          <Section id="explore" className="home-section--explore">
             <FeatureSection className="home-explore-section" description="A visual index built from registered official images, without assigning unverified proper names to maps, bosses, or story locations." title="Explore SpiritVale" variant="highlighted">
               <div className="home-world-grid">
                 {worldFeatures.map((feature) => (
