@@ -1,0 +1,238 @@
+[
+  {
+    "manifestId": "manifest-skill-air-cutter",
+    "sourceId": "source-community-spiritvaledb-skills",
+    "entityType": "skill",
+    "entityIdCandidate": "skill-air-cutter",
+    "rawData": {
+      "name": "Air Cutter",
+      "classRelation": [
+        "Knight",
+        "Weaver"
+      ],
+      "type": "Active",
+      "maxLevel": 5,
+      "description": "A wide sweeping attack, staggering enemies and making them more susceptible to attacks.",
+      "damage": "100+40/lv",
+      "cooldown": "3s",
+      "cost": "7 mana"
+    },
+    "extractedFields": {
+      "name": "Air Cutter",
+      "description": "A wide sweeping attack, staggering enemies and making them more susceptible to attacks.",
+      "classIds": [
+        "class-knight"
+      ],
+      "maxLevel": 5,
+      "cooldownSeconds": 3,
+      "resourceCost": 7,
+      "effectText": "Dmg 100+40/lv",
+      "notes": "The source also labels Weaver; that advanced relation is retained in rawData but not normalized into the seven-base-class collection."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvaledb.com/database/skills",
+      "description": "https://www.spiritvaledb.com/database/skills",
+      "classIds": "https://www.spiritvaledb.com/database/skills",
+      "maxLevel": "https://www.spiritvaledb.com/database/skills",
+      "cooldownSeconds": "https://www.spiritvaledb.com/database/skills",
+      "resourceCost": "https://www.spiritvaledb.com/database/skills",
+      "effectText": "https://www.spiritvaledb.com/database/skills",
+      "notes": "https://www.spiritvaledb.com/database/skills"
+    },
+    "sourceLocator": "https://www.spiritvaledb.com/database/skills",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-skill-source-qualification",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Approved after source, field-evidence, permission, and unsupported-claim review.",
+    "reviewer": "playaig-content-review",
+    "reviewDate": "2026-08-10T13:08:56.626Z"
+  },
+  {
+    "manifestId": "manifest-skill-bash",
+    "sourceId": "source-community-spiritvaledb-skills",
+    "entityType": "skill",
+    "entityIdCandidate": "skill-bash",
+    "rawData": {
+      "name": "Bash",
+      "classRelation": [
+        "Warrior",
+        "Weaver"
+      ],
+      "type": "Active",
+      "maxLevel": 5,
+      "description": "Smash the target with a crushing blow, with a chance to stun them.",
+      "damage": "100+60/lv",
+      "cost": "3 mana"
+    },
+    "extractedFields": {
+      "name": "Bash",
+      "description": "Smash the target with a crushing blow, with a chance to stun them.",
+      "classIds": [
+        "class-warrior"
+      ],
+      "maxLevel": 5,
+      "resourceCost": 3,
+      "effectText": "Dmg 100+60/lv",
+      "notes": "The source also labels Weaver; advanced relation is not normalized in this pilot."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvaledb.com/database/skills",
+      "description": "https://www.spiritvaledb.com/database/skills",
+      "classIds": "https://www.spiritvaledb.com/database/skills",
+      "maxLevel": "https://www.spiritvaledb.com/database/skills",
+      "resourceCost": "https://www.spiritvaledb.com/database/skills",
+      "effectText": "https://www.spiritvaledb.com/database/skills",
+      "notes": "https://www.spiritvaledb.com/database/skills"
+    },
+    "sourceLocator": "https://www.spiritvaledb.com/database/skills",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-skill-source-qualification",
+    "confidenceScore": 88,
+    "status": "approved",
+    "reviewNotes": "Approved after source, field-evidence, permission, and unsupported-claim review.",
+    "reviewer": "playaig-content-review",
+    "reviewDate": "2026-08-10T13:08:56.626Z"
+  },
+  {
+    "manifestId": "manifest-skill-earth-spikes",
+    "sourceId": "source-community-spiritvaledb-skills",
+    "entityType": "skill",
+    "entityIdCandidate": "skill-earth-spikes",
+    "rawData": {
+      "name": "Earth Spikes",
+      "classRelation": [
+        "Mage",
+        "Weaver"
+      ],
+      "type": "Active",
+      "maxLevel": 5,
+      "description": "Rupture the ground with jagged stone, striking enemies and leaving them exposed to Fire.",
+      "damage": "80/lv",
+      "cooldown": "1s",
+      "cost": "20 mana"
+    },
+    "extractedFields": {
+      "name": "Earth Spikes",
+      "description": "Rupture the ground with jagged stone, striking enemies and leaving them exposed to Fire.",
+      "classIds": [
+        "class-mage"
+      ],
+      "maxLevel": 5,
+      "cooldownSeconds": 1,
+      "resourceCost": 20,
+      "effectText": "Dmg 80/lv",
+      "notes": "The source also labels Weaver; advanced relation is not normalized in this pilot."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvaledb.com/database/skills",
+      "description": "https://www.spiritvaledb.com/database/skills",
+      "classIds": "https://www.spiritvaledb.com/database/skills",
+      "maxLevel": "https://www.spiritvaledb.com/database/skills",
+      "cooldownSeconds": "https://www.spiritvaledb.com/database/skills",
+      "resourceCost": "https://www.spiritvaledb.com/database/skills",
+      "effectText": "https://www.spiritvaledb.com/database/skills",
+      "notes": "https://www.spiritvaledb.com/database/skills"
+    },
+    "sourceLocator": "https://www.spiritvaledb.com/database/skills",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-skill-source-qualification",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Approved after source, field-evidence, permission, and unsupported-claim review.",
+    "reviewer": "playaig-content-review",
+    "reviewDate": "2026-08-10T13:08:56.626Z"
+  },
+  {
+    "manifestId": "manifest-skill-cloaking",
+    "sourceId": "source-community-spiritvaledb-skills",
+    "entityType": "skill",
+    "entityIdCandidate": "skill-cloaking",
+    "rawData": {
+      "name": "Cloaking",
+      "classRelation": [
+        "Rogue",
+        "Weaver"
+      ],
+      "type": "Active",
+      "maxLevel": 5,
+      "description": "Blend into shifting shadows, hiding from sight until you attack, cast, or take a hit.",
+      "cooldown": "8s",
+      "cost": "20 mana"
+    },
+    "extractedFields": {
+      "name": "Cloaking",
+      "description": "Blend into shifting shadows, hiding from sight until you attack, cast, or take a hit.",
+      "classIds": [
+        "class-rogue"
+      ],
+      "maxLevel": 5,
+      "cooldownSeconds": 8,
+      "resourceCost": 20,
+      "notes": "No damage value is imported because the source does not list one. The source also labels Weaver; advanced relation is not normalized."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvaledb.com/database/skills",
+      "description": "https://www.spiritvaledb.com/database/skills",
+      "classIds": "https://www.spiritvaledb.com/database/skills",
+      "maxLevel": "https://www.spiritvaledb.com/database/skills",
+      "cooldownSeconds": "https://www.spiritvaledb.com/database/skills",
+      "resourceCost": "https://www.spiritvaledb.com/database/skills",
+      "notes": "https://www.spiritvaledb.com/database/skills"
+    },
+    "sourceLocator": "https://www.spiritvaledb.com/database/skills",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-skill-source-qualification",
+    "confidenceScore": 88,
+    "status": "approved",
+    "reviewNotes": "Approved after source, field-evidence, permission, and unsupported-claim review.",
+    "reviewer": "playaig-content-review",
+    "reviewDate": "2026-08-10T13:08:56.626Z"
+  },
+  {
+    "manifestId": "manifest-skill-soul-strike",
+    "sourceId": "source-community-spiritvaledb-skills",
+    "entityType": "skill",
+    "entityIdCandidate": "skill-soul-strike",
+    "rawData": {
+      "name": "Soul Strike",
+      "classRelation": [
+        "Summoner",
+        "Weaver"
+      ],
+      "type": "Active",
+      "maxLevel": 5,
+      "description": "Launch a focused burst of Soul magic at a single enemy.",
+      "damage": "60/lv",
+      "cost": "10 mana"
+    },
+    "extractedFields": {
+      "name": "Soul Strike",
+      "description": "Launch a focused burst of Soul magic at a single enemy.",
+      "classIds": [
+        "class-summoner"
+      ],
+      "maxLevel": 5,
+      "resourceCost": 10,
+      "effectText": "Dmg 60/lv",
+      "notes": "The source also labels Weaver; advanced relation is not normalized in this pilot."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvaledb.com/database/skills",
+      "description": "https://www.spiritvaledb.com/database/skills",
+      "classIds": "https://www.spiritvaledb.com/database/skills",
+      "maxLevel": "https://www.spiritvaledb.com/database/skills",
+      "resourceCost": "https://www.spiritvaledb.com/database/skills",
+      "effectText": "https://www.spiritvaledb.com/database/skills",
+      "notes": "https://www.spiritvaledb.com/database/skills"
+    },
+    "sourceLocator": "https://www.spiritvaledb.com/database/skills",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-skill-source-qualification",
+    "confidenceScore": 88,
+    "status": "approved",
+    "reviewNotes": "Approved after source, field-evidence, permission, and unsupported-claim review.",
+    "reviewer": "playaig-content-review",
+    "reviewDate": "2026-08-10T13:08:56.626Z"
+  }
+]

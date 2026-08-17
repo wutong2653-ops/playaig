@@ -1,1 +1,802 @@
-[]
+[
+  {
+    "id": "card-abomination-card",
+    "slug": "abomination-card",
+    "name": "Abomination Card",
+    "category": "Chest",
+    "rarity": null,
+    "effect": "Atk: +1 per refine; Def: -1% per refine",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.773Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-bull-shark-card",
+    "slug": "bull-shark-card",
+    "name": "Bull Shark Card",
+    "category": "Legwear",
+    "rarity": null,
+    "effect": "ThreatMult",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.773Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-bumblebee-card",
+    "slug": "bumblebee-card",
+    "name": "Bumblebee Card",
+    "category": "Accessory",
+    "rarity": null,
+    "effect": "Mp Regen +25%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.773Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-bunny-card",
+    "slug": "bunny-card",
+    "name": "Bunny Card",
+    "category": "Weapon",
+    "rarity": null,
+    "effect": "Neutral Damage: +6%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-cacti-card",
+    "slug": "cacti-card",
+    "name": "Cacti Card",
+    "category": "Shield",
+    "rarity": null,
+    "effect": "Reflect Damage: +2% per refine",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-cactus-card",
+    "slug": "cactus-card",
+    "name": "Cactus Card",
+    "category": "Weapon",
+    "rarity": null,
+    "effect": "Reflect Damage: +10%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-cactus-king-card",
+    "slug": "cactus-king-card",
+    "name": "Cactus King Card",
+    "category": "Shoes",
+    "rarity": null,
+    "effect": "Grants Lv.5 Endure; Hp: +10%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-canary-merling-card",
+    "slug": "canary-merling-card",
+    "name": "Canary Merling Card",
+    "category": "Legwear",
+    "rarity": null,
+    "effect": "Crit: +5; Crit Damage: +5%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-candle-mimic-card",
+    "slug": "candle-mimic-card",
+    "name": "Candle Mimic Card",
+    "category": "Accessory",
+    "rarity": null,
+    "effect": "Dex: +3",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-celestial-moth-card",
+    "slug": "celestial-moth-card",
+    "name": "Celestial Moth Card",
+    "category": "Chest",
+    "rarity": null,
+    "effect": "Cast Spd: +15%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-chest-mimic-card",
+    "slug": "chest-mimic-card",
+    "name": "Chest Mimic Card",
+    "category": "Accessory",
+    "rarity": null,
+    "effect": "Luk: +3",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-chick-card",
+    "slug": "chick-card",
+    "name": "Chick Card",
+    "category": "Weapon",
+    "rarity": null,
+    "effect": "Atk: +5",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-chompbloom-card",
+    "slug": "chompbloom-card",
+    "name": "Chompbloom Card",
+    "category": "Shield",
+    "rarity": null,
+    "effect": "Immune to Slow: +50%; Immune to Bleeding: +50%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-chomproot-card",
+    "slug": "chomproot-card",
+    "name": "Chomproot Card",
+    "category": "Shoes",
+    "rarity": null,
+    "effect": "Immune to Bleeding: +50%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-cindermaw-card",
+    "slug": "cindermaw-card",
+    "name": "Cindermaw Card",
+    "category": "Chest",
+    "rarity": null,
+    "effect": "Immune to Knockback",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-cinderwheel-card",
+    "slug": "cinderwheel-card",
+    "name": "Cinderwheel Card",
+    "category": "Headgear",
+    "rarity": null,
+    "effect": "Immune to Stun: +50%; Mp: -25%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-imp-card",
+    "slug": "imp-card",
+    "name": "Imp Card",
+    "category": "Legwear",
+    "rarity": null,
+    "effect": "Move Spd: +10%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-inferno-wyvern-card",
+    "slug": "inferno-wyvern-card",
+    "name": "Inferno Wyvern Card",
+    "category": "Weapon",
+    "rarity": null,
+    "effect": "Atk: +4%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-jade-beholder-card",
+    "slug": "jade-beholder-card",
+    "name": "Jade Beholder Card",
+    "category": "Accessory",
+    "rarity": null,
+    "effect": "Undead Damage: +6%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-jade-eyestalk-card",
+    "slug": "jade-eyestalk-card",
+    "name": "Jade Eyestalk Card",
+    "category": "Accessory",
+    "rarity": null,
+    "effect": "Mp: +10%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-jade-gazer-card",
+    "slug": "jade-gazer-card",
+    "name": "Jade Gazer Card",
+    "category": "Shield",
+    "rarity": null,
+    "effect": "Undead Resistance: +25%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-jellooze-card",
+    "slug": "jellooze-card",
+    "name": "Jellooze Card",
+    "category": "Accessory",
+    "rarity": null,
+    "effect": "Poison Damage: +6%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-lady-fey-card",
+    "slug": "lady-fey-card",
+    "name": "Lady Fey Card",
+    "category": "Headgear",
+    "rarity": null,
+    "effect": "Immune to Silence: +50%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-lightning-glimmer-card",
+    "slug": "lightning-glimmer-card",
+    "name": "Lightning Glimmer Card",
+    "category": "Chest",
+    "rarity": null,
+    "effect": "Wind Damage: +1% per refine; Matk: +1%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-lightning-wisp-card",
+    "slug": "lightning-wisp-card",
+    "name": "Lightning Wisp Card",
+    "category": "Weapon",
+    "rarity": null,
+    "effect": "Wind Damage: +6%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-little-star-card",
+    "slug": "little-star-card",
+    "name": "Little Star Card",
+    "category": "Accessory",
+    "rarity": null,
+    "effect": "Holy Damage: +6%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.774Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-luna-moth-card",
+    "slug": "luna-moth-card",
+    "name": "Luna Moth Card",
+    "category": "Weapon",
+    "rarity": null,
+    "effect": "Cast Spd: +10%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-lurker-card",
+    "slug": "lurker-card",
+    "name": "Lurker Card",
+    "category": "Accessory",
+    "rarity": null,
+    "effect": "Crit Damage: +10%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-lycanthrope-card",
+    "slug": "lycanthrope-card",
+    "name": "Lycanthrope Card",
+    "category": "Chest",
+    "rarity": null,
+    "effect": "Convert to Shadow element",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-maggot-card",
+    "slug": "maggot-card",
+    "name": "Maggot Card",
+    "category": "Legwear",
+    "rarity": null,
+    "effect": "Poison Resistance: +15%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-magma-golem-card",
+    "slug": "magma-golem-card",
+    "name": "Magma Golem Card",
+    "category": "Headgear",
+    "rarity": null,
+    "effect": "Def: +10%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-man-eater-card",
+    "slug": "man-eater-card",
+    "name": "Man-Eater Card",
+    "category": "Weapon",
+    "rarity": null,
+    "effect": "Damage vs Neutral Enemies: +10%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-mandrake-card",
+    "slug": "mandrake-card",
+    "name": "Mandrake Card",
+    "category": "Headgear",
+    "rarity": null,
+    "effect": "Grants Lv.1 Earth Spikes",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-maple-ancient-card",
+    "slug": "maple-ancient-card",
+    "name": "Maple Ancient Card",
+    "category": "Shield",
+    "rarity": null,
+    "effect": "Max mp recovered per second: +1%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-maple-sapling-card",
+    "slug": "maple-sapling-card",
+    "name": "Maple Sapling Card",
+    "category": "Shoes",
+    "rarity": null,
+    "effect": "Mp: +20; Mp Regen: +25%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-maple-treant-card",
+    "slug": "maple-treant-card",
+    "name": "Maple Treant Card",
+    "category": "Chest",
+    "rarity": null,
+    "effect": "Mp: +20%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-miasma-card",
+    "slug": "miasma-card",
+    "name": "Miasma Card",
+    "category": "Accessory",
+    "rarity": null,
+    "effect": "Status Duration: +15%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-mole-card",
+    "slug": "mole-card",
+    "name": "Mole Card",
+    "category": "Legwear",
+    "rarity": null,
+    "effect": "Hp: +10%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-moon-moth-card",
+    "slug": "moon-moth-card",
+    "name": "Moon Moth Card",
+    "category": "Chest",
+    "rarity": null,
+    "effect": "Perfect Cloak",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-mosquito-card",
+    "slug": "mosquito-card",
+    "name": "Mosquito Card",
+    "category": "Legwear",
+    "rarity": null,
+    "effect": "Wind Resistance: +15%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-naga-card",
+    "slug": "naga-card",
+    "name": "Naga Card",
+    "category": "Weapon",
+    "rarity": null,
+    "effect": "Double Attack: +30%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-nautilus-card",
+    "slug": "nautilus-card",
+    "name": "Nautilus Card",
+    "category": "Weapon",
+    "rarity": null,
+    "effect": "Damage vs Water Enemies: +10%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-night-baron-card",
+    "slug": "night-baron-card",
+    "name": "Night Baron Card",
+    "category": "Accessory",
+    "rarity": null,
+    "effect": "Siphon Mp: +3",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-night-drake-card",
+    "slug": "night-drake-card",
+    "name": "Night Drake Card",
+    "category": "Headgear",
+    "rarity": null,
+    "effect": "Crit Damage: +10%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-nightbloom-card",
+    "slug": "nightbloom-card",
+    "name": "Nightbloom Card",
+    "category": "Accessory",
+    "rarity": null,
+    "effect": "Status Damage: +5%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-nightfiend-card",
+    "slug": "nightfiend-card",
+    "name": "Nightfiend Card",
+    "category": "Accessory",
+    "rarity": null,
+    "effect": "All Stats: +1; Hp: +5%; Mp: +5%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-nightlord-card",
+    "slug": "nightlord-card",
+    "name": "Nightlord Card",
+    "category": "Headgear",
+    "rarity": null,
+    "effect": "Siphon Mp: +3; Mp: -50%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-nightwing-card",
+    "slug": "nightwing-card",
+    "name": "Nightwing Card",
+    "category": "Shoes",
+    "rarity": null,
+    "effect": "Mp: +10%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-eyeclops-arcanist-card",
+    "slug": "eyeclops-arcanist-card",
+    "name": "Eyeclops Arcanist Card",
+    "category": "Headgear",
+    "rarity": null,
+    "effect": "Cast Spd: +15%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  },
+  {
+    "id": "card-soul-mage-card",
+    "slug": "soul-mage-card",
+    "name": "Soul Mage Card",
+    "category": "Accessory",
+    "rarity": null,
+    "effect": "Cast Spd: +10%",
+    "description": "Source-listed card record; no narrative description is published by the community source.",
+    "sourceIds": [
+      "source-community-spiritvale-info-cards"
+    ],
+    "imageAssetId": null,
+    "verifiedAt": "2026-08-10T09:17:16.775Z",
+    "notes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "relatedGuideIds": []
+  }
+]

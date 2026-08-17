@@ -1,1 +1,728 @@
-[]
+[
+  {
+    "id": "skill-air-cutter",
+    "slug": "air-cutter",
+    "name": "Air Cutter",
+    "shortDescription": "A wide sweeping attack, staggering enemies and making them more susceptible to attacks.",
+    "description": "A wide sweeping attack, staggering enemies and making them more susceptible to attacks.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvaledb-skills"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T13:08:56.626Z",
+    "lastVerifiedAt": "2026-08-10T13:08:56.626Z",
+    "notes": "Approved after source, field-evidence, permission, and unsupported-claim review. The source also labels Weaver; that advanced relation is retained in rawData but not normalized into the seven-base-class collection. Approved pilot record; unsupported ranking, build, DPS, and scaling claims are intentionally excluded.",
+    "classIds": [
+      "class-knight"
+    ],
+    "skillTypeIds": [],
+    "elementIds": [],
+    "levelRequirement": null,
+    "jobLevelRequirement": null,
+    "maxLevel": 5,
+    "cooldownSeconds": 3,
+    "resourceCost": 7,
+    "effectText": "Dmg 100+40/lv",
+    "scaling": [],
+    "prerequisiteSkillIds": [],
+    "nextSkillIds": [],
+    "relatedGuideIds": [
+      "guide-classes",
+      "guide-beginner",
+      "guide-leveling"
+    ]
+  },
+  {
+    "id": "skill-bash",
+    "slug": "bash",
+    "name": "Bash",
+    "shortDescription": "Smash the target with a crushing blow, with a chance to stun them.",
+    "description": "Smash the target with a crushing blow, with a chance to stun them.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvaledb-skills"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T13:08:56.626Z",
+    "lastVerifiedAt": "2026-08-10T13:08:56.626Z",
+    "notes": "Approved after source, field-evidence, permission, and unsupported-claim review. The source also labels Weaver; advanced relation is not normalized in this pilot. Approved pilot record; unsupported ranking, build, DPS, and scaling claims are intentionally excluded.",
+    "classIds": [
+      "class-warrior"
+    ],
+    "skillTypeIds": [],
+    "elementIds": [],
+    "levelRequirement": null,
+    "jobLevelRequirement": null,
+    "maxLevel": 5,
+    "cooldownSeconds": null,
+    "resourceCost": 3,
+    "effectText": "Dmg 100+60/lv",
+    "scaling": [],
+    "prerequisiteSkillIds": [],
+    "nextSkillIds": [],
+    "relatedGuideIds": [
+      "guide-classes",
+      "guide-beginner",
+      "guide-leveling"
+    ]
+  },
+  {
+    "id": "skill-earth-spikes",
+    "slug": "earth-spikes",
+    "name": "Earth Spikes",
+    "shortDescription": "Rupture the ground with jagged stone, striking enemies and leaving them exposed to Fire.",
+    "description": "Rupture the ground with jagged stone, striking enemies and leaving them exposed to Fire.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvaledb-skills"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T13:08:56.626Z",
+    "lastVerifiedAt": "2026-08-10T13:08:56.626Z",
+    "notes": "Approved after source, field-evidence, permission, and unsupported-claim review. The source also labels Weaver; advanced relation is not normalized in this pilot. Approved pilot record; unsupported ranking, build, DPS, and scaling claims are intentionally excluded.",
+    "classIds": [
+      "class-mage"
+    ],
+    "skillTypeIds": [],
+    "elementIds": [],
+    "levelRequirement": null,
+    "jobLevelRequirement": null,
+    "maxLevel": 5,
+    "cooldownSeconds": 1,
+    "resourceCost": 20,
+    "effectText": "Dmg 80/lv",
+    "scaling": [],
+    "prerequisiteSkillIds": [],
+    "nextSkillIds": [],
+    "relatedGuideIds": [
+      "guide-classes",
+      "guide-beginner",
+      "guide-leveling"
+    ]
+  },
+  {
+    "id": "skill-cloaking",
+    "slug": "cloaking",
+    "name": "Cloaking",
+    "shortDescription": "Blend into shifting shadows, hiding from sight until you attack, cast, or take a hit.",
+    "description": "Blend into shifting shadows, hiding from sight until you attack, cast, or take a hit.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvaledb-skills"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T13:08:56.626Z",
+    "lastVerifiedAt": "2026-08-10T13:08:56.626Z",
+    "notes": "Approved after source, field-evidence, permission, and unsupported-claim review. No damage value is imported because the source does not list one. The source also labels Weaver; advanced relation is not normalized. Approved pilot record; unsupported ranking, build, DPS, and scaling claims are intentionally excluded.",
+    "classIds": [
+      "class-rogue"
+    ],
+    "skillTypeIds": [],
+    "elementIds": [],
+    "levelRequirement": null,
+    "jobLevelRequirement": null,
+    "maxLevel": 5,
+    "cooldownSeconds": 8,
+    "resourceCost": 20,
+    "effectText": null,
+    "scaling": [],
+    "prerequisiteSkillIds": [],
+    "nextSkillIds": [],
+    "relatedGuideIds": [
+      "guide-classes",
+      "guide-beginner",
+      "guide-leveling"
+    ]
+  },
+  {
+    "id": "skill-soul-strike",
+    "slug": "soul-strike",
+    "name": "Soul Strike",
+    "shortDescription": "Launch a focused burst of Soul magic at a single enemy.",
+    "description": "Launch a focused burst of Soul magic at a single enemy.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvaledb-skills"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T13:08:56.626Z",
+    "lastVerifiedAt": "2026-08-10T13:08:56.626Z",
+    "notes": "Approved after source, field-evidence, permission, and unsupported-claim review. The source also labels Weaver; advanced relation is not normalized in this pilot. Approved pilot record; unsupported ranking, build, DPS, and scaling claims are intentionally excluded.",
+    "classIds": [
+      "class-summoner"
+    ],
+    "skillTypeIds": [],
+    "elementIds": [],
+    "levelRequirement": null,
+    "jobLevelRequirement": null,
+    "maxLevel": 5,
+    "cooldownSeconds": null,
+    "resourceCost": 10,
+    "effectText": "Dmg 60/lv",
+    "scaling": [],
+    "prerequisiteSkillIds": [],
+    "nextSkillIds": [],
+    "relatedGuideIds": [
+      "guide-classes",
+      "guide-beginner",
+      "guide-leveling"
+    ]
+  },
+  {
+    "id": "skill-whirlwind",
+    "slug": "whirlwind",
+    "name": "Whirlwind",
+    "shortDescription": "Spin in place with relentless force, striking all nearby enemies over time.",
+    "description": "Spin in place with relentless force, striking all nearby enemies over time.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvalewiki-skills"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T14:03:02.368Z",
+    "lastVerifiedAt": "2026-08-10T14:03:02.368Z",
+    "notes": "Approved after duplicate, evidence, confidence, and base-class safety review. The source also lists Weaver; that advanced relation is retained as a note and is not mapped to a base class. Damage scaling is excluded. Controlled secondary-source merge; unsupported rankings, DPS, builds, and scaling claims are excluded.",
+    "classIds": [
+      "class-warrior"
+    ],
+    "skillTypeIds": [],
+    "elementIds": [],
+    "levelRequirement": null,
+    "jobLevelRequirement": null,
+    "maxLevel": 10,
+    "cooldownSeconds": 6,
+    "resourceCost": "10 (+5/lv)",
+    "effectText": null,
+    "scaling": [],
+    "prerequisiteSkillIds": [],
+    "nextSkillIds": [],
+    "relatedGuideIds": [
+      "guide-classes",
+      "guide-beginner",
+      "guide-leveling"
+    ]
+  },
+  {
+    "id": "skill-black-blade",
+    "slug": "black-blade",
+    "name": "Black Blade",
+    "shortDescription": "Launch a whirling crescent of darkness that carves through the target with shadow force.",
+    "description": "Launch a whirling crescent of darkness that carves through the target with shadow force.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvalewiki-skills"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T14:03:02.368Z",
+    "lastVerifiedAt": "2026-08-10T14:03:02.368Z",
+    "notes": "Approved after duplicate, evidence, confidence, and base-class safety review. The source lists advanced class Shinobi only; no base-class relation is asserted. Damage scaling is excluded. Controlled secondary-source merge; unsupported rankings, DPS, builds, and scaling claims are excluded.",
+    "classIds": [],
+    "skillTypeIds": [],
+    "elementIds": [],
+    "levelRequirement": null,
+    "jobLevelRequirement": null,
+    "maxLevel": 10,
+    "cooldownSeconds": 1,
+    "resourceCost": "10 (+5/lv)",
+    "effectText": null,
+    "scaling": [],
+    "prerequisiteSkillIds": [],
+    "nextSkillIds": [],
+    "relatedGuideIds": [
+      "guide-classes",
+      "guide-beginner",
+      "guide-leveling"
+    ]
+  },
+  {
+    "id": "skill-aerial-shot",
+    "slug": "aerial-shot",
+    "name": "Aerial Shot",
+    "shortDescription": "Leap through the air and fire downward, striking enemies below before landing with evasive grace.",
+    "description": "Leap through the air and fire downward, striking enemies below before landing with evasive grace.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvalewiki-skills"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T14:03:02.368Z",
+    "lastVerifiedAt": "2026-08-10T14:03:02.368Z",
+    "notes": "Approved after duplicate, evidence, confidence, and base-class safety review. The source lists advanced class Gunslinger only; no base-class relation is asserted. Damage scaling is excluded. Controlled secondary-source merge; unsupported rankings, DPS, builds, and scaling claims are excluded.",
+    "classIds": [],
+    "skillTypeIds": [],
+    "elementIds": [],
+    "levelRequirement": null,
+    "jobLevelRequirement": null,
+    "maxLevel": 5,
+    "cooldownSeconds": 11,
+    "resourceCost": "7 (+3/lv)",
+    "effectText": null,
+    "scaling": [],
+    "prerequisiteSkillIds": [],
+    "nextSkillIds": [],
+    "relatedGuideIds": [
+      "guide-classes",
+      "guide-beginner",
+      "guide-leveling"
+    ]
+  },
+  {
+    "id": "skill-aegis-of-light",
+    "slug": "aegis-of-light",
+    "name": "Aegis of Light",
+    "shortDescription": "Briefly protect yourself and allies by invoking your faith. Praise the light!",
+    "description": "Briefly protect yourself and allies by invoking your faith. Praise the light!",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvalewiki-skills"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T14:03:02.368Z",
+    "lastVerifiedAt": "2026-08-10T14:03:02.368Z",
+    "notes": "Approved after duplicate, evidence, confidence, and base-class safety review. The source lists advanced class Paladin only; no base-class relation is asserted. Damage scaling is excluded. Controlled secondary-source merge; unsupported rankings, DPS, builds, and scaling claims are excluded.",
+    "classIds": [],
+    "skillTypeIds": [],
+    "elementIds": [],
+    "levelRequirement": null,
+    "jobLevelRequirement": null,
+    "maxLevel": 5,
+    "cooldownSeconds": 80,
+    "resourceCost": "20 (+10/lv)",
+    "effectText": null,
+    "scaling": [],
+    "prerequisiteSkillIds": [],
+    "nextSkillIds": [],
+    "relatedGuideIds": [
+      "guide-classes",
+      "guide-beginner",
+      "guide-leveling"
+    ]
+  },
+  {
+    "id": "skill-axe-mastery",
+    "slug": "axe-mastery",
+    "name": "Axe Mastery",
+    "shortDescription": "Increases attack with axes, swords, and scythes, and raises critical chance.",
+    "description": "Increases attack with axes, swords, and scythes, and raises critical chance.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvalewiki-skills"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T14:03:02.368Z",
+    "lastVerifiedAt": "2026-08-10T14:03:02.368Z",
+    "notes": "Approved after duplicate, evidence, confidence, and base-class safety review. Exact Warrior base-class relation retained. Damage scaling is excluded. Controlled secondary-source merge; unsupported rankings, DPS, builds, and scaling claims are excluded.",
+    "classIds": [
+      "class-warrior"
+    ],
+    "skillTypeIds": [],
+    "elementIds": [],
+    "levelRequirement": null,
+    "jobLevelRequirement": null,
+    "maxLevel": 10,
+    "cooldownSeconds": 0,
+    "resourceCost": 0,
+    "effectText": null,
+    "scaling": [],
+    "prerequisiteSkillIds": [],
+    "nextSkillIds": [],
+    "relatedGuideIds": [
+      "guide-classes",
+      "guide-beginner",
+      "guide-leveling"
+    ]
+  },
+  {
+    "id": "skill-axe-quicken",
+    "slug": "axe-quicken",
+    "name": "Axe Quicken",
+    "shortDescription": "Sharpen your battle rhythm, increasing Attack Speed and critical chance for a short time.",
+    "description": "Sharpen your battle rhythm, increasing Attack Speed and critical chance for a short time.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvalewiki-skills"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T14:03:14.860Z",
+    "lastVerifiedAt": "2026-08-10T14:03:14.860Z",
+    "notes": "Approved after duplicate, evidence, confidence, and base-class safety review. Exact Warrior base-class relation retained. Damage scaling is excluded. Controlled secondary-source merge; unsupported rankings, DPS, builds, and scaling claims are excluded.",
+    "classIds": [
+      "class-warrior"
+    ],
+    "skillTypeIds": [],
+    "elementIds": [],
+    "levelRequirement": null,
+    "jobLevelRequirement": null,
+    "maxLevel": 5,
+    "cooldownSeconds": 0,
+    "resourceCost": 20,
+    "effectText": null,
+    "scaling": [],
+    "prerequisiteSkillIds": [],
+    "nextSkillIds": [],
+    "relatedGuideIds": [
+      "guide-classes",
+      "guide-beginner",
+      "guide-leveling"
+    ]
+  },
+  {
+    "id": "skill-axe-throw",
+    "slug": "axe-throw",
+    "name": "Axe Throw",
+    "shortDescription": "Hurl your axe in a brutal arc, striking the target before it snaps back into your grasp.",
+    "description": "Hurl your axe in a brutal arc, striking the target before it snaps back into your grasp.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvalewiki-skills"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T14:03:14.860Z",
+    "lastVerifiedAt": "2026-08-10T14:03:14.860Z",
+    "notes": "Approved after duplicate, evidence, confidence, and base-class safety review. The source lists advanced class Berserker only; no base-class relation is asserted. Damage scaling is excluded. Controlled secondary-source merge; unsupported rankings, DPS, builds, and scaling claims are excluded.",
+    "classIds": [],
+    "skillTypeIds": [],
+    "elementIds": [],
+    "levelRequirement": null,
+    "jobLevelRequirement": null,
+    "maxLevel": 5,
+    "cooldownSeconds": 0,
+    "resourceCost": "5 (+2/lv)",
+    "effectText": null,
+    "scaling": [],
+    "prerequisiteSkillIds": [],
+    "nextSkillIds": [],
+    "relatedGuideIds": [
+      "guide-classes",
+      "guide-beginner",
+      "guide-leveling"
+    ]
+  },
+  {
+    "id": "skill-banishment-field",
+    "slug": "banishment-field",
+    "name": "Banishment Field",
+    "shortDescription": "Call down a cursed field that twists healing against enemies and leaves them exposed to Magic damage.",
+    "description": "Call down a cursed field that twists healing against enemies and leaves them exposed to Magic damage.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvalewiki-skills"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T14:03:14.860Z",
+    "lastVerifiedAt": "2026-08-10T14:03:14.860Z",
+    "notes": "Approved after duplicate, evidence, confidence, and base-class safety review. Summoner base-class relation retained; Weaver advanced relation is not mapped. Damage scaling is excluded. Controlled secondary-source merge; unsupported rankings, DPS, builds, and scaling claims are excluded.",
+    "classIds": [
+      "class-summoner"
+    ],
+    "skillTypeIds": [],
+    "elementIds": [],
+    "levelRequirement": null,
+    "jobLevelRequirement": null,
+    "maxLevel": 5,
+    "cooldownSeconds": 2,
+    "resourceCost": "10 (+5/lv)",
+    "effectText": null,
+    "scaling": [],
+    "prerequisiteSkillIds": [],
+    "nextSkillIds": [],
+    "relatedGuideIds": [
+      "guide-classes",
+      "guide-beginner",
+      "guide-leveling"
+    ]
+  },
+  {
+    "id": "skill-benediction",
+    "slug": "benediction",
+    "name": "Benediction",
+    "shortDescription": "Bless nearby allies with divine protection, raising all attributes for a short time.",
+    "description": "Bless nearby allies with divine protection, raising all attributes for a short time.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvalewiki-skills"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T14:03:14.860Z",
+    "lastVerifiedAt": "2026-08-10T14:03:14.860Z",
+    "notes": "Approved after duplicate, evidence, confidence, and base-class safety review. Acolyte base-class relation retained; Weaver advanced relation is not mapped. Damage scaling is excluded. Controlled secondary-source merge; unsupported rankings, DPS, builds, and scaling claims are excluded.",
+    "classIds": [
+      "class-acolyte"
+    ],
+    "skillTypeIds": [],
+    "elementIds": [],
+    "levelRequirement": null,
+    "jobLevelRequirement": null,
+    "maxLevel": 5,
+    "cooldownSeconds": 0,
+    "resourceCost": "20 (+10/lv)",
+    "effectText": null,
+    "scaling": [],
+    "prerequisiteSkillIds": [],
+    "nextSkillIds": [],
+    "relatedGuideIds": [
+      "guide-classes",
+      "guide-beginner",
+      "guide-leveling"
+    ]
+  },
+  {
+    "id": "skill-berserk",
+    "slug": "berserk",
+    "name": "Berserk",
+    "shortDescription": "Enter a reckless battle state, greatly increasing combat power while abandoning restraint.",
+    "description": "Enter a reckless battle state, greatly increasing combat power while abandoning restraint.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvalewiki-skills"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T14:03:14.860Z",
+    "lastVerifiedAt": "2026-08-10T14:03:14.860Z",
+    "notes": "Approved after duplicate, evidence, confidence, and base-class safety review. The source lists advanced class Berserker only; no base-class relation is asserted. Damage scaling is excluded. Controlled secondary-source merge; unsupported rankings, DPS, builds, and scaling claims are excluded.",
+    "classIds": [],
+    "skillTypeIds": [],
+    "elementIds": [],
+    "levelRequirement": null,
+    "jobLevelRequirement": null,
+    "maxLevel": 5,
+    "cooldownSeconds": 0,
+    "resourceCost": 20,
+    "effectText": null,
+    "scaling": [],
+    "prerequisiteSkillIds": [],
+    "nextSkillIds": [],
+    "relatedGuideIds": [
+      "guide-classes",
+      "guide-beginner",
+      "guide-leveling"
+    ]
+  },
+  {
+    "id": "skill-binding-spiral",
+    "slug": "binding-spiral",
+    "name": "Binding Spiral",
+    "shortDescription": "Spin with collapsing force, dragging enemies inward before freezing those caught at the center.",
+    "description": "Spin with collapsing force, dragging enemies inward before freezing those caught at the center.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvalewiki-skills"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T14:03:14.860Z",
+    "lastVerifiedAt": "2026-08-10T14:03:14.860Z",
+    "notes": "Approved after duplicate, evidence, confidence, and base-class safety review. The source lists advanced class Shinobi only; no base-class relation is asserted. Damage scaling is excluded. Controlled secondary-source merge; unsupported rankings, DPS, builds, and scaling claims are excluded.",
+    "classIds": [],
+    "skillTypeIds": [],
+    "elementIds": [],
+    "levelRequirement": null,
+    "jobLevelRequirement": null,
+    "maxLevel": 10,
+    "cooldownSeconds": 3,
+    "resourceCost": "15 (+7/lv)",
+    "effectText": null,
+    "scaling": [],
+    "prerequisiteSkillIds": [],
+    "nextSkillIds": [],
+    "relatedGuideIds": [
+      "guide-classes",
+      "guide-beginner",
+      "guide-leveling"
+    ]
+  },
+  {
+    "id": "skill-blade-dance",
+    "slug": "blade-dance",
+    "name": "Blade Dance",
+    "shortDescription": "Unleash a flurry of strikes around you, cutting down nearby enemies in rapid motion.",
+    "description": "Unleash a flurry of strikes around you, cutting down nearby enemies in rapid motion.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvalewiki-skills"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T14:03:14.860Z",
+    "lastVerifiedAt": "2026-08-10T14:03:14.860Z",
+    "notes": "Approved after duplicate, evidence, confidence, and base-class safety review. Rogue base-class relation retained; Weaver advanced relation is not mapped. Damage scaling is excluded. Controlled secondary-source merge; unsupported rankings, DPS, builds, and scaling claims are excluded.",
+    "classIds": [
+      "class-rogue"
+    ],
+    "skillTypeIds": [],
+    "elementIds": [],
+    "levelRequirement": null,
+    "jobLevelRequirement": null,
+    "maxLevel": 10,
+    "cooldownSeconds": 3,
+    "resourceCost": "10 (+5/lv)",
+    "effectText": null,
+    "scaling": [],
+    "prerequisiteSkillIds": [],
+    "nextSkillIds": [],
+    "relatedGuideIds": [
+      "guide-classes",
+      "guide-beginner",
+      "guide-leveling"
+    ]
+  },
+  {
+    "id": "skill-blade-mastery",
+    "slug": "blade-mastery",
+    "name": "Blade Mastery",
+    "shortDescription": "Increases attack with daggers, swords, twinblades, and katars, while improving Attack Speed.",
+    "description": "Increases attack with daggers, swords, twinblades, and katars, while improving Attack Speed.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvalewiki-skills"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T14:03:14.860Z",
+    "lastVerifiedAt": "2026-08-10T14:03:14.860Z",
+    "notes": "Approved after duplicate, evidence, confidence, and base-class safety review. Exact Rogue base-class relation retained. Damage scaling is excluded. Controlled secondary-source merge; unsupported rankings, DPS, builds, and scaling claims are excluded.",
+    "classIds": [
+      "class-rogue"
+    ],
+    "skillTypeIds": [],
+    "elementIds": [],
+    "levelRequirement": null,
+    "jobLevelRequirement": null,
+    "maxLevel": 10,
+    "cooldownSeconds": 0,
+    "resourceCost": 0,
+    "effectText": null,
+    "scaling": [],
+    "prerequisiteSkillIds": [],
+    "nextSkillIds": [],
+    "relatedGuideIds": [
+      "guide-classes",
+      "guide-beginner",
+      "guide-leveling"
+    ]
+  },
+  {
+    "id": "skill-blink",
+    "slug": "blink",
+    "name": "Blink",
+    "shortDescription": "Teleport to a target location, slipping out of danger and repositioning with precision.",
+    "description": "Teleport to a target location, slipping out of danger and repositioning with precision.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvalewiki-skills"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T14:03:14.860Z",
+    "lastVerifiedAt": "2026-08-10T14:03:14.860Z",
+    "notes": "Approved after duplicate, evidence, confidence, and base-class safety review. Exact Mage base-class relation retained. Damage scaling is excluded. Controlled secondary-source merge; unsupported rankings, DPS, builds, and scaling claims are excluded.",
+    "classIds": [
+      "class-mage"
+    ],
+    "skillTypeIds": [],
+    "elementIds": [],
+    "levelRequirement": null,
+    "jobLevelRequirement": null,
+    "maxLevel": 5,
+    "cooldownSeconds": 10,
+    "resourceCost": 20,
+    "effectText": null,
+    "scaling": [],
+    "prerequisiteSkillIds": [],
+    "nextSkillIds": [],
+    "relatedGuideIds": [
+      "guide-classes",
+      "guide-beginner",
+      "guide-leveling"
+    ]
+  },
+  {
+    "id": "skill-blizzard",
+    "slug": "blizzard",
+    "name": "Blizzard",
+    "shortDescription": "Unleash a barrage of hail, knocking back foes with the might of ice. A slick spell to keep enemies away.",
+    "description": "Unleash a barrage of hail, knocking back foes with the might of ice. A slick spell to keep enemies away.",
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvalewiki-skills"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T14:03:14.860Z",
+    "lastVerifiedAt": "2026-08-10T14:03:14.860Z",
+    "notes": "Approved after duplicate, evidence, confidence, and base-class safety review. The source lists advanced class Wizard only; no base-class relation is asserted. Damage scaling is excluded. Controlled secondary-source merge; unsupported rankings, DPS, builds, and scaling claims are excluded.",
+    "classIds": [],
+    "skillTypeIds": [],
+    "elementIds": [],
+    "levelRequirement": null,
+    "jobLevelRequirement": null,
+    "maxLevel": 10,
+    "cooldownSeconds": 5,
+    "resourceCost": "40 (+20/lv)",
+    "effectText": null,
+    "scaling": [],
+    "prerequisiteSkillIds": [],
+    "nextSkillIds": [],
+    "relatedGuideIds": [
+      "guide-classes",
+      "guide-beginner",
+      "guide-leveling"
+    ]
+  }
+]

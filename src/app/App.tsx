@@ -1,5 +1,6 @@
 import { DesignSystemProvider, useTheme } from "../design-system";
-import { getClassBySlug, getDatabaseCategoryBySlug, getGuideBySlug } from "../data";
+import { getCardBySlug, getClassBySlug, getDatabaseCategoryBySlug, getEquipmentBySlug, getGuideBySlug, getMonsterBySlug, getSkillBySlug } from "../data";
+import { CardDetailPage, CardNotFoundPage } from "./CardDetailPage";
 import { ClassDetailPage, ClassNotFoundPage } from "./ClassDetailPage";
 import { ClassesIndexPage } from "./ClassesIndexPage";
 import { DatabaseCategoryPage, DatabaseNotFoundPage } from "./DatabaseCategoryPage";
@@ -11,6 +12,9 @@ import { NotFoundPage } from "./NotFoundPage";
 import { SearchPage } from "./SearchPage";
 import { GuideDetailPage, GuideNotFoundPage } from "./GuideDetailPage";
 import { GuidesIndexPage } from "./GuidesIndexPage";
+import { EquipmentDetailPage, EquipmentNotFoundPage } from "./EquipmentDetailPage";
+import { MonsterDetailPage, MonsterNotFoundPage } from "./MonsterDetailPage";
+import { SkillDetailPage, SkillNotFoundPage } from "./SkillDetailPage";
 import { App as PlaygroundApp } from "../../playground/App";
 import "./site.css";
 
@@ -82,7 +86,7 @@ function SiteContent() {
     );
   }
 
-  const guideMatch = pathname.match(/^\/guides\/([a-z0-9-]+)\/$/);
+  const guideMatch = pathname.match(/^\/guides\/([a-z0-9-]+(?:\/[a-z0-9-]+)?)\/$/);
   if (guideMatch) {
     const guide = getGuideBySlug(guideMatch[1]);
     return (
@@ -116,6 +120,58 @@ function SiteContent() {
         <a className="site-skip-link sv-focusable" href="#main-content">Skip to content</a>
         <Header mode={mode} onToggleTheme={toggleTheme} pathname="/database/" />
         {category ? <DatabaseCategoryPage category={category} /> : <DatabaseNotFoundPage />}
+        <Footer />
+      </DesignSystemProvider>
+    );
+  }
+
+  const cardMatch = pathname.match(/^\/database\/cards\/([a-z0-9-]+)\/?$/);
+  if (cardMatch) {
+    const card = getCardBySlug(cardMatch[1]);
+    return (
+      <DesignSystemProvider mode={mode}>
+        <a className="site-skip-link sv-focusable" href="#main-content">Skip to content</a>
+        <Header mode={mode} onToggleTheme={toggleTheme} pathname="/database/" />
+        {card ? <CardDetailPage card={card} /> : <CardNotFoundPage />}
+        <Footer />
+      </DesignSystemProvider>
+    );
+  }
+
+  const monsterMatch = pathname.match(/^\/database\/monsters\/([a-z0-9-]+)\/?$/);
+  if (monsterMatch) {
+    const monster = getMonsterBySlug(monsterMatch[1]);
+    return (
+      <DesignSystemProvider mode={mode}>
+        <a className="site-skip-link sv-focusable" href="#main-content">Skip to content</a>
+        <Header mode={mode} onToggleTheme={toggleTheme} pathname="/database/" />
+        {monster ? <MonsterDetailPage monster={monster} /> : <MonsterNotFoundPage />}
+        <Footer />
+      </DesignSystemProvider>
+    );
+  }
+
+  const skillMatch = pathname.match(/^\/database\/skills\/([a-z0-9-]+)\/?$/);
+  if (skillMatch) {
+    const skill = getSkillBySlug(skillMatch[1]);
+    return (
+      <DesignSystemProvider mode={mode}>
+        <a className="site-skip-link sv-focusable" href="#main-content">Skip to content</a>
+        <Header mode={mode} onToggleTheme={toggleTheme} pathname="/database/" />
+        {skill ? <SkillDetailPage skill={skill} /> : <SkillNotFoundPage />}
+        <Footer />
+      </DesignSystemProvider>
+    );
+  }
+
+  const equipmentMatch = pathname.match(/^\/database\/equipment\/([a-z0-9-]+)\/?$/);
+  if (equipmentMatch) {
+    const equipment = getEquipmentBySlug(equipmentMatch[1]);
+    return (
+      <DesignSystemProvider mode={mode}>
+        <a className="site-skip-link sv-focusable" href="#main-content">Skip to content</a>
+        <Header mode={mode} onToggleTheme={toggleTheme} pathname="/database/" />
+        {equipment ? <EquipmentDetailPage equipment={equipment} /> : <EquipmentNotFoundPage />}
         <Footer />
       </DesignSystemProvider>
     );

@@ -1,0 +1,645 @@
+[
+  {
+    "manifestId": "manifest-secondary-skill-whirlwind",
+    "sourceId": "source-community-spiritvalewiki-skills",
+    "entityType": "skill",
+    "entityIdCandidate": "skill-whirlwind",
+    "rawData": {
+      "name": "Whirlwind",
+      "description": "Spin in place with relentless force, striking all nearby enemies over time.",
+      "maxLevel": 10,
+      "cooldown": 6,
+      "cost": "10 (+5/lv)",
+      "learnedBy": [
+        "Warrior",
+        "Weaver"
+      ]
+    },
+    "extractedFields": {
+      "name": "Whirlwind",
+      "description": "Spin in place with relentless force, striking all nearby enemies over time.",
+      "classIds": [
+        "class-warrior"
+      ],
+      "maxLevel": 10,
+      "cooldownSeconds": 6,
+      "resourceCost": "10 (+5/lv)",
+      "notes": "The source also lists Weaver; that advanced relation is retained as a note and is not mapped to a base class. Damage scaling is excluded."
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvalewiki.com/skills/whirlwind/",
+      "description": "https://spiritvalewiki.com/skills/whirlwind/",
+      "classIds": "https://spiritvalewiki.com/skills/whirlwind/",
+      "maxLevel": "https://spiritvalewiki.com/skills/whirlwind/",
+      "cooldownSeconds": "https://spiritvalewiki.com/skills/whirlwind/",
+      "resourceCost": "https://spiritvalewiki.com/skills/whirlwind/",
+      "notes": "https://spiritvalewiki.com/skills/whirlwind/"
+    },
+    "sourceLocator": "https://spiritvalewiki.com/skills/whirlwind/",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-secondary-skill-qualification",
+    "confidenceScore": 84,
+    "status": "approved",
+    "reviewNotes": "Approved after duplicate, evidence, confidence, and base-class safety review.",
+    "reviewer": "playaig-controlled-skill-review",
+    "reviewDate": "2026-08-10T14:03:02.368Z"
+  },
+  {
+    "manifestId": "manifest-secondary-skill-black-blade",
+    "sourceId": "source-community-spiritvalewiki-skills",
+    "entityType": "skill",
+    "entityIdCandidate": "skill-black-blade",
+    "rawData": {
+      "name": "Black Blade",
+      "description": "Launch a whirling crescent of darkness that carves through the target with shadow force.",
+      "maxLevel": 10,
+      "cooldown": 1,
+      "cost": "10 (+5/lv)",
+      "learnedBy": [
+        "Shinobi"
+      ]
+    },
+    "extractedFields": {
+      "name": "Black Blade",
+      "description": "Launch a whirling crescent of darkness that carves through the target with shadow force.",
+      "classIds": [],
+      "maxLevel": 10,
+      "cooldownSeconds": 1,
+      "resourceCost": "10 (+5/lv)",
+      "notes": "The source lists advanced class Shinobi only; no base-class relation is asserted. Damage scaling is excluded."
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvalewiki.com/skills/black-blade/",
+      "description": "https://spiritvalewiki.com/skills/black-blade/",
+      "maxLevel": "https://spiritvalewiki.com/skills/black-blade/",
+      "cooldownSeconds": "https://spiritvalewiki.com/skills/black-blade/",
+      "resourceCost": "https://spiritvalewiki.com/skills/black-blade/",
+      "notes": "https://spiritvalewiki.com/skills/black-blade/"
+    },
+    "sourceLocator": "https://spiritvalewiki.com/skills/black-blade/",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-secondary-skill-qualification",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Approved after duplicate, evidence, confidence, and base-class safety review.",
+    "reviewer": "playaig-controlled-skill-review",
+    "reviewDate": "2026-08-10T14:03:02.368Z"
+  },
+  {
+    "manifestId": "manifest-secondary-skill-aerial-shot",
+    "sourceId": "source-community-spiritvalewiki-skills",
+    "entityType": "skill",
+    "entityIdCandidate": "skill-aerial-shot",
+    "rawData": {
+      "name": "Aerial Shot",
+      "description": "Leap through the air and fire downward, striking enemies below before landing with evasive grace.",
+      "maxLevel": 5,
+      "cooldown": 11,
+      "cost": "7 (+3/lv)",
+      "learnedBy": [
+        "Gunslinger"
+      ]
+    },
+    "extractedFields": {
+      "name": "Aerial Shot",
+      "description": "Leap through the air and fire downward, striking enemies below before landing with evasive grace.",
+      "classIds": [],
+      "maxLevel": 5,
+      "cooldownSeconds": 11,
+      "resourceCost": "7 (+3/lv)",
+      "notes": "The source lists advanced class Gunslinger only; no base-class relation is asserted. Damage scaling is excluded."
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvalewiki.com/skills/aerial-shot/",
+      "description": "https://spiritvalewiki.com/skills/aerial-shot/",
+      "maxLevel": "https://spiritvalewiki.com/skills/aerial-shot/",
+      "cooldownSeconds": "https://spiritvalewiki.com/skills/aerial-shot/",
+      "resourceCost": "https://spiritvalewiki.com/skills/aerial-shot/",
+      "notes": "https://spiritvalewiki.com/skills/aerial-shot/"
+    },
+    "sourceLocator": "https://spiritvalewiki.com/skills/aerial-shot/",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-secondary-skill-qualification",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Approved after duplicate, evidence, confidence, and base-class safety review.",
+    "reviewer": "playaig-controlled-skill-review",
+    "reviewDate": "2026-08-10T14:03:02.368Z"
+  },
+  {
+    "manifestId": "manifest-secondary-skill-aegis-of-light",
+    "sourceId": "source-community-spiritvalewiki-skills",
+    "entityType": "skill",
+    "entityIdCandidate": "skill-aegis-of-light",
+    "rawData": {
+      "name": "Aegis of Light",
+      "description": "Briefly protect yourself and allies by invoking your faith. Praise the light!",
+      "maxLevel": 5,
+      "cooldown": 80,
+      "cost": "20 (+10/lv)",
+      "learnedBy": [
+        "Paladin"
+      ]
+    },
+    "extractedFields": {
+      "name": "Aegis of Light",
+      "description": "Briefly protect yourself and allies by invoking your faith. Praise the light!",
+      "classIds": [],
+      "maxLevel": 5,
+      "cooldownSeconds": 80,
+      "resourceCost": "20 (+10/lv)",
+      "notes": "The source lists advanced class Paladin only; no base-class relation is asserted. Damage scaling is excluded."
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvalewiki.com/skills/aegis-of-light/",
+      "description": "https://spiritvalewiki.com/skills/aegis-of-light/",
+      "maxLevel": "https://spiritvalewiki.com/skills/aegis-of-light/",
+      "cooldownSeconds": "https://spiritvalewiki.com/skills/aegis-of-light/",
+      "resourceCost": "https://spiritvalewiki.com/skills/aegis-of-light/",
+      "notes": "https://spiritvalewiki.com/skills/aegis-of-light/"
+    },
+    "sourceLocator": "https://spiritvalewiki.com/skills/aegis-of-light/",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-secondary-skill-qualification",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Approved after duplicate, evidence, confidence, and base-class safety review.",
+    "reviewer": "playaig-controlled-skill-review",
+    "reviewDate": "2026-08-10T14:03:02.368Z"
+  },
+  {
+    "manifestId": "manifest-secondary-skill-axe-mastery",
+    "sourceId": "source-community-spiritvalewiki-skills",
+    "entityType": "skill",
+    "entityIdCandidate": "skill-axe-mastery",
+    "rawData": {
+      "name": "Axe Mastery",
+      "description": "Increases attack with axes, swords, and scythes, and raises critical chance.",
+      "maxLevel": 10,
+      "cooldown": 0,
+      "cost": 0,
+      "learnedBy": [
+        "Warrior"
+      ]
+    },
+    "extractedFields": {
+      "name": "Axe Mastery",
+      "description": "Increases attack with axes, swords, and scythes, and raises critical chance.",
+      "classIds": [
+        "class-warrior"
+      ],
+      "maxLevel": 10,
+      "cooldownSeconds": 0,
+      "resourceCost": 0,
+      "notes": "Exact Warrior base-class relation retained. Damage scaling is excluded."
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvalewiki.com/skills/axe-mastery/",
+      "description": "https://spiritvalewiki.com/skills/axe-mastery/",
+      "classIds": "https://spiritvalewiki.com/skills/axe-mastery/",
+      "maxLevel": "https://spiritvalewiki.com/skills/axe-mastery/",
+      "cooldownSeconds": "https://spiritvalewiki.com/skills/axe-mastery/",
+      "resourceCost": "https://spiritvalewiki.com/skills/axe-mastery/",
+      "notes": "https://spiritvalewiki.com/skills/axe-mastery/"
+    },
+    "sourceLocator": "https://spiritvalewiki.com/skills/axe-mastery/",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-secondary-skill-qualification",
+    "confidenceScore": 84,
+    "status": "approved",
+    "reviewNotes": "Approved after duplicate, evidence, confidence, and base-class safety review.",
+    "reviewer": "playaig-controlled-skill-review",
+    "reviewDate": "2026-08-10T14:03:02.368Z"
+  },
+  {
+    "manifestId": "manifest-secondary-skill-axe-quicken",
+    "sourceId": "source-community-spiritvalewiki-skills",
+    "entityType": "skill",
+    "entityIdCandidate": "skill-axe-quicken",
+    "rawData": {
+      "name": "Axe Quicken",
+      "description": "Sharpen your battle rhythm, increasing Attack Speed and critical chance for a short time.",
+      "maxLevel": 5,
+      "cooldown": 0,
+      "cost": 20,
+      "learnedBy": [
+        "Warrior"
+      ]
+    },
+    "extractedFields": {
+      "name": "Axe Quicken",
+      "description": "Sharpen your battle rhythm, increasing Attack Speed and critical chance for a short time.",
+      "classIds": [
+        "class-warrior"
+      ],
+      "maxLevel": 5,
+      "cooldownSeconds": 0,
+      "resourceCost": 20,
+      "notes": "Exact Warrior base-class relation retained. Damage scaling is excluded."
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvalewiki.com/skills/axe-quicken/",
+      "description": "https://spiritvalewiki.com/skills/axe-quicken/",
+      "classIds": "https://spiritvalewiki.com/skills/axe-quicken/",
+      "maxLevel": "https://spiritvalewiki.com/skills/axe-quicken/",
+      "cooldownSeconds": "https://spiritvalewiki.com/skills/axe-quicken/",
+      "resourceCost": "https://spiritvalewiki.com/skills/axe-quicken/",
+      "notes": "https://spiritvalewiki.com/skills/axe-quicken/"
+    },
+    "sourceLocator": "https://spiritvalewiki.com/skills/axe-quicken/",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-secondary-skill-qualification",
+    "confidenceScore": 84,
+    "status": "approved",
+    "reviewNotes": "Approved after duplicate, evidence, confidence, and base-class safety review.",
+    "reviewer": "playaig-controlled-skill-review",
+    "reviewDate": "2026-08-10T14:03:14.860Z"
+  },
+  {
+    "manifestId": "manifest-secondary-skill-axe-throw",
+    "sourceId": "source-community-spiritvalewiki-skills",
+    "entityType": "skill",
+    "entityIdCandidate": "skill-axe-throw",
+    "rawData": {
+      "name": "Axe Throw",
+      "description": "Hurl your axe in a brutal arc, striking the target before it snaps back into your grasp.",
+      "maxLevel": 5,
+      "cooldown": 0,
+      "cost": "5 (+2/lv)",
+      "learnedBy": [
+        "Berserker"
+      ]
+    },
+    "extractedFields": {
+      "name": "Axe Throw",
+      "description": "Hurl your axe in a brutal arc, striking the target before it snaps back into your grasp.",
+      "classIds": [],
+      "maxLevel": 5,
+      "cooldownSeconds": 0,
+      "resourceCost": "5 (+2/lv)",
+      "notes": "The source lists advanced class Berserker only; no base-class relation is asserted. Damage scaling is excluded."
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvalewiki.com/skills/axe-throw/",
+      "description": "https://spiritvalewiki.com/skills/axe-throw/",
+      "maxLevel": "https://spiritvalewiki.com/skills/axe-throw/",
+      "cooldownSeconds": "https://spiritvalewiki.com/skills/axe-throw/",
+      "resourceCost": "https://spiritvalewiki.com/skills/axe-throw/",
+      "notes": "https://spiritvalewiki.com/skills/axe-throw/"
+    },
+    "sourceLocator": "https://spiritvalewiki.com/skills/axe-throw/",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-secondary-skill-qualification",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Approved after duplicate, evidence, confidence, and base-class safety review.",
+    "reviewer": "playaig-controlled-skill-review",
+    "reviewDate": "2026-08-10T14:03:14.860Z"
+  },
+  {
+    "manifestId": "manifest-secondary-skill-banishment-field",
+    "sourceId": "source-community-spiritvalewiki-skills",
+    "entityType": "skill",
+    "entityIdCandidate": "skill-banishment-field",
+    "rawData": {
+      "name": "Banishment Field",
+      "description": "Call down a cursed field that twists healing against enemies and leaves them exposed to Magic damage.",
+      "maxLevel": 5,
+      "cooldown": 2,
+      "cost": "10 (+5/lv)",
+      "learnedBy": [
+        "Summoner",
+        "Weaver"
+      ]
+    },
+    "extractedFields": {
+      "name": "Banishment Field",
+      "description": "Call down a cursed field that twists healing against enemies and leaves them exposed to Magic damage.",
+      "classIds": [
+        "class-summoner"
+      ],
+      "maxLevel": 5,
+      "cooldownSeconds": 2,
+      "resourceCost": "10 (+5/lv)",
+      "notes": "Summoner base-class relation retained; Weaver advanced relation is not mapped. Damage scaling is excluded."
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvalewiki.com/skills/banishment-field/",
+      "description": "https://spiritvalewiki.com/skills/banishment-field/",
+      "classIds": "https://spiritvalewiki.com/skills/banishment-field/",
+      "maxLevel": "https://spiritvalewiki.com/skills/banishment-field/",
+      "cooldownSeconds": "https://spiritvalewiki.com/skills/banishment-field/",
+      "resourceCost": "https://spiritvalewiki.com/skills/banishment-field/",
+      "notes": "https://spiritvalewiki.com/skills/banishment-field/"
+    },
+    "sourceLocator": "https://spiritvalewiki.com/skills/banishment-field/",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-secondary-skill-qualification",
+    "confidenceScore": 84,
+    "status": "approved",
+    "reviewNotes": "Approved after duplicate, evidence, confidence, and base-class safety review.",
+    "reviewer": "playaig-controlled-skill-review",
+    "reviewDate": "2026-08-10T14:03:14.860Z"
+  },
+  {
+    "manifestId": "manifest-secondary-skill-benediction",
+    "sourceId": "source-community-spiritvalewiki-skills",
+    "entityType": "skill",
+    "entityIdCandidate": "skill-benediction",
+    "rawData": {
+      "name": "Benediction",
+      "description": "Bless nearby allies with divine protection, raising all attributes for a short time.",
+      "maxLevel": 5,
+      "cooldown": 0,
+      "cost": "20 (+10/lv)",
+      "learnedBy": [
+        "Acolyte",
+        "Weaver"
+      ]
+    },
+    "extractedFields": {
+      "name": "Benediction",
+      "description": "Bless nearby allies with divine protection, raising all attributes for a short time.",
+      "classIds": [
+        "class-acolyte"
+      ],
+      "maxLevel": 5,
+      "cooldownSeconds": 0,
+      "resourceCost": "20 (+10/lv)",
+      "notes": "Acolyte base-class relation retained; Weaver advanced relation is not mapped. Damage scaling is excluded."
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvalewiki.com/skills/benediction/",
+      "description": "https://spiritvalewiki.com/skills/benediction/",
+      "classIds": "https://spiritvalewiki.com/skills/benediction/",
+      "maxLevel": "https://spiritvalewiki.com/skills/benediction/",
+      "cooldownSeconds": "https://spiritvalewiki.com/skills/benediction/",
+      "resourceCost": "https://spiritvalewiki.com/skills/benediction/",
+      "notes": "https://spiritvalewiki.com/skills/benediction/"
+    },
+    "sourceLocator": "https://spiritvalewiki.com/skills/benediction/",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-secondary-skill-qualification",
+    "confidenceScore": 84,
+    "status": "approved",
+    "reviewNotes": "Approved after duplicate, evidence, confidence, and base-class safety review.",
+    "reviewer": "playaig-controlled-skill-review",
+    "reviewDate": "2026-08-10T14:03:14.860Z"
+  },
+  {
+    "manifestId": "manifest-secondary-skill-berserk",
+    "sourceId": "source-community-spiritvalewiki-skills",
+    "entityType": "skill",
+    "entityIdCandidate": "skill-berserk",
+    "rawData": {
+      "name": "Berserk",
+      "description": "Enter a reckless battle state, greatly increasing combat power while abandoning restraint.",
+      "maxLevel": 5,
+      "cooldown": 0,
+      "cost": 20,
+      "learnedBy": [
+        "Berserker"
+      ]
+    },
+    "extractedFields": {
+      "name": "Berserk",
+      "description": "Enter a reckless battle state, greatly increasing combat power while abandoning restraint.",
+      "classIds": [],
+      "maxLevel": 5,
+      "cooldownSeconds": 0,
+      "resourceCost": 20,
+      "notes": "The source lists advanced class Berserker only; no base-class relation is asserted. Damage scaling is excluded."
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvalewiki.com/skills/berserk/",
+      "description": "https://spiritvalewiki.com/skills/berserk/",
+      "maxLevel": "https://spiritvalewiki.com/skills/berserk/",
+      "cooldownSeconds": "https://spiritvalewiki.com/skills/berserk/",
+      "resourceCost": "https://spiritvalewiki.com/skills/berserk/",
+      "notes": "https://spiritvalewiki.com/skills/berserk/"
+    },
+    "sourceLocator": "https://spiritvalewiki.com/skills/berserk/",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-secondary-skill-qualification",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Approved after duplicate, evidence, confidence, and base-class safety review.",
+    "reviewer": "playaig-controlled-skill-review",
+    "reviewDate": "2026-08-10T14:03:14.860Z"
+  },
+  {
+    "manifestId": "manifest-secondary-skill-binding-spiral",
+    "sourceId": "source-community-spiritvalewiki-skills",
+    "entityType": "skill",
+    "entityIdCandidate": "skill-binding-spiral",
+    "rawData": {
+      "name": "Binding Spiral",
+      "description": "Spin with collapsing force, dragging enemies inward before freezing those caught at the center.",
+      "maxLevel": 10,
+      "cooldown": 3,
+      "cost": "15 (+7/lv)",
+      "learnedBy": [
+        "Shinobi"
+      ]
+    },
+    "extractedFields": {
+      "name": "Binding Spiral",
+      "description": "Spin with collapsing force, dragging enemies inward before freezing those caught at the center.",
+      "classIds": [],
+      "maxLevel": 10,
+      "cooldownSeconds": 3,
+      "resourceCost": "15 (+7/lv)",
+      "notes": "The source lists advanced class Shinobi only; no base-class relation is asserted. Damage scaling is excluded."
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvalewiki.com/skills/binding-spiral/",
+      "description": "https://spiritvalewiki.com/skills/binding-spiral/",
+      "maxLevel": "https://spiritvalewiki.com/skills/binding-spiral/",
+      "cooldownSeconds": "https://spiritvalewiki.com/skills/binding-spiral/",
+      "resourceCost": "https://spiritvalewiki.com/skills/binding-spiral/",
+      "notes": "https://spiritvalewiki.com/skills/binding-spiral/"
+    },
+    "sourceLocator": "https://spiritvalewiki.com/skills/binding-spiral/",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-secondary-skill-qualification",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Approved after duplicate, evidence, confidence, and base-class safety review.",
+    "reviewer": "playaig-controlled-skill-review",
+    "reviewDate": "2026-08-10T14:03:14.860Z"
+  },
+  {
+    "manifestId": "manifest-secondary-skill-blade-dance",
+    "sourceId": "source-community-spiritvalewiki-skills",
+    "entityType": "skill",
+    "entityIdCandidate": "skill-blade-dance",
+    "rawData": {
+      "name": "Blade Dance",
+      "description": "Unleash a flurry of strikes around you, cutting down nearby enemies in rapid motion.",
+      "maxLevel": 10,
+      "cooldown": 3,
+      "cost": "10 (+5/lv)",
+      "learnedBy": [
+        "Rogue",
+        "Weaver"
+      ]
+    },
+    "extractedFields": {
+      "name": "Blade Dance",
+      "description": "Unleash a flurry of strikes around you, cutting down nearby enemies in rapid motion.",
+      "classIds": [
+        "class-rogue"
+      ],
+      "maxLevel": 10,
+      "cooldownSeconds": 3,
+      "resourceCost": "10 (+5/lv)",
+      "notes": "Rogue base-class relation retained; Weaver advanced relation is not mapped. Damage scaling is excluded."
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvalewiki.com/skills/blade-dance/",
+      "description": "https://spiritvalewiki.com/skills/blade-dance/",
+      "classIds": "https://spiritvalewiki.com/skills/blade-dance/",
+      "maxLevel": "https://spiritvalewiki.com/skills/blade-dance/",
+      "cooldownSeconds": "https://spiritvalewiki.com/skills/blade-dance/",
+      "resourceCost": "https://spiritvalewiki.com/skills/blade-dance/",
+      "notes": "https://spiritvalewiki.com/skills/blade-dance/"
+    },
+    "sourceLocator": "https://spiritvalewiki.com/skills/blade-dance/",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-secondary-skill-qualification",
+    "confidenceScore": 84,
+    "status": "approved",
+    "reviewNotes": "Approved after duplicate, evidence, confidence, and base-class safety review.",
+    "reviewer": "playaig-controlled-skill-review",
+    "reviewDate": "2026-08-10T14:03:14.860Z"
+  },
+  {
+    "manifestId": "manifest-secondary-skill-blade-mastery",
+    "sourceId": "source-community-spiritvalewiki-skills",
+    "entityType": "skill",
+    "entityIdCandidate": "skill-blade-mastery",
+    "rawData": {
+      "name": "Blade Mastery",
+      "description": "Increases attack with daggers, swords, twinblades, and katars, while improving Attack Speed.",
+      "maxLevel": 10,
+      "cooldown": 0,
+      "cost": 0,
+      "learnedBy": [
+        "Rogue"
+      ]
+    },
+    "extractedFields": {
+      "name": "Blade Mastery",
+      "description": "Increases attack with daggers, swords, twinblades, and katars, while improving Attack Speed.",
+      "classIds": [
+        "class-rogue"
+      ],
+      "maxLevel": 10,
+      "cooldownSeconds": 0,
+      "resourceCost": 0,
+      "notes": "Exact Rogue base-class relation retained. Damage scaling is excluded."
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvalewiki.com/skills/blade-mastery/",
+      "description": "https://spiritvalewiki.com/skills/blade-mastery/",
+      "classIds": "https://spiritvalewiki.com/skills/blade-mastery/",
+      "maxLevel": "https://spiritvalewiki.com/skills/blade-mastery/",
+      "cooldownSeconds": "https://spiritvalewiki.com/skills/blade-mastery/",
+      "resourceCost": "https://spiritvalewiki.com/skills/blade-mastery/",
+      "notes": "https://spiritvalewiki.com/skills/blade-mastery/"
+    },
+    "sourceLocator": "https://spiritvalewiki.com/skills/blade-mastery/",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-secondary-skill-qualification",
+    "confidenceScore": 84,
+    "status": "approved",
+    "reviewNotes": "Approved after duplicate, evidence, confidence, and base-class safety review.",
+    "reviewer": "playaig-controlled-skill-review",
+    "reviewDate": "2026-08-10T14:03:14.860Z"
+  },
+  {
+    "manifestId": "manifest-secondary-skill-blink",
+    "sourceId": "source-community-spiritvalewiki-skills",
+    "entityType": "skill",
+    "entityIdCandidate": "skill-blink",
+    "rawData": {
+      "name": "Blink",
+      "description": "Teleport to a target location, slipping out of danger and repositioning with precision.",
+      "maxLevel": 5,
+      "cooldown": 10,
+      "cost": 20,
+      "learnedBy": [
+        "Mage"
+      ]
+    },
+    "extractedFields": {
+      "name": "Blink",
+      "description": "Teleport to a target location, slipping out of danger and repositioning with precision.",
+      "classIds": [
+        "class-mage"
+      ],
+      "maxLevel": 5,
+      "cooldownSeconds": 10,
+      "resourceCost": 20,
+      "notes": "Exact Mage base-class relation retained. Damage scaling is excluded."
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvalewiki.com/skills/blink/",
+      "description": "https://spiritvalewiki.com/skills/blink/",
+      "classIds": "https://spiritvalewiki.com/skills/blink/",
+      "maxLevel": "https://spiritvalewiki.com/skills/blink/",
+      "cooldownSeconds": "https://spiritvalewiki.com/skills/blink/",
+      "resourceCost": "https://spiritvalewiki.com/skills/blink/",
+      "notes": "https://spiritvalewiki.com/skills/blink/"
+    },
+    "sourceLocator": "https://spiritvalewiki.com/skills/blink/",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-secondary-skill-qualification",
+    "confidenceScore": 84,
+    "status": "approved",
+    "reviewNotes": "Approved after duplicate, evidence, confidence, and base-class safety review.",
+    "reviewer": "playaig-controlled-skill-review",
+    "reviewDate": "2026-08-10T14:03:14.860Z"
+  },
+  {
+    "manifestId": "manifest-secondary-skill-blizzard",
+    "sourceId": "source-community-spiritvalewiki-skills",
+    "entityType": "skill",
+    "entityIdCandidate": "skill-blizzard",
+    "rawData": {
+      "name": "Blizzard",
+      "description": "Unleash a barrage of hail, knocking back foes with the might of ice. A slick spell to keep enemies away.",
+      "maxLevel": 10,
+      "cooldown": 5,
+      "cost": "40 (+20/lv)",
+      "learnedBy": [
+        "Wizard"
+      ]
+    },
+    "extractedFields": {
+      "name": "Blizzard",
+      "description": "Unleash a barrage of hail, knocking back foes with the might of ice. A slick spell to keep enemies away.",
+      "classIds": [],
+      "maxLevel": 10,
+      "cooldownSeconds": 5,
+      "resourceCost": "40 (+20/lv)",
+      "notes": "The source lists advanced class Wizard only; no base-class relation is asserted. Damage scaling is excluded."
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvalewiki.com/skills/blizzard/",
+      "description": "https://spiritvalewiki.com/skills/blizzard/",
+      "maxLevel": "https://spiritvalewiki.com/skills/blizzard/",
+      "cooldownSeconds": "https://spiritvalewiki.com/skills/blizzard/",
+      "resourceCost": "https://spiritvalewiki.com/skills/blizzard/",
+      "notes": "https://spiritvalewiki.com/skills/blizzard/"
+    },
+    "sourceLocator": "https://spiritvalewiki.com/skills/blizzard/",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-secondary-skill-qualification",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Approved after duplicate, evidence, confidence, and base-class safety review.",
+    "reviewer": "playaig-controlled-skill-review",
+    "reviewDate": "2026-08-10T14:03:14.860Z"
+  }
+]

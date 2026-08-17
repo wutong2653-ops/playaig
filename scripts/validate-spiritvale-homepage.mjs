@@ -33,8 +33,8 @@ const baseClasses = classes.filter((record) => record.classType === "base");
 if (baseClasses.length !== 7) {
   fail("Expected 7 base classes from SV-04 data; found " + baseClasses.length + ".");
 }
-if (guides.length !== 5) {
-  fail("Expected 5 guides from SV-04 data; found " + guides.length + ".");
+if (guides.length !== 12) {
+  fail("Expected 12 published guides after Tier 1 expansion; found " + guides.length + ".");
 }
 if (sources.length < 1 || !sources.some((source) => source.id === "source-official-steam-store" && source.url)) {
   fail("Expected a usable official Steam source from SV-04 data.");

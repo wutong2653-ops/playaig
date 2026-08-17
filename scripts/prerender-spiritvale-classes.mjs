@@ -11,6 +11,20 @@ const assets = JSON.parse(await readFile(resolve(root, "data/assets/spiritvale-a
 const assetById = new Map(assets.map((asset) => [asset.id, asset]));
 const baseHtml = await readFile(resolve(outputRoot, "index.html"), "utf8");
 const classVisualAssetId = "sv-guide-classes-selection-banner";
+const landingClassMeta = {
+  knight: {
+    title: "SpiritVale Knight Class Guide 2026: Build Guide | PlayAIG",
+    description: "Read the SpiritVale Knight guide for confirmed class identity, build research, skill and equipment questions, leveling notes and PlayAIG updates.",
+    faq: [
+      ["Is Knight an officially confirmed SpiritVale class?", "Yes. Knight is recorded as one of the seven officially confirmed SpiritVale base classes."],
+      ["What weapon does Knight use?", "No weapon assignment is currently confirmed by the registered official sources."],
+      ["What are Knight’s skills?", "No individual Knight skills are currently verified in the formal data. Information will be updated when official details are confirmed."],
+      ["What is the best Knight build?", "No official Knight build is available yet because skills, equipment, stats and progression details are not confirmed."],
+      ["Is Knight a tank class?", "That role has not been confirmed. The class name alone is not evidence of a tank, damage or support role."],
+      ["Where should Knight players find updates?", "Check the registered official SpiritVale Steam source and this page’s verification status for future updates."]
+    ]
+  }
+};
 
 function escapeHtml(value) {
   return value.replaceAll("&", "&amp;").replaceAll('"', "&quot;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
@@ -93,8 +107,20 @@ await emitRoute("/classes/", pageHtml({
 
 for (const gameClass of classes.filter((record) => record.classType === "base")) {
   const canonicalPath = "/classes/" + gameClass.slug + "/";
-  const title = "SpiritVale " + gameClass.name + " Class — Officially Confirmed Base Class";
-  const description = gameClass.name + " is an officially confirmed SpiritVale base class. View first-party-source information and future verified updates.";
+  const landing = landingClassMeta[gameClass.slug] || {
+    title: "SpiritVale " + gameClass.name + " Class Guide 2026: Build Guide | PlayAIG",
+    description: "Read the SpiritVale " + gameClass.name + " class guide for confirmed identity, skills, build research, equipment questions, sources and beginner tips from PlayAIG.",
+    faq: [
+      ["Is " + gameClass.name + " an officially confirmed SpiritVale class?", "Yes. " + gameClass.name + " is recorded as one of the seven confirmed SpiritVale base classes."],
+      ["What role does " + gameClass.name + " have?", "No role is currently confirmed by the registered official sources. The class name alone is not evidence of a role."],
+      ["What weapon does " + gameClass.name + " use?", "No weapon assignment is currently stored as verified official data."],
+      ["What is the best " + gameClass.name + " build?", "No official build is available yet because skills, equipment, stats and progression details are not confirmed."],
+      ["Where can I find " + gameClass.name + " updates?", "Check the registered official SpiritVale Steam source and this page’s verification status for future updates."]
+    ]
+  };
+  const title = landing.title;
+  const description = landing.description;
+  const faq = landing.faq;
   await emitRoute(canonicalPath, pageHtml({
     title,
     description,
@@ -119,7 +145,16 @@ for (const gameClass of classes.filter((record) => record.classType === "base"))
           { "@type": "ListItem", position: 2, name: "Classes", item: "/classes/" },
           { "@type": "ListItem", position: 3, name: gameClass.name, item: canonicalPath }
         ]
-      }
+      },
+      ...(faq.length ? [{
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: faq.map(([question, answer]) => ({
+          "@type": "Question",
+          name: question,
+          acceptedAnswer: { "@type": "Answer", text: answer }
+        }))
+      }] : [])
     ]
   }));
 }

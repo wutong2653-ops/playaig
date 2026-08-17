@@ -1,0 +1,2885 @@
+[
+  {
+    "manifestId": "manifest-monster-expansion-venom-bud",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-venom-bud",
+    "rawData": {
+      "name": "Venom Bud",
+      "level": 86,
+      "locations": [
+        "Underground Cavern"
+      ],
+      "drops": [
+        "Stormplate Chest 3%",
+        "Blight Reaver 2%",
+        "Oxygen Tank 1%",
+        "Razor Kunai 2%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/venom-bud"
+    },
+    "extractedFields": {
+      "name": "Venom Bud",
+      "level": 86,
+      "location": [
+        "Underground Cavern"
+      ],
+      "drop": [
+        "Stormplate Chest 3%",
+        "Blight Reaver 2%",
+        "Oxygen Tank 1%",
+        "Razor Kunai 2%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/venom-bud",
+      "level": "https://spiritvale.info/monsters/venom-bud",
+      "location": "https://spiritvale.info/monsters/venom-bud",
+      "drop": "https://spiritvale.info/monsters/venom-bud"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/venom-bud",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-slime",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-slime",
+    "rawData": {
+      "name": "Slime",
+      "level": 38,
+      "locations": [
+        "Swamp"
+      ],
+      "drops": [
+        "Gravemarrow Legs 4%",
+        "Abyss Shard 3%",
+        "Lucky Drops 2%",
+        "Gravemarrow Shoes 4%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/slime"
+    },
+    "extractedFields": {
+      "name": "Slime",
+      "level": 38,
+      "location": [
+        "Swamp"
+      ],
+      "drop": [
+        "Gravemarrow Legs 4%",
+        "Abyss Shard 3%",
+        "Lucky Drops 2%",
+        "Gravemarrow Shoes 4%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/slime",
+      "level": "https://spiritvale.info/monsters/slime",
+      "location": "https://spiritvale.info/monsters/slime",
+      "drop": "https://spiritvale.info/monsters/slime"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/slime",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-man-eater",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-man-eater",
+    "rawData": {
+      "name": "Man-Eater",
+      "level": 34,
+      "locations": [
+        "Windy Desert South"
+      ],
+      "drops": [
+        "Windstrider Chest 4%",
+        "Parrying Knife 3%",
+        "Crown of Spikes 2%",
+        "Combat Knife 3%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/man-eater"
+    },
+    "extractedFields": {
+      "name": "Man-Eater",
+      "level": 34,
+      "location": [
+        "Windy Desert South"
+      ],
+      "drop": [
+        "Windstrider Chest 4%",
+        "Parrying Knife 3%",
+        "Crown of Spikes 2%",
+        "Combat Knife 3%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/man-eater",
+      "level": "https://spiritvale.info/monsters/man-eater",
+      "location": "https://spiritvale.info/monsters/man-eater",
+      "drop": "https://spiritvale.info/monsters/man-eater"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/man-eater",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-skeleton",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-skeleton",
+    "rawData": {
+      "name": "Skeleton",
+      "level": 25,
+      "locations": [
+        "Festering Woods 1"
+      ],
+      "drops": [
+        "Drooping Skeleton 0.3%",
+        "Cleric Chest 5%",
+        "Witch's Whisk 4%",
+        "Wilderness Pack 3%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/skeleton"
+    },
+    "extractedFields": {
+      "name": "Skeleton",
+      "level": 25,
+      "location": [
+        "Festering Woods 1"
+      ],
+      "drop": [
+        "Drooping Skeleton 0.3%",
+        "Cleric Chest 5%",
+        "Witch's Whisk 4%",
+        "Wilderness Pack 3%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/skeleton",
+      "level": "https://spiritvale.info/monsters/skeleton",
+      "location": "https://spiritvale.info/monsters/skeleton",
+      "drop": "https://spiritvale.info/monsters/skeleton"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/skeleton",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-rat-grey",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-rat-grey",
+    "rawData": {
+      "name": "Rat Grey",
+      "level": 18,
+      "locations": [
+        "Nevaris Sewers"
+      ],
+      "drops": [
+        "Verdant Striders 6%",
+        "Buckler 4%",
+        "Bloom Pendant 3%",
+        "Bonefang 4%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/rat-grey"
+    },
+    "extractedFields": {
+      "name": "Rat Grey",
+      "level": 18,
+      "location": [
+        "Nevaris Sewers"
+      ],
+      "drop": [
+        "Verdant Striders 6%",
+        "Buckler 4%",
+        "Bloom Pendant 3%",
+        "Bonefang 4%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/rat-grey",
+      "level": "https://spiritvale.info/monsters/rat-grey",
+      "location": "https://spiritvale.info/monsters/rat-grey",
+      "drop": "https://spiritvale.info/monsters/rat-grey"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/rat-grey",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-egglet",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-egglet",
+    "rawData": {
+      "name": "Egglet",
+      "level": 23,
+      "locations": [
+        "Bunny Woods",
+        "Forest Labyrinth"
+      ],
+      "drops": [
+        "Ferncloak 5%",
+        "Radiant Wand 4%",
+        "Bunny Cap 3%",
+        "Fleetrunner 5%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/egglet"
+    },
+    "extractedFields": {
+      "name": "Egglet",
+      "level": 23,
+      "location": [
+        "Bunny Woods",
+        "Forest Labyrinth"
+      ],
+      "drop": [
+        "Ferncloak 5%",
+        "Radiant Wand 4%",
+        "Bunny Cap 3%",
+        "Fleetrunner 5%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/egglet",
+      "level": "https://spiritvale.info/monsters/egglet",
+      "location": "https://spiritvale.info/monsters/egglet",
+      "drop": "https://spiritvale.info/monsters/egglet"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/egglet",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-bunny",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-bunny",
+    "rawData": {
+      "name": "Bunny",
+      "level": 21,
+      "locations": [
+        "Bunny Woods"
+      ],
+      "drops": [
+        "Bunny Cap 1%",
+        "Sonic Shoes 5%",
+        "Oak Bow 4%",
+        "Bunny Backpack 3%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/bunny"
+    },
+    "extractedFields": {
+      "name": "Bunny",
+      "level": 21,
+      "location": [
+        "Bunny Woods"
+      ],
+      "drop": [
+        "Bunny Cap 1%",
+        "Sonic Shoes 5%",
+        "Oak Bow 4%",
+        "Bunny Backpack 3%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/bunny",
+      "level": "https://spiritvale.info/monsters/bunny",
+      "location": "https://spiritvale.info/monsters/bunny",
+      "drop": "https://spiritvale.info/monsters/bunny"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/bunny",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-cindermaw",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-cindermaw",
+    "rawData": {
+      "name": "Cindermaw",
+      "level": 130,
+      "locations": [
+        "Night Garden"
+      ],
+      "drops": [
+        "Axe of Oblivion 1%",
+        "Trident of Tides 1%",
+        "Harvester of Souls 1%",
+        "Night Armor 1%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/cindermaw"
+    },
+    "extractedFields": {
+      "name": "Cindermaw",
+      "level": 130,
+      "location": [
+        "Night Garden"
+      ],
+      "drop": [
+        "Axe of Oblivion 1%",
+        "Trident of Tides 1%",
+        "Harvester of Souls 1%",
+        "Night Armor 1%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/cindermaw",
+      "level": "https://spiritvale.info/monsters/cindermaw",
+      "location": "https://spiritvale.info/monsters/cindermaw",
+      "drop": "https://spiritvale.info/monsters/cindermaw"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/cindermaw",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-bird",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-bird",
+    "rawData": {
+      "name": "Bird",
+      "level": 10,
+      "locations": [
+        "Forest Labyrinth",
+        "Sunny Meadows 2"
+      ],
+      "drops": [
+        "Novice Legs 9%",
+        "Broad Sword 6%",
+        "Golden Hoop 4%",
+        "Sunflower Clip 4%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/bird"
+    },
+    "extractedFields": {
+      "name": "Bird",
+      "level": 10,
+      "location": [
+        "Forest Labyrinth",
+        "Sunny Meadows 2"
+      ],
+      "drop": [
+        "Novice Legs 9%",
+        "Broad Sword 6%",
+        "Golden Hoop 4%",
+        "Sunflower Clip 4%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/bird",
+      "level": "https://spiritvale.info/monsters/bird",
+      "location": "https://spiritvale.info/monsters/bird",
+      "drop": "https://spiritvale.info/monsters/bird"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/bird",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-pollen",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-pollen",
+    "rawData": {
+      "name": "Pollen",
+      "level": 1,
+      "locations": [
+        "Sunny Meadows 1"
+      ],
+      "drops": [
+        "Novice Chest 10%",
+        "Knife 5%",
+        "Potions 4%",
+        "Sword 5%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/pollen"
+    },
+    "extractedFields": {
+      "name": "Pollen",
+      "level": 1,
+      "location": [
+        "Sunny Meadows 1"
+      ],
+      "drop": [
+        "Novice Chest 10%",
+        "Knife 5%",
+        "Potions 4%",
+        "Sword 5%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/pollen",
+      "level": "https://spiritvale.info/monsters/pollen",
+      "location": "https://spiritvale.info/monsters/pollen",
+      "drop": "https://spiritvale.info/monsters/pollen"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/pollen",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-cinderspike",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-cinderspike",
+    "rawData": {
+      "name": "Cinderspike",
+      "level": 92,
+      "locations": [
+        "Dark Forest"
+      ],
+      "drops": [
+        "Voidthreads 3%",
+        "Executioner Axe 2%",
+        "Darkhide Gloves 1%",
+        "Chains of Binding 2%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/cinderspike"
+    },
+    "extractedFields": {
+      "name": "Cinderspike",
+      "level": 92,
+      "location": [
+        "Dark Forest"
+      ],
+      "drop": [
+        "Voidthreads 3%",
+        "Executioner Axe 2%",
+        "Darkhide Gloves 1%",
+        "Chains of Binding 2%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/cinderspike",
+      "level": "https://spiritvale.info/monsters/cinderspike",
+      "location": "https://spiritvale.info/monsters/cinderspike",
+      "drop": "https://spiritvale.info/monsters/cinderspike"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/cinderspike",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-ghost",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-ghost",
+    "rawData": {
+      "name": "Ghost",
+      "level": 77,
+      "locations": [
+        "Sanctum of Light"
+      ],
+      "drops": [
+        "Ghostly Hat 0.3%",
+        "Skystrider Legs 3%",
+        "Master Axe 2%",
+        "Plum Talisman 1%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/ghost"
+    },
+    "extractedFields": {
+      "name": "Ghost",
+      "level": 77,
+      "location": [
+        "Sanctum of Light"
+      ],
+      "drop": [
+        "Ghostly Hat 0.3%",
+        "Skystrider Legs 3%",
+        "Master Axe 2%",
+        "Plum Talisman 1%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/ghost",
+      "level": "https://spiritvale.info/monsters/ghost",
+      "location": "https://spiritvale.info/monsters/ghost",
+      "drop": "https://spiritvale.info/monsters/ghost"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/ghost",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-ice",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-ice",
+    "rawData": {
+      "name": "Ice",
+      "level": 71,
+      "locations": [
+        "Crystal Cave"
+      ],
+      "drops": [
+        "Mage Plate 3%",
+        "Crystal Slammer 2%",
+        "Crystal Cache 1%",
+        "Frostspire Kunai 2%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/ice"
+    },
+    "extractedFields": {
+      "name": "Ice",
+      "level": 71,
+      "location": [
+        "Crystal Cave"
+      ],
+      "drop": [
+        "Mage Plate 3%",
+        "Crystal Slammer 2%",
+        "Crystal Cache 1%",
+        "Frostspire Kunai 2%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/ice",
+      "level": "https://spiritvale.info/monsters/ice",
+      "location": "https://spiritvale.info/monsters/ice",
+      "drop": "https://spiritvale.info/monsters/ice"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/ice",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-gadfly",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-gadfly",
+    "rawData": {
+      "name": "Gadfly",
+      "level": 37,
+      "locations": [
+        "Swamp"
+      ],
+      "drops": [
+        "Swampy Hat 0.3%",
+        "Gravemarrow Legs 4%",
+        "Scalpel 3%",
+        "Lucky Drops 2%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/gadfly"
+    },
+    "extractedFields": {
+      "name": "Gadfly",
+      "level": 37,
+      "location": [
+        "Swamp"
+      ],
+      "drop": [
+        "Swampy Hat 0.3%",
+        "Gravemarrow Legs 4%",
+        "Scalpel 3%",
+        "Lucky Drops 2%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/gadfly",
+      "level": "https://spiritvale.info/monsters/gadfly",
+      "location": "https://spiritvale.info/monsters/gadfly",
+      "drop": "https://spiritvale.info/monsters/gadfly"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/gadfly",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-gnat",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-gnat",
+    "rawData": {
+      "name": "Gnat",
+      "level": 37,
+      "locations": [
+        "Swamp"
+      ],
+      "drops": [
+        "Swampy Hat 0.3%",
+        "Gravemarrow Shoes 4%",
+        "Abyss Shard 3%",
+        "Lucky Drops 2%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/gnat"
+    },
+    "extractedFields": {
+      "name": "Gnat",
+      "level": 37,
+      "location": [
+        "Swamp"
+      ],
+      "drop": [
+        "Swampy Hat 0.3%",
+        "Gravemarrow Shoes 4%",
+        "Abyss Shard 3%",
+        "Lucky Drops 2%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/gnat",
+      "level": "https://spiritvale.info/monsters/gnat",
+      "location": "https://spiritvale.info/monsters/gnat",
+      "drop": "https://spiritvale.info/monsters/gnat"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/gnat",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-amber-octopus",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-amber-octopus",
+    "rawData": {
+      "name": "Amber Octopus",
+      "level": 133,
+      "locations": [
+        "Turtle Nexus"
+      ],
+      "drops": [
+        "Endurance Greaves 1%",
+        "Power Greaves 1%",
+        "Plasma Boots 1%",
+        "Violet Arc 1%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/amber-octopus"
+    },
+    "extractedFields": {
+      "name": "Amber Octopus",
+      "level": 133,
+      "location": [
+        "Turtle Nexus"
+      ],
+      "drop": [
+        "Endurance Greaves 1%",
+        "Power Greaves 1%",
+        "Plasma Boots 1%",
+        "Violet Arc 1%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/amber-octopus",
+      "level": "https://spiritvale.info/monsters/amber-octopus",
+      "location": "https://spiritvale.info/monsters/amber-octopus",
+      "drop": "https://spiritvale.info/monsters/amber-octopus"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/amber-octopus",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-fungi",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-fungi",
+    "rawData": {
+      "name": "Fungi",
+      "level": 28,
+      "locations": [
+        "Lake Field"
+      ],
+      "drops": [
+        "Island Spirit Legs 4%",
+        "Stiletto 3%",
+        "Fruit Bowl 2%",
+        "Mage Guard 3%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/fungi"
+    },
+    "extractedFields": {
+      "name": "Fungi",
+      "level": 28,
+      "location": [
+        "Lake Field"
+      ],
+      "drop": [
+        "Island Spirit Legs 4%",
+        "Stiletto 3%",
+        "Fruit Bowl 2%",
+        "Mage Guard 3%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/fungi",
+      "level": "https://spiritvale.info/monsters/fungi",
+      "location": "https://spiritvale.info/monsters/fungi",
+      "drop": "https://spiritvale.info/monsters/fungi"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/fungi",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-flora",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-flora",
+    "rawData": {
+      "name": "Flora",
+      "level": 34,
+      "locations": [
+        "Mystic Lake 1"
+      ],
+      "drops": [
+        "Drooping Flora 0.3%",
+        "Spellthread Shoes 4%",
+        "Relic Trident 3%",
+        "Whale Backpack 2%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/flora"
+    },
+    "extractedFields": {
+      "name": "Flora",
+      "level": 34,
+      "location": [
+        "Mystic Lake 1"
+      ],
+      "drop": [
+        "Drooping Flora 0.3%",
+        "Spellthread Shoes 4%",
+        "Relic Trident 3%",
+        "Whale Backpack 2%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/flora",
+      "level": "https://spiritvale.info/monsters/flora",
+      "location": "https://spiritvale.info/monsters/flora",
+      "drop": "https://spiritvale.info/monsters/flora"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/flora",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-goblin-minion",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-goblin-minion",
+    "rawData": {
+      "name": "Goblin Minion",
+      "level": 41,
+      "locations": [
+        "Goblin Field"
+      ],
+      "drops": [
+        "Stonebound Boots 4%",
+        "Iron Reaver 3%",
+        "War Banner 2%",
+        "Stonepoint Spear 3%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/goblin-minion"
+    },
+    "extractedFields": {
+      "name": "Goblin Minion",
+      "level": 41,
+      "location": [
+        "Goblin Field"
+      ],
+      "drop": [
+        "Stonebound Boots 4%",
+        "Iron Reaver 3%",
+        "War Banner 2%",
+        "Stonepoint Spear 3%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/goblin-minion",
+      "level": "https://spiritvale.info/monsters/goblin-minion",
+      "location": "https://spiritvale.info/monsters/goblin-minion",
+      "drop": "https://spiritvale.info/monsters/goblin-minion"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/goblin-minion",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-goblin-trooper",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-goblin-trooper",
+    "rawData": {
+      "name": "Goblin Trooper",
+      "level": 44,
+      "locations": [
+        "Goblin Field"
+      ],
+      "drops": [
+        "Stonebound Boots 4%",
+        "Spiked Club 3%",
+        "Doom Keg 2%",
+        "Direwolf Chest 4%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/goblin-trooper"
+    },
+    "extractedFields": {
+      "name": "Goblin Trooper",
+      "level": 44,
+      "location": [
+        "Goblin Field"
+      ],
+      "drop": [
+        "Stonebound Boots 4%",
+        "Spiked Club 3%",
+        "Doom Keg 2%",
+        "Direwolf Chest 4%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/goblin-trooper",
+      "level": "https://spiritvale.info/monsters/goblin-trooper",
+      "location": "https://spiritvale.info/monsters/goblin-trooper",
+      "drop": "https://spiritvale.info/monsters/goblin-trooper"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/goblin-trooper",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-goblin-warlock",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-goblin-warlock",
+    "rawData": {
+      "name": "Goblin Warlock",
+      "level": 121,
+      "locations": [
+        "Goblin Warcamp"
+      ],
+      "drops": [
+        "Mind Plate 1%",
+        "Precision Plate 1%",
+        "Riftbreaker 1%",
+        "Ragebound Fury 1%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/goblin-warlock"
+    },
+    "extractedFields": {
+      "name": "Goblin Warlock",
+      "level": 121,
+      "location": [
+        "Goblin Warcamp"
+      ],
+      "drop": [
+        "Mind Plate 1%",
+        "Precision Plate 1%",
+        "Riftbreaker 1%",
+        "Ragebound Fury 1%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/goblin-warlock",
+      "level": "https://spiritvale.info/monsters/goblin-warlock",
+      "location": "https://spiritvale.info/monsters/goblin-warlock",
+      "drop": "https://spiritvale.info/monsters/goblin-warlock"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/goblin-warlock",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-goblin-trooper-assassin",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-goblin-trooper-assassin",
+    "rawData": {
+      "name": "Goblin Trooper Assassin",
+      "level": 43,
+      "locations": [
+        "Goblin Field"
+      ],
+      "drops": [
+        "Direwolf Shoes 4%",
+        "Iron Reaver 3%",
+        "War Banner 2%",
+        "Stonepoint Spear 3%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/goblin-trooper-assassin"
+    },
+    "extractedFields": {
+      "name": "Goblin Trooper Assassin",
+      "level": 43,
+      "location": [
+        "Goblin Field"
+      ],
+      "drop": [
+        "Direwolf Shoes 4%",
+        "Iron Reaver 3%",
+        "War Banner 2%",
+        "Stonepoint Spear 3%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/goblin-trooper-assassin",
+      "level": "https://spiritvale.info/monsters/goblin-trooper-assassin",
+      "location": "https://spiritvale.info/monsters/goblin-trooper-assassin",
+      "drop": "https://spiritvale.info/monsters/goblin-trooper-assassin"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/goblin-trooper-assassin",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-goblin-giant-devil",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-goblin-giant-devil",
+    "rawData": {
+      "name": "Goblin Giant Devil",
+      "level": 50,
+      "locations": [
+        "Goblin Village"
+      ],
+      "drops": [
+        "Golden Hammer 1%",
+        "Direwolf Shoes 4%",
+        "Skullhacker 3%",
+        "Bronze Plugs 2%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/goblin-giant-devil"
+    },
+    "extractedFields": {
+      "name": "Goblin Giant Devil",
+      "level": 50,
+      "location": [
+        "Goblin Village"
+      ],
+      "drop": [
+        "Golden Hammer 1%",
+        "Direwolf Shoes 4%",
+        "Skullhacker 3%",
+        "Bronze Plugs 2%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/goblin-giant-devil",
+      "level": "https://spiritvale.info/monsters/goblin-giant-devil",
+      "location": "https://spiritvale.info/monsters/goblin-giant-devil",
+      "drop": "https://spiritvale.info/monsters/goblin-giant-devil"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/goblin-giant-devil",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-goblin-warblade",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-goblin-warblade",
+    "rawData": {
+      "name": "Goblin Warblade",
+      "level": 123,
+      "locations": [
+        "Goblin Warcamp"
+      ],
+      "drops": [
+        "Speed Plate 1%",
+        "Fate Plate 1%",
+        "Riftbreaker 1%",
+        "Stormfeather Kunai 1%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/goblin-warblade"
+    },
+    "extractedFields": {
+      "name": "Goblin Warblade",
+      "level": 123,
+      "location": [
+        "Goblin Warcamp"
+      ],
+      "drop": [
+        "Speed Plate 1%",
+        "Fate Plate 1%",
+        "Riftbreaker 1%",
+        "Stormfeather Kunai 1%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/goblin-warblade",
+      "level": "https://spiritvale.info/monsters/goblin-warblade",
+      "location": "https://spiritvale.info/monsters/goblin-warblade",
+      "drop": "https://spiritvale.info/monsters/goblin-warblade"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/goblin-warblade",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-goblin-grunt",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-goblin-grunt",
+    "rawData": {
+      "name": "Goblin Grunt",
+      "level": 44,
+      "locations": [
+        "Goblin Field"
+      ],
+      "drops": [
+        "Stonebound Boots 4%",
+        "Stonepoint Spear 3%",
+        "Doom Keg 2%",
+        "Spiked Club 3%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/goblin-grunt"
+    },
+    "extractedFields": {
+      "name": "Goblin Grunt",
+      "level": 44,
+      "location": [
+        "Goblin Field"
+      ],
+      "drop": [
+        "Stonebound Boots 4%",
+        "Stonepoint Spear 3%",
+        "Doom Keg 2%",
+        "Spiked Club 3%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/goblin-grunt",
+      "level": "https://spiritvale.info/monsters/goblin-grunt",
+      "location": "https://spiritvale.info/monsters/goblin-grunt",
+      "drop": "https://spiritvale.info/monsters/goblin-grunt"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/goblin-grunt",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-zombie-goblin-giant",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-zombie-goblin-giant",
+    "rawData": {
+      "name": "Zombie Goblin Giant",
+      "level": 58,
+      "locations": [
+        "Goblin Cave 2"
+      ],
+      "drops": [
+        "Direwolf Legs 4%",
+        "Wraithlight 3%",
+        "Treasure Box 2%",
+        "Gatling Gun 3%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/zombie-goblin-giant"
+    },
+    "extractedFields": {
+      "name": "Zombie Goblin Giant",
+      "level": 58,
+      "location": [
+        "Goblin Cave 2"
+      ],
+      "drop": [
+        "Direwolf Legs 4%",
+        "Wraithlight 3%",
+        "Treasure Box 2%",
+        "Gatling Gun 3%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/zombie-goblin-giant",
+      "level": "https://spiritvale.info/monsters/zombie-goblin-giant",
+      "location": "https://spiritvale.info/monsters/zombie-goblin-giant",
+      "drop": "https://spiritvale.info/monsters/zombie-goblin-giant"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/zombie-goblin-giant",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-rabbit",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-rabbit",
+    "rawData": {
+      "name": "Rabbit",
+      "level": 25,
+      "locations": [
+        "Bunny Woods",
+        "Forest Labyrinth"
+      ],
+      "drops": [
+        "Bunny Cap 1%",
+        "Sonic Shoes 5%",
+        "Oak Bow 4%",
+        "Bunny Backpack 3%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/rabbit"
+    },
+    "extractedFields": {
+      "name": "Rabbit",
+      "level": 25,
+      "location": [
+        "Bunny Woods",
+        "Forest Labyrinth"
+      ],
+      "drop": [
+        "Bunny Cap 1%",
+        "Sonic Shoes 5%",
+        "Oak Bow 4%",
+        "Bunny Backpack 3%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/rabbit",
+      "level": "https://spiritvale.info/monsters/rabbit",
+      "location": "https://spiritvale.info/monsters/rabbit",
+      "drop": "https://spiritvale.info/monsters/rabbit"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/rabbit",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-frost-wyvern",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-frost-wyvern",
+    "rawData": {
+      "name": "Frost Wyvern",
+      "level": 74,
+      "locations": [
+        "Crystal Cave"
+      ],
+      "drops": [
+        "Drooping Dragon 0.3%",
+        "Moonfrost 1%",
+        "Weaver Shoes 3%",
+        "Crystal Slammer 2%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/frost-wyvern"
+    },
+    "extractedFields": {
+      "name": "Frost Wyvern",
+      "level": 74,
+      "location": [
+        "Crystal Cave"
+      ],
+      "drop": [
+        "Drooping Dragon 0.3%",
+        "Moonfrost 1%",
+        "Weaver Shoes 3%",
+        "Crystal Slammer 2%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/frost-wyvern",
+      "level": "https://spiritvale.info/monsters/frost-wyvern",
+      "location": "https://spiritvale.info/monsters/frost-wyvern",
+      "drop": "https://spiritvale.info/monsters/frost-wyvern"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/frost-wyvern",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-zombie-goblin",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-zombie-goblin",
+    "rawData": {
+      "name": "Zombie Goblin",
+      "level": 53,
+      "locations": [
+        "Goblin Cave 1"
+      ],
+      "drops": [
+        "Direwolf Legs 4%",
+        "Shotgun 3%",
+        "Treasure Box 2%",
+        "Arrowcatch Wall 3%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/zombie-goblin"
+    },
+    "extractedFields": {
+      "name": "Zombie Goblin",
+      "level": 53,
+      "location": [
+        "Goblin Cave 1"
+      ],
+      "drop": [
+        "Direwolf Legs 4%",
+        "Shotgun 3%",
+        "Treasure Box 2%",
+        "Arrowcatch Wall 3%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/zombie-goblin",
+      "level": "https://spiritvale.info/monsters/zombie-goblin",
+      "location": "https://spiritvale.info/monsters/zombie-goblin",
+      "drop": "https://spiritvale.info/monsters/zombie-goblin"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/zombie-goblin",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-skimmer",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-skimmer",
+    "rawData": {
+      "name": "Skimmer",
+      "level": 39,
+      "locations": [
+        "Swamp"
+      ],
+      "drops": [
+        "Swampy Hat 0.3%",
+        "Gravemarrow Chest 4%",
+        "Abyss Shard 3%",
+        "Lucky Drops 2%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/skimmer"
+    },
+    "extractedFields": {
+      "name": "Skimmer",
+      "level": 39,
+      "location": [
+        "Swamp"
+      ],
+      "drop": [
+        "Swampy Hat 0.3%",
+        "Gravemarrow Chest 4%",
+        "Abyss Shard 3%",
+        "Lucky Drops 2%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/skimmer",
+      "level": "https://spiritvale.info/monsters/skimmer",
+      "location": "https://spiritvale.info/monsters/skimmer",
+      "drop": "https://spiritvale.info/monsters/skimmer"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/skimmer",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-dragonfly-arrow",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-dragonfly-arrow",
+    "rawData": {
+      "name": "Dragonfly Arrow",
+      "level": 36,
+      "locations": [
+        "Swamp"
+      ],
+      "drops": [
+        "Swampy Hat 0.3%",
+        "Gravemarrow Chest 4%",
+        "Abyss Shard 3%",
+        "Lucky Drops 2%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/dragonfly-arrow"
+    },
+    "extractedFields": {
+      "name": "Dragonfly Arrow",
+      "level": 36,
+      "location": [
+        "Swamp"
+      ],
+      "drop": [
+        "Swampy Hat 0.3%",
+        "Gravemarrow Chest 4%",
+        "Abyss Shard 3%",
+        "Lucky Drops 2%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/dragonfly-arrow",
+      "level": "https://spiritvale.info/monsters/dragonfly-arrow",
+      "location": "https://spiritvale.info/monsters/dragonfly-arrow",
+      "drop": "https://spiritvale.info/monsters/dragonfly-arrow"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/dragonfly-arrow",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-housefly-nom",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-housefly-nom",
+    "rawData": {
+      "name": "Housefly Nom",
+      "level": 39,
+      "locations": [
+        "Swamp"
+      ],
+      "drops": [
+        "Swampy Hat 0.3%",
+        "Gravemarrow Legs 4%",
+        "Zephyr Cross 3%",
+        "Lucky Drops 2%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/housefly-nom"
+    },
+    "extractedFields": {
+      "name": "Housefly Nom",
+      "level": 39,
+      "location": [
+        "Swamp"
+      ],
+      "drop": [
+        "Swampy Hat 0.3%",
+        "Gravemarrow Legs 4%",
+        "Zephyr Cross 3%",
+        "Lucky Drops 2%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/housefly-nom",
+      "level": "https://spiritvale.info/monsters/housefly-nom",
+      "location": "https://spiritvale.info/monsters/housefly-nom",
+      "drop": "https://spiritvale.info/monsters/housefly-nom"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/housefly-nom",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-whirlwind",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-whirlwind",
+    "rawData": {
+      "name": "Whirlwind",
+      "level": 26,
+      "locations": [
+        "Windy Desert"
+      ],
+      "drops": [
+        "Tempest Robes 4%",
+        "Skybreaker Staff 3%",
+        "Star 2%",
+        "Stormpiercer 3%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/whirlwind"
+    },
+    "extractedFields": {
+      "name": "Whirlwind",
+      "level": 26,
+      "location": [
+        "Windy Desert"
+      ],
+      "drop": [
+        "Tempest Robes 4%",
+        "Skybreaker Staff 3%",
+        "Star 2%",
+        "Stormpiercer 3%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/whirlwind",
+      "level": "https://spiritvale.info/monsters/whirlwind",
+      "location": "https://spiritvale.info/monsters/whirlwind",
+      "drop": "https://spiritvale.info/monsters/whirlwind"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/whirlwind",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-grub",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-grub",
+    "rawData": {
+      "name": "Grub",
+      "level": 87,
+      "locations": [
+        "Underground Cavern"
+      ],
+      "drops": [
+        "Stormplate Shoes 3%",
+        "Blight Reaver 2%",
+        "Oxygen Tank 1%",
+        "Razor Kunai 2%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/grub"
+    },
+    "extractedFields": {
+      "name": "Grub",
+      "level": 87,
+      "location": [
+        "Underground Cavern"
+      ],
+      "drop": [
+        "Stormplate Shoes 3%",
+        "Blight Reaver 2%",
+        "Oxygen Tank 1%",
+        "Razor Kunai 2%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/grub",
+      "level": "https://spiritvale.info/monsters/grub",
+      "location": "https://spiritvale.info/monsters/grub",
+      "drop": "https://spiritvale.info/monsters/grub"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/grub",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-wind",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-wind",
+    "rawData": {
+      "name": "Wind",
+      "level": 28,
+      "locations": [
+        "Windy Desert"
+      ],
+      "drops": [
+        "Windstrider Shoes 4%",
+        "Skybreaker Staff 3%",
+        "Star 2%",
+        "Stormpiercer 3%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/wind"
+    },
+    "extractedFields": {
+      "name": "Wind",
+      "level": 28,
+      "location": [
+        "Windy Desert"
+      ],
+      "drop": [
+        "Windstrider Shoes 4%",
+        "Skybreaker Staff 3%",
+        "Star 2%",
+        "Stormpiercer 3%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/wind",
+      "level": "https://spiritvale.info/monsters/wind",
+      "location": "https://spiritvale.info/monsters/wind",
+      "drop": "https://spiritvale.info/monsters/wind"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/wind",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-icicle",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-icicle",
+    "rawData": {
+      "name": "Icicle",
+      "level": 73,
+      "locations": [
+        "Crystal Cave"
+      ],
+      "drops": [
+        "Weaver Chest 3%",
+        "Frost Mark 2%",
+        "Azure Prism 1%",
+        "Weaver Legs 3%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/icicle"
+    },
+    "extractedFields": {
+      "name": "Icicle",
+      "level": 73,
+      "location": [
+        "Crystal Cave"
+      ],
+      "drop": [
+        "Weaver Chest 3%",
+        "Frost Mark 2%",
+        "Azure Prism 1%",
+        "Weaver Legs 3%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/icicle",
+      "level": "https://spiritvale.info/monsters/icicle",
+      "location": "https://spiritvale.info/monsters/icicle",
+      "drop": "https://spiritvale.info/monsters/icicle"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/icicle",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-dragon-ice",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-dragon-ice",
+    "rawData": {
+      "name": "Dragon Ice",
+      "level": 73,
+      "locations": [
+        "Crystal Cave"
+      ],
+      "drops": [
+        "Weaver Shoes 3%",
+        "Frostshard 2%",
+        "Crystal Cache 1%",
+        "Crystal Slammer 2%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/dragon-ice"
+    },
+    "extractedFields": {
+      "name": "Dragon Ice",
+      "level": 73,
+      "location": [
+        "Crystal Cave"
+      ],
+      "drop": [
+        "Weaver Shoes 3%",
+        "Frostshard 2%",
+        "Crystal Cache 1%",
+        "Crystal Slammer 2%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/dragon-ice",
+      "level": "https://spiritvale.info/monsters/dragon-ice",
+      "location": "https://spiritvale.info/monsters/dragon-ice",
+      "drop": "https://spiritvale.info/monsters/dragon-ice"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/dragon-ice",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-golem-ice",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-golem-ice",
+    "rawData": {
+      "name": "Golem Ice",
+      "level": 75,
+      "locations": [
+        "Crystal Cave"
+      ],
+      "drops": [
+        "Weaver Chest 3%",
+        "Frostshard 2%",
+        "Crystal Cache 1%",
+        "Weaver Legs 3%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/golem-ice"
+    },
+    "extractedFields": {
+      "name": "Golem Ice",
+      "level": 75,
+      "location": [
+        "Crystal Cave"
+      ],
+      "drop": [
+        "Weaver Chest 3%",
+        "Frostshard 2%",
+        "Crystal Cache 1%",
+        "Weaver Legs 3%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/golem-ice",
+      "level": "https://spiritvale.info/monsters/golem-ice",
+      "location": "https://spiritvale.info/monsters/golem-ice",
+      "drop": "https://spiritvale.info/monsters/golem-ice"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/golem-ice",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-bee",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-bee",
+    "rawData": {
+      "name": "Bee",
+      "level": 6,
+      "locations": [
+        "Forest Labyrinth",
+        "Sunny Meadows 2"
+      ],
+      "drops": [
+        "Novice Chest 5%",
+        "Broad Sword 4%",
+        "Potions 3%",
+        "Axe 4%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/bee"
+    },
+    "extractedFields": {
+      "name": "Bee",
+      "level": 6,
+      "location": [
+        "Forest Labyrinth",
+        "Sunny Meadows 2"
+      ],
+      "drop": [
+        "Novice Chest 5%",
+        "Broad Sword 4%",
+        "Potions 3%",
+        "Axe 4%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/bee",
+      "level": "https://spiritvale.info/monsters/bee",
+      "location": "https://spiritvale.info/monsters/bee",
+      "drop": "https://spiritvale.info/monsters/bee"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/bee",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-fledgling",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-fledgling",
+    "rawData": {
+      "name": "Fledgling",
+      "level": 8,
+      "locations": [
+        "Forest Labyrinth",
+        "Sunny Meadows 2"
+      ],
+      "drops": [
+        "Novice Shoes 5%",
+        "Broad Sword 4%",
+        "Sunflower Clip 3%",
+        "Axe 4%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/fledgling"
+    },
+    "extractedFields": {
+      "name": "Fledgling",
+      "level": 8,
+      "location": [
+        "Forest Labyrinth",
+        "Sunny Meadows 2"
+      ],
+      "drop": [
+        "Novice Shoes 5%",
+        "Broad Sword 4%",
+        "Sunflower Clip 3%",
+        "Axe 4%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/fledgling",
+      "level": "https://spiritvale.info/monsters/fledgling",
+      "location": "https://spiritvale.info/monsters/fledgling",
+      "drop": "https://spiritvale.info/monsters/fledgling"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/fledgling",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-wind-mage",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-wind-mage",
+    "rawData": {
+      "name": "Wind Mage",
+      "level": 30,
+      "locations": [
+        "Windy Desert"
+      ],
+      "drops": [
+        "Windstrider Legs 4%",
+        "Skybreaker Staff 3%",
+        "Star 2%",
+        "Windstrider Shoes 4%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/wind-mage"
+    },
+    "extractedFields": {
+      "name": "Wind Mage",
+      "level": 30,
+      "location": [
+        "Windy Desert"
+      ],
+      "drop": [
+        "Windstrider Legs 4%",
+        "Skybreaker Staff 3%",
+        "Star 2%",
+        "Windstrider Shoes 4%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/wind-mage",
+      "level": "https://spiritvale.info/monsters/wind-mage",
+      "location": "https://spiritvale.info/monsters/wind-mage",
+      "drop": "https://spiritvale.info/monsters/wind-mage"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/wind-mage",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-glow-wisp-purple",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-glow-wisp-purple",
+    "rawData": {
+      "name": "Glow Wisp Purple",
+      "level": 27,
+      "locations": [
+        "Windy Desert"
+      ],
+      "drops": [
+        "Windstrider Chest 4%",
+        "Zephyrlight 3%",
+        "Star 2%",
+        "Windstrider Legs 4%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/glow-wisp-purple"
+    },
+    "extractedFields": {
+      "name": "Glow Wisp Purple",
+      "level": 27,
+      "location": [
+        "Windy Desert"
+      ],
+      "drop": [
+        "Windstrider Chest 4%",
+        "Zephyrlight 3%",
+        "Star 2%",
+        "Windstrider Legs 4%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/glow-wisp-purple",
+      "level": "https://spiritvale.info/monsters/glow-wisp-purple",
+      "location": "https://spiritvale.info/monsters/glow-wisp-purple",
+      "drop": "https://spiritvale.info/monsters/glow-wisp-purple"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/glow-wisp-purple",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-zombie-grunt",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-zombie-grunt",
+    "rawData": {
+      "name": "Zombie Grunt",
+      "level": 55,
+      "locations": [
+        "Goblin Cave 1"
+      ],
+      "drops": [
+        "Direwolf Shoes 4%",
+        "Doom Crescent 3%",
+        "Digger's Flask 2%",
+        "Iron Morningstar 3%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/zombie-grunt"
+    },
+    "extractedFields": {
+      "name": "Zombie Grunt",
+      "level": 55,
+      "location": [
+        "Goblin Cave 1"
+      ],
+      "drop": [
+        "Direwolf Shoes 4%",
+        "Doom Crescent 3%",
+        "Digger's Flask 2%",
+        "Iron Morningstar 3%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/zombie-grunt",
+      "level": "https://spiritvale.info/monsters/zombie-grunt",
+      "location": "https://spiritvale.info/monsters/zombie-grunt",
+      "drop": "https://spiritvale.info/monsters/zombie-grunt"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/zombie-grunt",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-cat-lightning",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-cat-lightning",
+    "rawData": {
+      "name": "Cat Lightning",
+      "level": 29,
+      "locations": [
+        "Windy Desert"
+      ],
+      "drops": [
+        "Drooping Cat 0.3%",
+        "Neko Hood 1%",
+        "Tempest Robes 4%",
+        "Zephyrlight 3%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/cat-lightning"
+    },
+    "extractedFields": {
+      "name": "Cat Lightning",
+      "level": 29,
+      "location": [
+        "Windy Desert"
+      ],
+      "drop": [
+        "Drooping Cat 0.3%",
+        "Neko Hood 1%",
+        "Tempest Robes 4%",
+        "Zephyrlight 3%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/cat-lightning",
+      "level": "https://spiritvale.info/monsters/cat-lightning",
+      "location": "https://spiritvale.info/monsters/cat-lightning",
+      "drop": "https://spiritvale.info/monsters/cat-lightning"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/cat-lightning",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-cacti",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-cacti",
+    "rawData": {
+      "name": "Cacti",
+      "level": 31,
+      "locations": [
+        "Windy Desert South"
+      ],
+      "drops": [
+        "Windstrider Chest 4%",
+        "Wasteland Cleaver 3%",
+        "Crown of Spikes 2%",
+        "Brimblade 3%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/cacti"
+    },
+    "extractedFields": {
+      "name": "Cacti",
+      "level": 31,
+      "location": [
+        "Windy Desert South"
+      ],
+      "drop": [
+        "Windstrider Chest 4%",
+        "Wasteland Cleaver 3%",
+        "Crown of Spikes 2%",
+        "Brimblade 3%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/cacti",
+      "level": "https://spiritvale.info/monsters/cacti",
+      "location": "https://spiritvale.info/monsters/cacti",
+      "drop": "https://spiritvale.info/monsters/cacti"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/cacti",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-rime-drake",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-rime-drake",
+    "rawData": {
+      "name": "Rime Drake",
+      "level": 73,
+      "locations": [
+        "Crystal Cave"
+      ],
+      "drops": [
+        "Drooping Dragon 0.3%",
+        "Weaver Shoes 3%",
+        "Frostshard 2%",
+        "Crystal Cache 1%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/rime-drake"
+    },
+    "extractedFields": {
+      "name": "Rime Drake",
+      "level": 73,
+      "location": [
+        "Crystal Cave"
+      ],
+      "drop": [
+        "Drooping Dragon 0.3%",
+        "Weaver Shoes 3%",
+        "Frostshard 2%",
+        "Crystal Cache 1%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/rime-drake",
+      "level": "https://spiritvale.info/monsters/rime-drake",
+      "location": "https://spiritvale.info/monsters/rime-drake",
+      "drop": "https://spiritvale.info/monsters/rime-drake"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/rime-drake",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-raiju",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-raiju",
+    "rawData": {
+      "name": "Raiju",
+      "level": 35,
+      "locations": [
+        "Windy Desert"
+      ],
+      "drops": [
+        "Drooping Cat 0.3%",
+        "Neko Hood 30%",
+        "Tempest Robes 20%",
+        "Stormpiercer 15%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/raiju"
+    },
+    "extractedFields": {
+      "name": "Raiju",
+      "level": 35,
+      "location": [
+        "Windy Desert"
+      ],
+      "drop": [
+        "Drooping Cat 0.3%",
+        "Neko Hood 30%",
+        "Tempest Robes 20%",
+        "Stormpiercer 15%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/raiju",
+      "level": "https://spiritvale.info/monsters/raiju",
+      "location": "https://spiritvale.info/monsters/raiju",
+      "drop": "https://spiritvale.info/monsters/raiju"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/raiju",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "approved",
+    "reviewNotes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-spore",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-spore",
+    "rawData": {
+      "name": "Spore",
+      "level": 32,
+      "locations": [],
+      "drops": [
+        "Windstrider Legs 4%",
+        "Parrying Knife 3%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/spore"
+    },
+    "extractedFields": {
+      "name": "Spore",
+      "level": 32,
+      "drop": [
+        "Windstrider Legs 4%",
+        "Parrying Knife 3%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/spore",
+      "level": "https://spiritvale.info/monsters/spore",
+      "drop": "https://spiritvale.info/monsters/spore"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/spore",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "rejected",
+    "reviewNotes": "Not publishable: missing required name, level, location or drop evidence. Source evidence retained for audit.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-naga",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-naga",
+    "rawData": {
+      "name": "Naga",
+      "level": 50,
+      "locations": [],
+      "drops": [
+        "Totem Mask 30%",
+        "Serpent Ring 1%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/naga"
+    },
+    "extractedFields": {
+      "name": "Naga",
+      "level": 50,
+      "drop": [
+        "Totem Mask 30%",
+        "Serpent Ring 1%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/naga",
+      "level": "https://spiritvale.info/monsters/naga",
+      "drop": "https://spiritvale.info/monsters/naga"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/naga",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "rejected",
+    "reviewNotes": "Not publishable: missing required name, level, location or drop evidence. Source evidence retained for audit.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-demon-lord",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-demon-lord",
+    "rawData": {
+      "name": "Demon Lord",
+      "level": 105,
+      "locations": [],
+      "drops": [
+        "Sunflare 1%",
+        "Heart Vessel 1%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/demon-lord"
+    },
+    "extractedFields": {
+      "name": "Demon Lord",
+      "level": 105,
+      "drop": [
+        "Sunflare 1%",
+        "Heart Vessel 1%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/demon-lord",
+      "level": "https://spiritvale.info/monsters/demon-lord",
+      "drop": "https://spiritvale.info/monsters/demon-lord"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/demon-lord",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "rejected",
+    "reviewNotes": "Not publishable: missing required name, level, location or drop evidence. Source evidence retained for audit.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-cosmic-entity",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-cosmic-entity",
+    "rawData": {
+      "name": "Cosmic Entity",
+      "level": 135,
+      "locations": [],
+      "drops": [
+        "Power Plate 1%",
+        "Mind Plate 1%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/cosmic-entity"
+    },
+    "extractedFields": {
+      "name": "Cosmic Entity",
+      "level": 135,
+      "drop": [
+        "Power Plate 1%",
+        "Mind Plate 1%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/cosmic-entity",
+      "level": "https://spiritvale.info/monsters/cosmic-entity",
+      "drop": "https://spiritvale.info/monsters/cosmic-entity"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/cosmic-entity",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "rejected",
+    "reviewNotes": "Not publishable: missing required name, level, location or drop evidence. Source evidence retained for audit.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-goblin-king",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-goblin-king",
+    "rawData": {
+      "name": "Goblin King",
+      "level": 55,
+      "locations": [],
+      "drops": [
+        "Golden Axe 30%",
+        "Golden Hammer 30%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/goblin-king"
+    },
+    "extractedFields": {
+      "name": "Goblin King",
+      "level": 55,
+      "drop": [
+        "Golden Axe 30%",
+        "Golden Hammer 30%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/goblin-king",
+      "level": "https://spiritvale.info/monsters/goblin-king",
+      "drop": "https://spiritvale.info/monsters/goblin-king"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/goblin-king",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "rejected",
+    "reviewNotes": "Not publishable: missing required name, level, location or drop evidence. Source evidence retained for audit.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-flower-pot-monster",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-flower-pot-monster",
+    "rawData": {
+      "name": "Flower Pot Monster",
+      "level": 20,
+      "locations": [],
+      "drops": [],
+      "sourceLocator": "https://spiritvale.info/monsters/flower-pot-monster"
+    },
+    "extractedFields": {
+      "name": "Flower Pot Monster",
+      "level": 20
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/flower-pot-monster",
+      "level": "https://spiritvale.info/monsters/flower-pot-monster"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/flower-pot-monster",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "rejected",
+    "reviewNotes": "Not publishable: missing required name, level, location or drop evidence. Source evidence retained for audit.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-ice-bear",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-ice-bear",
+    "rawData": {
+      "name": "Ice Bear",
+      "level": null,
+      "locations": [
+        "Starfall Tundra"
+      ],
+      "drops": [],
+      "sourceLocator": "https://spiritvale.info/monsters/ice-bear"
+    },
+    "extractedFields": {
+      "name": "Ice Bear",
+      "location": [
+        "Starfall Tundra"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/ice-bear",
+      "location": "https://spiritvale.info/monsters/ice-bear"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/ice-bear",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "rejected",
+    "reviewNotes": "Not publishable: missing required name, level, location or drop evidence. Source evidence retained for audit.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-spider-queen",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-spider-queen",
+    "rawData": {
+      "name": "Spider Queen",
+      "level": 135,
+      "locations": [],
+      "drops": [
+        "Power Gauntlets 30%",
+        "Precision Gauntlets 30%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/spider-queen"
+    },
+    "extractedFields": {
+      "name": "Spider Queen",
+      "level": 135,
+      "drop": [
+        "Power Gauntlets 30%",
+        "Precision Gauntlets 30%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/spider-queen",
+      "level": "https://spiritvale.info/monsters/spider-queen",
+      "drop": "https://spiritvale.info/monsters/spider-queen"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/spider-queen",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "rejected",
+    "reviewNotes": "Not publishable: missing required name, level, location or drop evidence. Source evidence retained for audit.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-scorpion-king",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-scorpion-king",
+    "rawData": {
+      "name": "Scorpion King",
+      "level": 40,
+      "locations": [],
+      "drops": [
+        "Windstrider Chest 20%",
+        "Solar Spear 15%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/scorpion-king"
+    },
+    "extractedFields": {
+      "name": "Scorpion King",
+      "level": 40,
+      "drop": [
+        "Windstrider Chest 20%",
+        "Solar Spear 15%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/scorpion-king",
+      "level": "https://spiritvale.info/monsters/scorpion-king",
+      "drop": "https://spiritvale.info/monsters/scorpion-king"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/scorpion-king",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "rejected",
+    "reviewNotes": "Not publishable: missing required name, level, location or drop evidence. Source evidence retained for audit.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-zombie-goblin-lord",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-zombie-goblin-lord",
+    "rawData": {
+      "name": "Zombie Goblin Lord",
+      "level": 65,
+      "locations": [],
+      "drops": [
+        "Explorer's Pack 1%",
+        "Direwolf Chest 20%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/zombie-goblin-lord"
+    },
+    "extractedFields": {
+      "name": "Zombie Goblin Lord",
+      "level": 65,
+      "drop": [
+        "Explorer's Pack 1%",
+        "Direwolf Chest 20%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/zombie-goblin-lord",
+      "level": "https://spiritvale.info/monsters/zombie-goblin-lord",
+      "drop": "https://spiritvale.info/monsters/zombie-goblin-lord"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/zombie-goblin-lord",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "rejected",
+    "reviewNotes": "Not publishable: missing required name, level, location or drop evidence. Source evidence retained for audit.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-zombie-orc-lord",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-zombie-orc-lord",
+    "rawData": {
+      "name": "Zombie Orc Lord",
+      "level": 65,
+      "locations": [],
+      "drops": [
+        "Explorer's Pack 1%",
+        "Direwolf Chest 20%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/zombie-orc-lord"
+    },
+    "extractedFields": {
+      "name": "Zombie Orc Lord",
+      "level": 65,
+      "drop": [
+        "Explorer's Pack 1%",
+        "Direwolf Chest 20%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/zombie-orc-lord",
+      "level": "https://spiritvale.info/monsters/zombie-orc-lord",
+      "drop": "https://spiritvale.info/monsters/zombie-orc-lord"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/zombie-orc-lord",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "rejected",
+    "reviewNotes": "Not publishable: missing required name, level, location or drop evidence. Source evidence retained for audit.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-zombie-goblin-minion",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-zombie-goblin-minion",
+    "rawData": {
+      "name": "Zombie Goblin Minion",
+      "level": 51,
+      "locations": [],
+      "drops": [
+        "Direwolf Chest 6%",
+        "Wasteland Cleaver 3%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/zombie-goblin-minion"
+    },
+    "extractedFields": {
+      "name": "Zombie Goblin Minion",
+      "level": 51,
+      "drop": [
+        "Direwolf Chest 6%",
+        "Wasteland Cleaver 3%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/zombie-goblin-minion",
+      "level": "https://spiritvale.info/monsters/zombie-goblin-minion",
+      "drop": "https://spiritvale.info/monsters/zombie-goblin-minion"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/zombie-goblin-minion",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "rejected",
+    "reviewNotes": "Not publishable: missing required name, level, location or drop evidence. Source evidence retained for audit.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-cat-meow",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-cat-meow",
+    "rawData": {
+      "name": "Cat Meow",
+      "level": null,
+      "locations": [],
+      "drops": [],
+      "sourceLocator": "https://spiritvale.info/monsters/cat-meow"
+    },
+    "extractedFields": {
+      "name": "Cat Meow"
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/cat-meow"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/cat-meow",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "rejected",
+    "reviewNotes": "Not publishable: missing required name, level, location or drop evidence. Source evidence retained for audit.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-crawler-duplicate",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-crawler-duplicate",
+    "rawData": {
+      "name": "Crawler",
+      "level": 45,
+      "locations": [
+        "Forgotten Depths 1"
+      ],
+      "drops": [
+        "Spider Web 100%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/crawler-duplicate"
+    },
+    "extractedFields": {
+      "name": "Crawler",
+      "level": 45,
+      "location": [
+        "Forgotten Depths 1"
+      ],
+      "drop": [
+        "Spider Web 100%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/crawler-duplicate",
+      "level": "https://spiritvale.info/monsters/crawler-duplicate",
+      "location": "https://spiritvale.info/monsters/crawler-duplicate",
+      "drop": "https://spiritvale.info/monsters/crawler-duplicate"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/crawler-duplicate",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "rejected",
+    "reviewNotes": "Not publishable: duplicate entity name. Source evidence retained for audit.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-seed-duplicate",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-seed-duplicate",
+    "rawData": {
+      "name": "Seed",
+      "level": 5,
+      "locations": [
+        "Forest Labyrinth"
+      ],
+      "drops": [
+        "Flax 100%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/seed-duplicate"
+    },
+    "extractedFields": {
+      "name": "Seed",
+      "level": 5,
+      "location": [
+        "Forest Labyrinth"
+      ],
+      "drop": [
+        "Flax 100%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/seed-duplicate",
+      "level": "https://spiritvale.info/monsters/seed-duplicate",
+      "location": "https://spiritvale.info/monsters/seed-duplicate",
+      "drop": "https://spiritvale.info/monsters/seed-duplicate"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/seed-duplicate",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "rejected",
+    "reviewNotes": "Not publishable: duplicate entity name. Source evidence retained for audit.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-egg-duplicate",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-egg-duplicate",
+    "rawData": {
+      "name": "Egg",
+      "level": 4,
+      "locations": [
+        "Sunny Meadows 1"
+      ],
+      "drops": [
+        "Flax 100%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/egg-duplicate"
+    },
+    "extractedFields": {
+      "name": "Egg",
+      "level": 4,
+      "location": [
+        "Sunny Meadows 1"
+      ],
+      "drop": [
+        "Flax 100%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/egg-duplicate",
+      "level": "https://spiritvale.info/monsters/egg-duplicate",
+      "location": "https://spiritvale.info/monsters/egg-duplicate",
+      "drop": "https://spiritvale.info/monsters/egg-duplicate"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/egg-duplicate",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "rejected",
+    "reviewNotes": "Not publishable: duplicate entity name. Source evidence retained for audit.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-spook-duplicate",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-spook-duplicate",
+    "rawData": {
+      "name": "Spook",
+      "level": 82,
+      "locations": [
+        "Sanctum of Light"
+      ],
+      "drops": [
+        "Skystrider Legs 3%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/spook-duplicate"
+    },
+    "extractedFields": {
+      "name": "Spook",
+      "level": 82,
+      "location": [
+        "Sanctum of Light"
+      ],
+      "drop": [
+        "Skystrider Legs 3%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/spook-duplicate",
+      "level": "https://spiritvale.info/monsters/spook-duplicate",
+      "location": "https://spiritvale.info/monsters/spook-duplicate",
+      "drop": "https://spiritvale.info/monsters/spook-duplicate"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/spook-duplicate",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "rejected",
+    "reviewNotes": "Not publishable: duplicate entity name. Source evidence retained for audit.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-expansion-shroom-duplicate",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-shroom-duplicate",
+    "rawData": {
+      "name": "Shroom",
+      "level": 26,
+      "locations": [
+        "Lake Field"
+      ],
+      "drops": [
+        "Mushroom 100%"
+      ],
+      "sourceLocator": "https://spiritvale.info/monsters/shroom-duplicate"
+    },
+    "extractedFields": {
+      "name": "Shroom",
+      "level": 26,
+      "location": [
+        "Lake Field"
+      ],
+      "drop": [
+        "Mushroom 100%"
+      ]
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/shroom-duplicate",
+      "level": "https://spiritvale.info/monsters/shroom-duplicate",
+      "location": "https://spiritvale.info/monsters/shroom-duplicate",
+      "drop": "https://spiritvale.info/monsters/shroom-duplicate"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/shroom-duplicate",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-expansion-source",
+    "confidenceScore": 90,
+    "status": "rejected",
+    "reviewNotes": "Not publishable: duplicate entity name. Source evidence retained for audit.",
+    "reviewer": "playaig-monster-expansion-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  }
+]

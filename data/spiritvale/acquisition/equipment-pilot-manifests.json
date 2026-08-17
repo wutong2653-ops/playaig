@@ -1,0 +1,2053 @@
+[
+  {
+    "manifestId": "manifest-equipment-sun-emblem",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-sun-emblem",
+    "rawData": {
+      "name": "Sun Emblem",
+      "category": "Shield",
+      "stats": [
+        "Def: +10 +1 per refine",
+        "Mdef: +10 +1 per refine",
+        "Block: +30%"
+      ],
+      "effect": "Hp: +1% per refine; Chance to autocast Heal when hit: +3%",
+      "obtained": "Lady Fey (15%); Celestial Moth (3%); Fairy (3%); Luna Moth (3%); Sylvie (3%); Crafted in Fairy Glen (Lv 31 - 35), 100 x Pouch Fairy Dust",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Sun+"
+    },
+    "extractedFields": {
+      "name": "Sun Emblem",
+      "category": "Shield",
+      "stats": [
+        "Def: +10 +1 per refine",
+        "Mdef: +10 +1 per refine",
+        "Block: +30%"
+      ],
+      "effect": "Hp: +1% per refine; Chance to autocast Heal when hit: +3%",
+      "location": "Fairy Glen (Lv 31 - 35)",
+      "drop": "Lady Fey (15%); Celestial Moth (3%); Fairy (3%); Luna Moth (3%); Sylvie (3%)",
+      "notes": "Rarity and a prose description are not published in this listing and remain unverified."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Sun+",
+      "category": "https://www.spiritvale.info/equipment?search=Sun+",
+      "stats": "https://www.spiritvale.info/equipment?search=Sun+",
+      "effect": "https://www.spiritvale.info/equipment?search=Sun+",
+      "location": "https://www.spiritvale.info/equipment?search=Sun+",
+      "drop": "https://www.spiritvale.info/equipment?search=Sun+",
+      "notes": "https://www.spiritvale.info/equipment?search=Sun+"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Sun+",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-source-pilot",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-star",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-star",
+    "rawData": {
+      "name": "Star",
+      "category": "Utility",
+      "description": "The gold catches the light beautifully, and then catches your target.",
+      "stats": [
+        "Weight Limit: +100 per refine",
+        "1 Card Slot"
+      ],
+      "effect": "Wind Damage: +5%; Wind Resistance +5%",
+      "obtained": "Raiju (10%); Breeze (2%); Gale (2%); Lightning Glimmer (2%); Voltpaw (2%); Wind Mage (2%); Crafted in Windy Desert (Lv 26 - 30), 100 x Foxtail",
+      "sourceLocator": "https://www.spiritvale.info/equipment/star"
+    },
+    "extractedFields": {
+      "name": "Star",
+      "description": "The gold catches the light beautifully, and then catches your target.",
+      "category": "Utility",
+      "stats": [
+        "Weight Limit: +100 per refine",
+        "1 Card Slot"
+      ],
+      "effect": "Wind Damage: +5%; Wind Resistance +5%",
+      "location": "Windy Desert (Lv 26 - 30)",
+      "drop": "Raiju (10%); Breeze (2%); Gale (2%); Lightning Glimmer (2%); Voltpaw (2%); Wind Mage (2%)",
+      "notes": "Rarity is not published on the detail page and remains unverified."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment/star",
+      "description": "https://www.spiritvale.info/equipment/star",
+      "category": "https://www.spiritvale.info/equipment/star",
+      "stats": "https://www.spiritvale.info/equipment/star",
+      "effect": "https://www.spiritvale.info/equipment/star",
+      "location": "https://www.spiritvale.info/equipment/star",
+      "drop": "https://www.spiritvale.info/equipment/star",
+      "notes": "https://www.spiritvale.info/equipment/star"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment/star",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-source-pilot",
+    "confidenceScore": 86,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-night-boots",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-night-boots",
+    "rawData": {
+      "name": "Night Boots",
+      "category": "Shoes",
+      "description": "Unseen rhythm guides each quiet step through impossible darkness ahead.",
+      "stats": [
+        "Def: +10 +1 per refine",
+        "Mdef: +10 +1 per refine",
+        "Move Spd: +10%"
+      ],
+      "effect": "Move Spd: +20%; Atk Spd: +10%; Cast Spd: +10%",
+      "obtained": "Cosmic Entity (5%); Chompbloom (1%); Cindermaw (1%); Stormcoil (1%); Voidgazer (1%); Crafted in Night Garden (Lv 126 - 130), 400 x Moonstone",
+      "sourceLocator": "https://www.spiritvale.info/equipment/night-boots"
+    },
+    "extractedFields": {
+      "name": "Night Boots",
+      "description": "Unseen rhythm guides each quiet step through impossible darkness ahead.",
+      "category": "Shoes",
+      "stats": [
+        "Def: +10 +1 per refine",
+        "Mdef: +10 +1 per refine",
+        "Move Spd: +10%"
+      ],
+      "effect": "Move Spd: +20%; Atk Spd: +10%; Cast Spd: +10%",
+      "location": "Night Garden (Lv 126 - 130)",
+      "drop": "Cosmic Entity (5%); Chompbloom (1%); Cindermaw (1%); Stormcoil (1%); Voidgazer (1%)",
+      "notes": "Rarity is not published on the detail page and remains unverified."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment/night-boots",
+      "description": "https://www.spiritvale.info/equipment/night-boots",
+      "category": "https://www.spiritvale.info/equipment/night-boots",
+      "stats": "https://www.spiritvale.info/equipment/night-boots",
+      "effect": "https://www.spiritvale.info/equipment/night-boots",
+      "location": "https://www.spiritvale.info/equipment/night-boots",
+      "drop": "https://www.spiritvale.info/equipment/night-boots",
+      "notes": "https://www.spiritvale.info/equipment/night-boots"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment/night-boots",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-source-pilot",
+    "confidenceScore": 86,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-moonshadow-hat",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-moonshadow-hat",
+    "rawData": {
+      "name": "Moonshadow Hat",
+      "category": "Headgear",
+      "stats": [
+        "Def: +1 +1 per refine",
+        "Mdef: +5 +1 per refine",
+        "Int: +1 per refine",
+        "Dex: +1 per refine",
+        "Cast Spd: +1% per refine"
+      ],
+      "obtained": "Crafted in Dark Forest (Lv 91 - 95), 200 x Moonrock",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Moonshadow+Hat"
+    },
+    "extractedFields": {
+      "name": "Moonshadow Hat",
+      "category": "Headgear",
+      "stats": [
+        "Def: +1 +1 per refine",
+        "Mdef: +5 +1 per refine",
+        "Int: +1 per refine",
+        "Dex: +1 per refine",
+        "Cast Spd: +1% per refine"
+      ],
+      "location": "Dark Forest (Lv 91 - 95)",
+      "notes": "Effect, rarity, and drop details are not published in this listing and remain unverified."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Moonshadow+Hat",
+      "category": "https://www.spiritvale.info/equipment?search=Moonshadow+Hat",
+      "stats": "https://www.spiritvale.info/equipment?search=Moonshadow+Hat",
+      "location": "https://www.spiritvale.info/equipment?search=Moonshadow+Hat",
+      "notes": "https://www.spiritvale.info/equipment?search=Moonshadow+Hat"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Moonshadow+Hat",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-source-pilot",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-azure-crown",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-azure-crown",
+    "rawData": {
+      "name": "Azure Crown",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Azure+Crown"
+    },
+    "extractedFields": {
+      "name": "Azure Crown",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Azure+Crown",
+      "category": "https://www.spiritvale.info/equipment?search=Azure+Crown",
+      "notes": "https://www.spiritvale.info/equipment?search=Azure+Crown"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Azure+Crown",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-battle-bonnet",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-battle-bonnet",
+    "rawData": {
+      "name": "Battle Bonnet",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Battle+Bonnet"
+    },
+    "extractedFields": {
+      "name": "Battle Bonnet",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Battle+Bonnet",
+      "category": "https://www.spiritvale.info/equipment?search=Battle+Bonnet",
+      "notes": "https://www.spiritvale.info/equipment?search=Battle+Bonnet"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Battle+Bonnet",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-bear-hug-hood",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-bear-hug-hood",
+    "rawData": {
+      "name": "Bear Hug Hood",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Bear+Hug+Hood"
+    },
+    "extractedFields": {
+      "name": "Bear Hug Hood",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Bear+Hug+Hood",
+      "category": "https://www.spiritvale.info/equipment?search=Bear+Hug+Hood",
+      "notes": "https://www.spiritvale.info/equipment?search=Bear+Hug+Hood"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Bear+Hug+Hood",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-beast-helm",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-beast-helm",
+    "rawData": {
+      "name": "Beast Helm",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Beast+Helm"
+    },
+    "extractedFields": {
+      "name": "Beast Helm",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Beast+Helm",
+      "category": "https://www.spiritvale.info/equipment?search=Beast+Helm",
+      "notes": "https://www.spiritvale.info/equipment?search=Beast+Helm"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Beast+Helm",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-bone-helm",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-bone-helm",
+    "rawData": {
+      "name": "Bone Helm",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Bone+Helm"
+    },
+    "extractedFields": {
+      "name": "Bone Helm",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Bone+Helm",
+      "category": "https://www.spiritvale.info/equipment?search=Bone+Helm",
+      "notes": "https://www.spiritvale.info/equipment?search=Bone+Helm"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Bone+Helm",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-bubblebeast-hood",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-bubblebeast-hood",
+    "rawData": {
+      "name": "Bubblebeast Hood",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Bubblebeast+Hood"
+    },
+    "extractedFields": {
+      "name": "Bubblebeast Hood",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Bubblebeast+Hood",
+      "category": "https://www.spiritvale.info/equipment?search=Bubblebeast+Hood",
+      "notes": "https://www.spiritvale.info/equipment?search=Bubblebeast+Hood"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Bubblebeast+Hood",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-bunny-cap",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-bunny-cap",
+    "rawData": {
+      "name": "Bunny Cap",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Bunny+Cap"
+    },
+    "extractedFields": {
+      "name": "Bunny Cap",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Bunny+Cap",
+      "category": "https://www.spiritvale.info/equipment?search=Bunny+Cap",
+      "notes": "https://www.spiritvale.info/equipment?search=Bunny+Cap"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Bunny+Cap",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-centurion-helm",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-centurion-helm",
+    "rawData": {
+      "name": "Centurion Helm",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Centurion+Helm"
+    },
+    "extractedFields": {
+      "name": "Centurion Helm",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Centurion+Helm",
+      "category": "https://www.spiritvale.info/equipment?search=Centurion+Helm",
+      "notes": "https://www.spiritvale.info/equipment?search=Centurion+Helm"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Centurion+Helm",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-cheshire-cat",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-cheshire-cat",
+    "rawData": {
+      "name": "Cheshire Cat",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Cheshire+Cat"
+    },
+    "extractedFields": {
+      "name": "Cheshire Cat",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Cheshire+Cat",
+      "category": "https://www.spiritvale.info/equipment?search=Cheshire+Cat",
+      "notes": "https://www.spiritvale.info/equipment?search=Cheshire+Cat"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Cheshire+Cat",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-chicky-hood",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-chicky-hood",
+    "rawData": {
+      "name": "Chicky Hood",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Chicky+Hood"
+    },
+    "extractedFields": {
+      "name": "Chicky Hood",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Chicky+Hood",
+      "category": "https://www.spiritvale.info/equipment?search=Chicky+Hood",
+      "notes": "https://www.spiritvale.info/equipment?search=Chicky+Hood"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Chicky+Hood",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-chirpy-hat",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-chirpy-hat",
+    "rawData": {
+      "name": "Chirpy Hat",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Chirpy+Hat"
+    },
+    "extractedFields": {
+      "name": "Chirpy Hat",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Chirpy+Hat",
+      "category": "https://www.spiritvale.info/equipment?search=Chirpy+Hat",
+      "notes": "https://www.spiritvale.info/equipment?search=Chirpy+Hat"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Chirpy+Hat",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-chompy-hood",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-chompy-hood",
+    "rawData": {
+      "name": "Chompy Hood",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Chompy+Hood"
+    },
+    "extractedFields": {
+      "name": "Chompy Hood",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Chompy+Hood",
+      "category": "https://www.spiritvale.info/equipment?search=Chompy+Hood",
+      "notes": "https://www.spiritvale.info/equipment?search=Chompy+Hood"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Chompy+Hood",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-crimson-crest",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-crimson-crest",
+    "rawData": {
+      "name": "Crimson Crest",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Crimson+Crest"
+    },
+    "extractedFields": {
+      "name": "Crimson Crest",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Crimson+Crest",
+      "category": "https://www.spiritvale.info/equipment?search=Crimson+Crest",
+      "notes": "https://www.spiritvale.info/equipment?search=Crimson+Crest"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Crimson+Crest",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-disciple-s-visage",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-disciple-s-visage",
+    "rawData": {
+      "name": "Disciple's Visage",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Disciple's+Visage"
+    },
+    "extractedFields": {
+      "name": "Disciple's Visage",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Disciple's+Visage",
+      "category": "https://www.spiritvale.info/equipment?search=Disciple's+Visage",
+      "notes": "https://www.spiritvale.info/equipment?search=Disciple's+Visage"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Disciple's+Visage",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-drooping-angel",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-drooping-angel",
+    "rawData": {
+      "name": "Drooping Angel",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Drooping+Angel"
+    },
+    "extractedFields": {
+      "name": "Drooping Angel",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Drooping+Angel",
+      "category": "https://www.spiritvale.info/equipment?search=Drooping+Angel",
+      "notes": "https://www.spiritvale.info/equipment?search=Drooping+Angel"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Drooping+Angel",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-drooping-bat",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-drooping-bat",
+    "rawData": {
+      "name": "Drooping Bat",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Drooping+Bat"
+    },
+    "extractedFields": {
+      "name": "Drooping Bat",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Drooping+Bat",
+      "category": "https://www.spiritvale.info/equipment?search=Drooping+Bat",
+      "notes": "https://www.spiritvale.info/equipment?search=Drooping+Bat"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Drooping+Bat",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-drooping-burrow",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-drooping-burrow",
+    "rawData": {
+      "name": "Drooping Burrow",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Drooping+Burrow"
+    },
+    "extractedFields": {
+      "name": "Drooping Burrow",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Drooping+Burrow",
+      "category": "https://www.spiritvale.info/equipment?search=Drooping+Burrow",
+      "notes": "https://www.spiritvale.info/equipment?search=Drooping+Burrow"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Drooping+Burrow",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-drooping-wraith",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-drooping-wraith",
+    "rawData": {
+      "name": "Drooping Wraith",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Drooping+Wraith"
+    },
+    "extractedFields": {
+      "name": "Drooping Wraith",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Drooping+Wraith",
+      "category": "https://www.spiritvale.info/equipment?search=Drooping+Wraith",
+      "notes": "https://www.spiritvale.info/equipment?search=Drooping+Wraith"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Drooping+Wraith",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-dustweaver-hat",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-dustweaver-hat",
+    "rawData": {
+      "name": "Dustweaver Hat",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Dustweaver+Hat"
+    },
+    "extractedFields": {
+      "name": "Dustweaver Hat",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Dustweaver+Hat",
+      "category": "https://www.spiritvale.info/equipment?search=Dustweaver+Hat",
+      "notes": "https://www.spiritvale.info/equipment?search=Dustweaver+Hat"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Dustweaver+Hat",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-emberhide-helm",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-emberhide-helm",
+    "rawData": {
+      "name": "Emberhide Helm",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Emberhide+Helm"
+    },
+    "extractedFields": {
+      "name": "Emberhide Helm",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Emberhide+Helm",
+      "category": "https://www.spiritvale.info/equipment?search=Emberhide+Helm",
+      "notes": "https://www.spiritvale.info/equipment?search=Emberhide+Helm"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Emberhide+Helm",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-falcon-band",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-falcon-band",
+    "rawData": {
+      "name": "Falcon Band",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Falcon+Band"
+    },
+    "extractedFields": {
+      "name": "Falcon Band",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Falcon+Band",
+      "category": "https://www.spiritvale.info/equipment?search=Falcon+Band",
+      "notes": "https://www.spiritvale.info/equipment?search=Falcon+Band"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Falcon+Band",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-feathered-scout-hat",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-feathered-scout-hat",
+    "rawData": {
+      "name": "Feathered Scout Hat",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Feathered+Scout+Hat"
+    },
+    "extractedFields": {
+      "name": "Feathered Scout Hat",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Feathered+Scout+Hat",
+      "category": "https://www.spiritvale.info/equipment?search=Feathered+Scout+Hat",
+      "notes": "https://www.spiritvale.info/equipment?search=Feathered+Scout+Hat"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Feathered+Scout+Hat",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-festive-gift-box",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-festive-gift-box",
+    "rawData": {
+      "name": "Festive Gift Box",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Festive+Gift+Box"
+    },
+    "extractedFields": {
+      "name": "Festive Gift Box",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Festive+Gift+Box",
+      "category": "https://www.spiritvale.info/equipment?search=Festive+Gift+Box",
+      "notes": "https://www.spiritvale.info/equipment?search=Festive+Gift+Box"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Festive+Gift+Box",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-forest-friend-hat",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-forest-friend-hat",
+    "rawData": {
+      "name": "Forest Friend Hat",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Forest+Friend+Hat"
+    },
+    "extractedFields": {
+      "name": "Forest Friend Hat",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Forest+Friend+Hat",
+      "category": "https://www.spiritvale.info/equipment?search=Forest+Friend+Hat",
+      "notes": "https://www.spiritvale.info/equipment?search=Forest+Friend+Hat"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Forest+Friend+Hat",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-frostscale-helm",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-frostscale-helm",
+    "rawData": {
+      "name": "Frostscale Helm",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Frostscale+Helm"
+    },
+    "extractedFields": {
+      "name": "Frostscale Helm",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Frostscale+Helm",
+      "category": "https://www.spiritvale.info/equipment?search=Frostscale+Helm",
+      "notes": "https://www.spiritvale.info/equipment?search=Frostscale+Helm"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Frostscale+Helm",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-ghostly-hat",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-ghostly-hat",
+    "rawData": {
+      "name": "Ghostly Hat",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Ghostly+Hat"
+    },
+    "extractedFields": {
+      "name": "Ghostly Hat",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Ghostly+Hat",
+      "category": "https://www.spiritvale.info/equipment?search=Ghostly+Hat",
+      "notes": "https://www.spiritvale.info/equipment?search=Ghostly+Hat"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Ghostly+Hat",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-golden-crown",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-golden-crown",
+    "rawData": {
+      "name": "Golden Crown",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Golden+Crown"
+    },
+    "extractedFields": {
+      "name": "Golden Crown",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Golden+Crown",
+      "category": "https://www.spiritvale.info/equipment?search=Golden+Crown",
+      "notes": "https://www.spiritvale.info/equipment?search=Golden+Crown"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Golden+Crown",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-grave-helm",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-grave-helm",
+    "rawData": {
+      "name": "Grave Helm",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Grave+Helm"
+    },
+    "extractedFields": {
+      "name": "Grave Helm",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Grave+Helm",
+      "category": "https://www.spiritvale.info/equipment?search=Grave+Helm",
+      "notes": "https://www.spiritvale.info/equipment?search=Grave+Helm"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Grave+Helm",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-happy-chipper-hat",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-happy-chipper-hat",
+    "rawData": {
+      "name": "Happy Chipper Hat",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Happy+Chipper+Hat"
+    },
+    "extractedFields": {
+      "name": "Happy Chipper Hat",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Happy+Chipper+Hat",
+      "category": "https://www.spiritvale.info/equipment?search=Happy+Chipper+Hat",
+      "notes": "https://www.spiritvale.info/equipment?search=Happy+Chipper+Hat"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Happy+Chipper+Hat",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-harlequin-s-hood",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-harlequin-s-hood",
+    "rawData": {
+      "name": "Harlequin's Hood",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Harlequin's+Hood"
+    },
+    "extractedFields": {
+      "name": "Harlequin's Hood",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Harlequin's+Hood",
+      "category": "https://www.spiritvale.info/equipment?search=Harlequin's+Hood",
+      "notes": "https://www.spiritvale.info/equipment?search=Harlequin's+Hood"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Harlequin's+Hood",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-hellhorn-hood",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-hellhorn-hood",
+    "rawData": {
+      "name": "Hellhorn Hood",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Hellhorn+Hood"
+    },
+    "extractedFields": {
+      "name": "Hellhorn Hood",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Hellhorn+Hood",
+      "category": "https://www.spiritvale.info/equipment?search=Hellhorn+Hood",
+      "notes": "https://www.spiritvale.info/equipment?search=Hellhorn+Hood"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Hellhorn+Hood",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-hexweaver-hat",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-hexweaver-hat",
+    "rawData": {
+      "name": "Hexweaver Hat",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Hexweaver+Hat"
+    },
+    "extractedFields": {
+      "name": "Hexweaver Hat",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Hexweaver+Hat",
+      "category": "https://www.spiritvale.info/equipment?search=Hexweaver+Hat",
+      "notes": "https://www.spiritvale.info/equipment?search=Hexweaver+Hat"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Hexweaver+Hat",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-horned-crusader-helm",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-horned-crusader-helm",
+    "rawData": {
+      "name": "Horned Crusader Helm",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Horned+Crusader+Helm"
+    },
+    "extractedFields": {
+      "name": "Horned Crusader Helm",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Horned+Crusader+Helm",
+      "category": "https://www.spiritvale.info/equipment?search=Horned+Crusader+Helm",
+      "notes": "https://www.spiritvale.info/equipment?search=Horned+Crusader+Helm"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Horned+Crusader+Helm",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-ironhorn-cap",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-ironhorn-cap",
+    "rawData": {
+      "name": "Ironhorn Cap",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Ironhorn+Cap"
+    },
+    "extractedFields": {
+      "name": "Ironhorn Cap",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Ironhorn+Cap",
+      "category": "https://www.spiritvale.info/equipment?search=Ironhorn+Cap",
+      "notes": "https://www.spiritvale.info/equipment?search=Ironhorn+Cap"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Ironhorn+Cap",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-jack-o-lantern",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-jack-o-lantern",
+    "rawData": {
+      "name": "Jack-o'-lantern",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Jack-o'-lantern"
+    },
+    "extractedFields": {
+      "name": "Jack-o'-lantern",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Jack-o'-lantern",
+      "category": "https://www.spiritvale.info/equipment?search=Jack-o'-lantern",
+      "notes": "https://www.spiritvale.info/equipment?search=Jack-o'-lantern"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Jack-o'-lantern",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-mischief-gift-box",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-mischief-gift-box",
+    "rawData": {
+      "name": "Mischief Gift Box",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Mischief+Gift+Box"
+    },
+    "extractedFields": {
+      "name": "Mischief Gift Box",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Mischief+Gift+Box",
+      "category": "https://www.spiritvale.info/equipment?search=Mischief+Gift+Box",
+      "notes": "https://www.spiritvale.info/equipment?search=Mischief+Gift+Box"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Mischief+Gift+Box",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-mitre-of-sanctity",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-mitre-of-sanctity",
+    "rawData": {
+      "name": "Mitre of Sanctity",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Mitre+of+Sanctity"
+    },
+    "extractedFields": {
+      "name": "Mitre of Sanctity",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Mitre+of+Sanctity",
+      "category": "https://www.spiritvale.info/equipment?search=Mitre+of+Sanctity",
+      "notes": "https://www.spiritvale.info/equipment?search=Mitre+of+Sanctity"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Mitre+of+Sanctity",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-mystic-hood",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-mystic-hood",
+    "rawData": {
+      "name": "Mystic Hood",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Mystic+Hood"
+    },
+    "extractedFields": {
+      "name": "Mystic Hood",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Mystic+Hood",
+      "category": "https://www.spiritvale.info/equipment?search=Mystic+Hood",
+      "notes": "https://www.spiritvale.info/equipment?search=Mystic+Hood"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Mystic+Hood",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-neko-hood",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-neko-hood",
+    "rawData": {
+      "name": "Neko Hood",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Neko+Hood"
+    },
+    "extractedFields": {
+      "name": "Neko Hood",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Neko+Hood",
+      "category": "https://www.spiritvale.info/equipment?search=Neko+Hood",
+      "notes": "https://www.spiritvale.info/equipment?search=Neko+Hood"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Neko+Hood",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-night-helm",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-night-helm",
+    "rawData": {
+      "name": "Night Helm",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Night+Helm"
+    },
+    "extractedFields": {
+      "name": "Night Helm",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Night+Helm",
+      "category": "https://www.spiritvale.info/equipment?search=Night+Helm",
+      "notes": "https://www.spiritvale.info/equipment?search=Night+Helm"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Night+Helm",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-ninja-hood",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-ninja-hood",
+    "rawData": {
+      "name": "Ninja Hood",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Ninja+Hood"
+    },
+    "extractedFields": {
+      "name": "Ninja Hood",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Ninja+Hood",
+      "category": "https://www.spiritvale.info/equipment?search=Ninja+Hood",
+      "notes": "https://www.spiritvale.info/equipment?search=Ninja+Hood"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Ninja+Hood",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-oathbound-helm",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-oathbound-helm",
+    "rawData": {
+      "name": "Oathbound Helm",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Oathbound+Helm"
+    },
+    "extractedFields": {
+      "name": "Oathbound Helm",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Oathbound+Helm",
+      "category": "https://www.spiritvale.info/equipment?search=Oathbound+Helm",
+      "notes": "https://www.spiritvale.info/equipment?search=Oathbound+Helm"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Oathbound+Helm",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-paladin-crest",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-paladin-crest",
+    "rawData": {
+      "name": "Paladin Crest",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Paladin+Crest"
+    },
+    "extractedFields": {
+      "name": "Paladin Crest",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Paladin+Crest",
+      "category": "https://www.spiritvale.info/equipment?search=Paladin+Crest",
+      "notes": "https://www.spiritvale.info/equipment?search=Paladin+Crest"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Paladin+Crest",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-pirate-hat",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-pirate-hat",
+    "rawData": {
+      "name": "Pirate Hat",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Pirate+Hat"
+    },
+    "extractedFields": {
+      "name": "Pirate Hat",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Pirate+Hat",
+      "category": "https://www.spiritvale.info/equipment?search=Pirate+Hat",
+      "notes": "https://www.spiritvale.info/equipment?search=Pirate+Hat"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Pirate+Hat",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-plasma-helmet",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-plasma-helmet",
+    "rawData": {
+      "name": "Plasma Helmet",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Plasma+Helmet"
+    },
+    "extractedFields": {
+      "name": "Plasma Helmet",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Plasma+Helmet",
+      "category": "https://www.spiritvale.info/equipment?search=Plasma+Helmet",
+      "notes": "https://www.spiritvale.info/equipment?search=Plasma+Helmet"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Plasma+Helmet",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-ram-skull-mask",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-ram-skull-mask",
+    "rawData": {
+      "name": "Ram Skull Mask",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Ram+Skull+Mask"
+    },
+    "extractedFields": {
+      "name": "Ram Skull Mask",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Ram+Skull+Mask",
+      "category": "https://www.spiritvale.info/equipment?search=Ram+Skull+Mask",
+      "notes": "https://www.spiritvale.info/equipment?search=Ram+Skull+Mask"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Ram+Skull+Mask",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 78,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field permissions, and conflict status reviewed for the Equipment pilot. Community-source records remain partially verified; unsupported rarity is not inferred.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-reindeer-headband",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-reindeer-headband",
+    "rawData": {
+      "name": "Reindeer Headband",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Reindeer+Headband"
+    },
+    "extractedFields": {
+      "name": "Reindeer Headband",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Reindeer+Headband",
+      "category": "https://www.spiritvale.info/equipment?search=Reindeer+Headband",
+      "notes": "https://www.spiritvale.info/equipment?search=Reindeer+Headband"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Reindeer+Headband",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 68,
+    "status": "rejected",
+    "reviewNotes": "Rejected at the confidence gate: the candidate did not meet the 75 minimum for this batch.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-reindeer-hood",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-reindeer-hood",
+    "rawData": {
+      "name": "Reindeer Hood",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Reindeer+Hood"
+    },
+    "extractedFields": {
+      "name": "Reindeer Hood",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Reindeer+Hood",
+      "category": "https://www.spiritvale.info/equipment?search=Reindeer+Hood",
+      "notes": "https://www.spiritvale.info/equipment?search=Reindeer+Hood"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Reindeer+Hood",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 68,
+    "status": "rejected",
+    "reviewNotes": "Rejected at the confidence gate: the candidate did not meet the 75 minimum for this batch.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-safety-helmet",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-safety-helmet",
+    "rawData": {
+      "name": "Safety Helmet",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Safety+Helmet"
+    },
+    "extractedFields": {
+      "name": "Safety Helmet",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Safety+Helmet",
+      "category": "https://www.spiritvale.info/equipment?search=Safety+Helmet",
+      "notes": "https://www.spiritvale.info/equipment?search=Safety+Helmet"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Safety+Helmet",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 68,
+    "status": "rejected",
+    "reviewNotes": "Rejected at the confidence gate: the candidate did not meet the 75 minimum for this batch.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-santa-hat",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-santa-hat",
+    "rawData": {
+      "name": "Santa Hat",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Santa+Hat"
+    },
+    "extractedFields": {
+      "name": "Santa Hat",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Santa+Hat",
+      "category": "https://www.spiritvale.info/equipment?search=Santa+Hat",
+      "notes": "https://www.spiritvale.info/equipment?search=Santa+Hat"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Santa+Hat",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 68,
+    "status": "rejected",
+    "reviewNotes": "Rejected at the confidence gate: the candidate did not meet the 75 minimum for this batch.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-sapphire-crown",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-sapphire-crown",
+    "rawData": {
+      "name": "Sapphire Crown",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Sapphire+Crown"
+    },
+    "extractedFields": {
+      "name": "Sapphire Crown",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Sapphire+Crown",
+      "category": "https://www.spiritvale.info/equipment?search=Sapphire+Crown",
+      "notes": "https://www.spiritvale.info/equipment?search=Sapphire+Crown"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Sapphire+Crown",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 68,
+    "status": "rejected",
+    "reviewNotes": "Rejected at the confidence gate: the candidate did not meet the 75 minimum for this batch.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-sharkbite-hood",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-sharkbite-hood",
+    "rawData": {
+      "name": "Sharkbite Hood",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Sharkbite+Hood"
+    },
+    "extractedFields": {
+      "name": "Sharkbite Hood",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Sharkbite+Hood",
+      "category": "https://www.spiritvale.info/equipment?search=Sharkbite+Hood",
+      "notes": "https://www.spiritvale.info/equipment?search=Sharkbite+Hood"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Sharkbite+Hood",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 68,
+    "status": "rejected",
+    "reviewNotes": "Rejected at the confidence gate: the candidate did not meet the 75 minimum for this batch.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-snowman-head",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-snowman-head",
+    "rawData": {
+      "name": "Snowman Head",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Snowman+Head"
+    },
+    "extractedFields": {
+      "name": "Snowman Head",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Snowman+Head",
+      "category": "https://www.spiritvale.info/equipment?search=Snowman+Head",
+      "notes": "https://www.spiritvale.info/equipment?search=Snowman+Head"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Snowman+Head",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 68,
+    "status": "rejected",
+    "reviewNotes": "Rejected at the confidence gate: the candidate did not meet the 75 minimum for this batch.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-spikesteel-helm",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-spikesteel-helm",
+    "rawData": {
+      "name": "Spikesteel Helm",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Spikesteel+Helm"
+    },
+    "extractedFields": {
+      "name": "Spikesteel Helm",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Spikesteel+Helm",
+      "category": "https://www.spiritvale.info/equipment?search=Spikesteel+Helm",
+      "notes": "https://www.spiritvale.info/equipment?search=Spikesteel+Helm"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Spikesteel+Helm",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 68,
+    "status": "rejected",
+    "reviewNotes": "Rejected at the confidence gate: the candidate did not meet the 75 minimum for this batch.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-spooky-spell-hat",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-spooky-spell-hat",
+    "rawData": {
+      "name": "Spooky Spell Hat",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Spooky+Spell+Hat"
+    },
+    "extractedFields": {
+      "name": "Spooky Spell Hat",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Spooky+Spell+Hat",
+      "category": "https://www.spiritvale.info/equipment?search=Spooky+Spell+Hat",
+      "notes": "https://www.spiritvale.info/equipment?search=Spooky+Spell+Hat"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Spooky+Spell+Hat",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 68,
+    "status": "rejected",
+    "reviewNotes": "Rejected at the confidence gate: the candidate did not meet the 75 minimum for this batch.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-starbound-hat",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-starbound-hat",
+    "rawData": {
+      "name": "Starbound Hat",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Starbound+Hat"
+    },
+    "extractedFields": {
+      "name": "Starbound Hat",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Starbound+Hat",
+      "category": "https://www.spiritvale.info/equipment?search=Starbound+Hat",
+      "notes": "https://www.spiritvale.info/equipment?search=Starbound+Hat"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Starbound+Hat",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 68,
+    "status": "rejected",
+    "reviewNotes": "Rejected at the confidence gate: the candidate did not meet the 75 minimum for this batch.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-stormplate-helm",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-stormplate-helm",
+    "rawData": {
+      "name": "Stormplate Helm",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Stormplate+Helm"
+    },
+    "extractedFields": {
+      "name": "Stormplate Helm",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Stormplate+Helm",
+      "category": "https://www.spiritvale.info/equipment?search=Stormplate+Helm",
+      "notes": "https://www.spiritvale.info/equipment?search=Stormplate+Helm"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Stormplate+Helm",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 68,
+    "status": "rejected",
+    "reviewNotes": "Rejected at the confidence gate: the candidate did not meet the 75 minimum for this batch.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-swampy-hat",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-swampy-hat",
+    "rawData": {
+      "name": "Swampy Hat",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Swampy+Hat"
+    },
+    "extractedFields": {
+      "name": "Swampy Hat",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Swampy+Hat",
+      "category": "https://www.spiritvale.info/equipment?search=Swampy+Hat",
+      "notes": "https://www.spiritvale.info/equipment?search=Swampy+Hat"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Swampy+Hat",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 68,
+    "status": "rejected",
+    "reviewNotes": "Rejected at the confidence gate: the candidate did not meet the 75 minimum for this batch.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-top-hat",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-top-hat",
+    "rawData": {
+      "name": "Top Hat",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Top+Hat"
+    },
+    "extractedFields": {
+      "name": "Top Hat",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Top+Hat",
+      "category": "https://www.spiritvale.info/equipment?search=Top+Hat",
+      "notes": "https://www.spiritvale.info/equipment?search=Top+Hat"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Top+Hat",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 68,
+    "status": "rejected",
+    "reviewNotes": "Rejected at the confidence gate: the candidate did not meet the 75 minimum for this batch.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-valiant-crown",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-valiant-crown",
+    "rawData": {
+      "name": "Valiant Crown",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Valiant+Crown"
+    },
+    "extractedFields": {
+      "name": "Valiant Crown",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Valiant+Crown",
+      "category": "https://www.spiritvale.info/equipment?search=Valiant+Crown",
+      "notes": "https://www.spiritvale.info/equipment?search=Valiant+Crown"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Valiant+Crown",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 68,
+    "status": "rejected",
+    "reviewNotes": "Rejected at the confidence gate: the candidate did not meet the 75 minimum for this batch.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-white-bishop-s-hood",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-white-bishop-s-hood",
+    "rawData": {
+      "name": "White Bishop's Hood",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=White+Bishop's+Hood"
+    },
+    "extractedFields": {
+      "name": "White Bishop's Hood",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=White+Bishop's+Hood",
+      "category": "https://www.spiritvale.info/equipment?search=White+Bishop's+Hood",
+      "notes": "https://www.spiritvale.info/equipment?search=White+Bishop's+Hood"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=White+Bishop's+Hood",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 68,
+    "status": "rejected",
+    "reviewNotes": "Rejected at the confidence gate: the candidate did not meet the 75 minimum for this batch.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-wildroot-veil",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-wildroot-veil",
+    "rawData": {
+      "name": "Wildroot Veil",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Wildroot+Veil"
+    },
+    "extractedFields": {
+      "name": "Wildroot Veil",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Wildroot+Veil",
+      "category": "https://www.spiritvale.info/equipment?search=Wildroot+Veil",
+      "notes": "https://www.spiritvale.info/equipment?search=Wildroot+Veil"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Wildroot+Veil",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 68,
+    "status": "rejected",
+    "reviewNotes": "Rejected at the confidence gate: the candidate did not meet the 75 minimum for this batch.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-winged-helm",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-winged-helm",
+    "rawData": {
+      "name": "Winged Helm",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Winged+Helm"
+    },
+    "extractedFields": {
+      "name": "Winged Helm",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Winged+Helm",
+      "category": "https://www.spiritvale.info/equipment?search=Winged+Helm",
+      "notes": "https://www.spiritvale.info/equipment?search=Winged+Helm"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Winged+Helm",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 68,
+    "status": "rejected",
+    "reviewNotes": "Rejected at the confidence gate: the candidate did not meet the 75 minimum for this batch.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-equipment-expansion-wizardry-hat",
+    "sourceId": "source-community-spiritvale-info-equipment",
+    "entityType": "equipment",
+    "entityIdCandidate": "equipment-wizardry-hat",
+    "rawData": {
+      "name": "Wizardry Hat",
+      "category": "Headgear",
+      "sourceLocator": "https://www.spiritvale.info/equipment?search=Wizardry+Hat"
+    },
+    "extractedFields": {
+      "name": "Wizardry Hat",
+      "category": "Headgear",
+      "notes": "Source listing evidence captured for the expansion batch. Stats, effect, rarity and acquisition details remain pending field-level normalization."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/equipment?search=Wizardry+Hat",
+      "category": "https://www.spiritvale.info/equipment?search=Wizardry+Hat",
+      "notes": "https://www.spiritvale.info/equipment?search=Wizardry+Hat"
+    },
+    "sourceLocator": "https://www.spiritvale.info/equipment?search=Wizardry+Hat",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-equipment-expansion",
+    "confidenceScore": 68,
+    "status": "rejected",
+    "reviewNotes": "Rejected at the confidence gate: the candidate did not meet the 75 minimum for this batch.",
+    "reviewer": "playaig-equipment-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  }
+]

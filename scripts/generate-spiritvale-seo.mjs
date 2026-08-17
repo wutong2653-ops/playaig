@@ -8,6 +8,16 @@ const siteName = "PlayAIG";
 const siteDescription = "PlayAIG provides verified game wikis, guides, classes and databases based on official sources.";
 const guides = JSON.parse(await readFile(resolve(root, "data/spiritvale/guides/guides.json"), "utf8"));
 const classes = JSON.parse(await readFile(resolve(root, "data/spiritvale/classes/classes.json"), "utf8"));
+const cards = JSON.parse(await readFile(resolve(root, "data/spiritvale/cards/cards.json"), "utf8"));
+const equipment = JSON.parse(await readFile(resolve(root, "data/spiritvale/equipment/equipment.json"), "utf8"));
+const monsters = JSON.parse(await readFile(resolve(root, "data/spiritvale/monsters/monsters.json"), "utf8"));
+const skills = JSON.parse(await readFile(resolve(root, "data/spiritvale/skills/skills.json"), "utf8"));
+const sources = JSON.parse(await readFile(resolve(root, "data/spiritvale/sources/sources.json"), "utf8"));
+const sourceIds = new Set(sources.map((source) => source.id));
+const validCards = cards.filter((card) => card.id && card.slug && card.name && card.sourceIds?.length && card.sourceIds.every((sourceId) => sourceIds.has(sourceId)));
+const validEquipment = equipment.filter((item) => item.id && item.slug && item.name && item.status === "published" && item.sourceIds?.length && item.sourceIds.every((sourceId) => sourceIds.has(sourceId)));
+const validMonsters = monsters.filter((monster) => monster.id && monster.slug && monster.name && monster.status === "published" && monster.sourceIds?.length && monster.sourceIds.every((sourceId) => sourceIds.has(sourceId)));
+const validSkills = skills.filter((skill) => skill.id && skill.slug && skill.name && skill.status === "published" && skill.sourceIds?.length && skill.sourceIds.every((sourceId) => sourceIds.has(sourceId)));
 const databaseCategoryIds = ["skills", "equipment", "cards", "artifacts", "monsters", "bosses", "maps"];
 
 function escapeXml(value) {
@@ -30,7 +40,11 @@ const sitemapPaths = [
   "/database/",
   ...guides.map((guide) => guide.seo.canonicalPath),
   ...classes.filter((gameClass) => gameClass.classType === "base").map((gameClass) => "/classes/" + gameClass.slug + "/"),
-  ...databaseCategoryIds.map((categoryId) => "/database/" + categoryId + "/")
+  ...databaseCategoryIds.map((categoryId) => "/database/" + categoryId + "/"),
+  ...validCards.map((card) => "/database/cards/" + card.slug + "/"),
+  ...validEquipment.map((item) => "/database/equipment/" + item.slug + "/"),
+  ...validMonsters.map((monster) => "/database/monsters/" + monster.slug + "/")
+  ,...validSkills.map((skill) => "/database/skills/" + skill.slug + "/")
 ];
 const uniqueSitemapPaths = [...new Set(sitemapPaths)];
 const sitemap = [
@@ -176,4 +190,8 @@ await writeFile(rootIndex, baseHtml.replace("</head>", homepageHead + "</head>")
 console.log("SpiritVale SEO discovery files generated");
 console.log("Sitemap URLs: " + uniqueSitemapPaths.length);
 console.log("RSS guide items: " + guides.length);
+console.log("Verified card entity URLs: " + validCards.length);
+console.log("Partially verified equipment entity URLs: " + validEquipment.length);
+console.log("Partially verified monster entity URLs: " + validMonsters.length);
+console.log("Partially verified skill entity URLs: " + validSkills.length);
 console.log("SEO base URL: " + siteUrl);

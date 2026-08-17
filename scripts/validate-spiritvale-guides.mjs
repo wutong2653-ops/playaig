@@ -20,8 +20,22 @@ const site = readText("src/app/site.ts");
 const assetIds = new Set(assets.map((asset) => asset.id));
 const sourceIds = new Set(sources.map((source) => source.id));
 const guideIds = new Set(guides.map((guide) => guide.id));
+const landingGuideTitles = {
+  "beginner-guide": "SpiritVale Beginner Guide 2026: Starter Guide | PlayAIG",
+  "class-guide": "SpiritVale Class Guide 2026: Base Classes | PlayAIG",
+  "card-system-guide": "SpiritVale Card System Guide 2026: Complete Tips | PlayAIG",
+  "leveling-guide": "SpiritVale Leveling Guide 2026: Complete Tips | PlayAIG",
+  "stats-guide": "SpiritVale Stats Guide 2026: Complete Review | PlayAIG",
+  "first-steps": "SpiritVale First Steps Guide 2026 | PlayAIG",
+  "early-game-strategy": "SpiritVale Early Game Strategy Guide 2026 | PlayAIG",
+  "common-beginner-mistakes": "SpiritVale Beginner Mistakes To Avoid | PlayAIG",
+  "class-comparison": "SpiritVale Class Comparison Guide 2026 | PlayAIG",
+  "best-classes-for-beginners": "Best SpiritVale Classes For Beginners 2026 | PlayAIG",
+  "cards/card-effects": "SpiritVale Card Effects Guide 2026 | PlayAIG",
+  "equipment/upgrade-system": "SpiritVale Equipment Upgrade Guide 2026 | PlayAIG"
+};
 
-if (guides.length !== 5) fail("Expected 5 launch guides; found " + guides.length + ".");
+if (guides.length !== 12) fail("Expected 12 published guides after Tier 1 expansion; found " + guides.length + ".");
 if (!app.includes('pathname === "/guides/"') || !app.includes("GuideDetailPage") || !app.includes("GuideNotFoundPage")) {
   fail("Guides index, shared detail route, or Guide Not Found route is missing.");
 }
@@ -99,7 +113,8 @@ const missingStaticRoutes = expectedStaticRoutes.filter((route) => !existsSync(r
 if (missingStaticRoutes.length) fail("Missing static route metadata output: " + missingStaticRoutes.join(", ") + ".");
 for (const guide of guides) {
   const routeHtml = readText("dist-playground" + guide.seo.canonicalPath + "index.html");
-  if (!routeHtml.includes("<title>" + guide.seo.title + "</title>")) fail(guide.id + " static title is missing.");
+  const expectedTitle = landingGuideTitles[guide.slug] || guide.seo.title;
+  if (!routeHtml.includes("<title>" + expectedTitle + "</title>")) fail(guide.id + " static title is missing.");
   if (!routeHtml.includes('rel="canonical" href="' + siteUrl + guide.seo.canonicalPath + '"')) fail(guide.id + " static canonical is missing.");
   if ((routeHtml.match(/meta name="description"/g) ?? []).length !== 1) fail(guide.id + " static metadata has an invalid description count.");
   const jsonLdRecords = [...routeHtml.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((match) => JSON.parse(match[1]));
@@ -108,7 +123,7 @@ for (const guide of guides) {
 }
 
 console.log("SpiritVale guide validation PASSED");
-console.log("Launch guides: " + guides.length);
+console.log("Published guides: " + guides.length);
 console.log("Guide canonical paths: " + canonicalPaths.size);
 console.log("Resolved guide image references: " + imageCount);
 console.log("Missing guide image references: 0");

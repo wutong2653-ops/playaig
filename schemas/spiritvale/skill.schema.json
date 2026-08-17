@@ -1,1 +1,36 @@
-{"$schema":"https://json-schema.org/draft/2020-12/schema","$id":"https://playaig.com/schemas/skill.schema.json","type":"object","additionalProperties":false,"required":["id","slug","name","shortDescription","description","status","verificationStatus","sourceIds","gameVersionId","imageAssetIds","createdAt","updatedAt","lastVerifiedAt","notes","classIds","skillTypeIds","elementIds","levelRequirement","jobLevelRequirement","maxLevel","cooldownSeconds","resourceCost","effectText","scaling","prerequisiteSkillIds","nextSkillIds"],"properties":{"id":{"type":"string","pattern":"^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"},"slug":{"type":"string","pattern":"^[a-z0-9]+(?:-[a-z0-9]+)*$"},"name":{"type":"string","minLength":1},"shortDescription":{"type":["string","null"]},"description":{"type":["string","null"]},"status":{"enum":["draft","review","published","archived"]},"verificationStatus":{"enum":["verified","partially-verified","unverified"]},"sourceIds":{"type":"array","items":{"type":"string"},"uniqueItems":true},"gameVersionId":{"type":["string","null"]},"imageAssetIds":{"type":"array","items":{"type":"string"},"uniqueItems":true},"createdAt":{"type":"string","format":"date-time"},"updatedAt":{"type":"string","format":"date-time"},"lastVerifiedAt":{"type":["string","null"],"format":"date-time"},"notes":{"type":["string","null"]},"classIds":{"type":"array","items":{"type":"string"},"uniqueItems":true},"skillTypeIds":{"type":"array","items":{"type":"string"},"uniqueItems":true},"elementIds":{"type":"array","items":{"type":"string"},"uniqueItems":true},"levelRequirement":{"type":["integer","null"],"minimum":0},"jobLevelRequirement":{"type":["integer","null"],"minimum":0},"maxLevel":{"type":["integer","null"],"minimum":0},"cooldownSeconds":{"type":["number","null"],"minimum":0},"resourceCost":{"type":["number","string","null"]},"effectText":{"type":["string","null"]},"scaling":{"type":"array","items":{"type":"object"}},"prerequisiteSkillIds":{"type":"array","items":{"type":"string"},"uniqueItems":true},"nextSkillIds":{"type":"array","items":{"type":"string"},"uniqueItems":true}}}
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://playaig.com/schemas/skill.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "slug", "name", "shortDescription", "description", "status", "verificationStatus", "sourceIds", "gameVersionId", "imageAssetIds", "createdAt", "updatedAt", "lastVerifiedAt", "notes", "classIds", "skillTypeIds", "elementIds", "levelRequirement", "jobLevelRequirement", "maxLevel", "cooldownSeconds", "resourceCost", "effectText", "scaling", "prerequisiteSkillIds", "nextSkillIds", "relatedGuideIds"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$" },
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "name": { "type": "string", "minLength": 1 },
+    "shortDescription": { "type": ["string", "null"] },
+    "description": { "type": ["string", "null"] },
+    "status": { "enum": ["draft", "review", "published", "archived"] },
+    "verificationStatus": { "enum": ["verified", "partially-verified", "unverified"] },
+    "sourceIds": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "gameVersionId": { "type": ["string", "null"] },
+    "imageAssetIds": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "lastVerifiedAt": { "type": ["string", "null"], "format": "date-time" },
+    "notes": { "type": ["string", "null"] },
+    "classIds": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "skillTypeIds": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "elementIds": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "levelRequirement": { "type": ["integer", "null"], "minimum": 0 },
+    "jobLevelRequirement": { "type": ["integer", "null"], "minimum": 0 },
+    "maxLevel": { "type": ["integer", "null"], "minimum": 0 },
+    "cooldownSeconds": { "type": ["number", "null"], "minimum": 0 },
+    "resourceCost": { "type": ["number", "string", "null"] },
+    "effectText": { "type": ["string", "null"] },
+    "scaling": { "type": "array", "items": { "type": "object" } },
+    "prerequisiteSkillIds": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "nextSkillIds": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "relatedGuideIds": { "type": "array", "items": { "type": "string" }, "uniqueItems": true }
+  }
+}

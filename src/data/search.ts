@@ -1,8 +1,12 @@
 import {
   getClasses,
+  getCards,
   getDatabaseCategories,
   getDatabaseEntries,
+  getEquipments,
   getGuides,
+  getMonsters,
+  getSkills,
   getSource
 } from "./content";
 import type { SearchCategory, SpiritValeSearchRecord } from "./types";
@@ -70,7 +74,47 @@ export function getSpiritValeSearchIndex(): SpiritValeSearchRecord[] {
     sourceType: "official-steam",
     searchableText: [category.label, "database", category.description].join(" ")
   }));
-  return [...guides, ...classRecords, ...databaseRecords];
+  const cardRecords = getCards().map((card) => ({
+    id: "card-" + card.id,
+    title: card.name + " Card",
+    category: "database" as const,
+    summary: card.description ?? "Verified SpiritVale card information.",
+    verificationStatus: "verified" as const,
+    url: "/database/cards/" + card.slug + "/",
+    sourceType: sourceTypeFor(card.sourceIds),
+    searchableText: [card.name, card.slug, card.category, card.rarity, card.effect, card.description].filter((value): value is string => Boolean(value)).join(" ")
+  }));
+  const equipmentRecords = getEquipments().map((equipment) => ({
+    id: "equipment-" + equipment.id,
+    title: equipment.name + " Equipment",
+    category: "database" as const,
+    summary: equipment.shortDescription ?? equipment.description ?? "Source-backed SpiritVale equipment information.",
+    verificationStatus: equipment.verificationStatus,
+    url: "/database/equipment/" + equipment.slug + "/",
+    sourceType: sourceTypeFor(equipment.sourceIds),
+    searchableText: [equipment.name, equipment.slug, equipment.category, ...equipment.stats, equipment.effect, equipment.location, equipment.drop, equipment.description].filter((value): value is string => Boolean(value)).join(" ")
+  }));
+  const monsterRecords = getMonsters().map((monster) => ({
+    id: "monster-" + monster.id,
+    title: monster.name + " Monster",
+    category: "database" as const,
+    summary: monster.level === null ? "Source-backed SpiritVale monster record." : "Level " + monster.level + " source-backed SpiritVale monster record.",
+    verificationStatus: monster.verificationStatus,
+    url: "/database/monsters/" + monster.slug + "/",
+    sourceType: sourceTypeFor(monster.sourceIds),
+    searchableText: [monster.name, monster.slug, monster.level === null ? null : String(monster.level), ...monster.location, ...monster.drop, monster.description, monster.notes].filter((value): value is string => Boolean(value)).join(" ")
+  }));
+  const skillRecords = getSkills().map((skill) => ({
+    id: "skill-" + skill.id,
+    title: skill.name + " Skill",
+    category: "database" as const,
+    summary: skill.shortDescription ?? skill.description ?? "Source-backed SpiritVale skill information.",
+    verificationStatus: skill.verificationStatus,
+    url: "/database/skills/" + skill.slug + "/",
+    sourceType: sourceTypeFor(skill.sourceIds),
+    searchableText: [skill.name, skill.slug, skill.description, skill.effectText, ...skill.classIds, skill.notes].filter((value): value is string => Boolean(value)).join(" ")
+  }));
+  return [...guides, ...classRecords, ...databaseRecords, ...cardRecords, ...equipmentRecords, ...monsterRecords, ...skillRecords];
 }
 
 export function searchSpiritVale(query: string, filter: SearchFilter = "all") {

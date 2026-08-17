@@ -9,7 +9,11 @@
     "typecheck": "tsc -b --pretty false",
     "lint": "eslint .",
     "playground": "vite --host 127.0.0.1",
-    "test": "node scripts/validate-spiritvale-homepage.mjs && node scripts/validate-spiritvale-guides.mjs && node scripts/validate-spiritvale-classes.mjs && node scripts/validate-spiritvale-database.mjs && node scripts/validate-spiritvale-search.mjs && node scripts/validate-playaig-release-ui.mjs"
+  "test": "node scripts/validate-spiritvale-homepage.mjs && node scripts/validate-spiritvale-guides.mjs && node scripts/validate-spiritvale-classes.mjs && node scripts/validate-spiritvale-database.mjs && node scripts/validate-spiritvale-cards.mjs && node scripts/source-registry/test-source-registry.mjs && node scripts/source-registry/test-approval-workflow.mjs && node scripts/source-registry/test-card-pipeline.mjs && node scripts/source-registry/test-community-card-import.mjs && node scripts/validate-spiritvale-search.mjs && node scripts/validate-playaig-release-ui.mjs",
+  "card-pipeline": "node scripts/run-card-pipeline.mjs",
+  "community-card-import": "node scripts/run-community-card-import.mjs",
+    "index-monitor": "python3 scripts/index-monitor/generate_index_report.py",
+    "search-console": ".venv/bin/python scripts/search-console/generate_seo_report.py"
   },
   "dependencies": {
     "react": "^19.1.1",

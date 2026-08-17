@@ -1,0 +1,24 @@
+{
+  "entity": "AcquisitionManifest",
+  "description": "Source-backed acquisition records. Manifests remain in dry-run and human review until an approved record passes the confidence gate.",
+  "required": ["manifestId", "sourceId", "entityType", "entityIdCandidate", "rawData", "extractedFields", "fieldEvidence", "sourceLocator", "extractionDate", "operator", "confidenceScore", "status"],
+  "statuses": ["draft", "validation", "review", "approved", "rejected"],
+  "fields": {
+    "manifestId": "immutable manifest identifier",
+    "sourceId": "registered source identifier",
+    "entityType": "cards | equipment | skills | monsters | bosses | maps",
+    "entityIdCandidate": "candidate entity identifier before approval",
+    "rawData": "unmodified source payload",
+    "extractedFields": "normalized candidate fields",
+    "fieldEvidence": "field-level source evidence",
+    "sourceLocator": "URL or source-specific locator",
+    "extractionDate": "ISO-8601 extraction timestamp",
+    "operator": "collector or process identity",
+    "confidenceScore": "0-100 confidence score",
+    "status": "draft | validation | review | approved | rejected",
+    "reviewNotes": "human review notes",
+    "reviewer": "human reviewer identity",
+    "reviewDate": "ISO-8601 review timestamp"
+  },
+  "entityTypes": ["card", "cards", "equipment", "skill", "skills", "monsters", "bosses", "maps"]
+}

@@ -50,9 +50,10 @@ export function VerificationBadge({
 export type GuideHeaderProps = {
   guide: SpiritValeGuide;
   categoryName: string;
+  title?: string;
 };
 
-export function GuideHeader({ categoryName, guide }: GuideHeaderProps) {
+export function GuideHeader({ categoryName, guide, title }: GuideHeaderProps) {
   const heroAssetId = guide.imageAssetIds[0];
   return (
     <header className="guide-header">
@@ -60,7 +61,7 @@ export function GuideHeader({ categoryName, guide }: GuideHeaderProps) {
         <Tag>{categoryName}</Tag>
         <VerificationBadge status={guide.factReviewStatus} />
       </div>
-      <h1>{guide.name}</h1>
+      <h1>{title ?? guide.name}</h1>
       {guide.summary ? <p className="guide-header__summary">{guide.summary}</p> : null}
       {guide.reviewedAt ? <p className="guide-header__reviewed">Last reviewed: {new Intl.DateTimeFormat("en", { dateStyle: "long" }).format(new Date(guide.reviewedAt))}</p> : null}
       {heroAssetId ? <AssetImage className="guide-header__image" imageAssetId={heroAssetId} priority /> : null}
@@ -128,6 +129,20 @@ function GuideContentBlock({
       <div className="guide-class-list">
         {block.text ? <p>{block.text}<GuideSourceMarkers sourceIds={block.sourceIds} sources={sources} /></p> : null}
         <ul>{classes.map((gameClass) => <li key={gameClass.id}><strong>{gameClass.name}</strong> <span>Base Class</span></li>)}</ul>
+      </div>
+    );
+  }
+  if (block.type === "table") {
+    return (
+      <div className="guide-table-wrap">
+        <table className="guide-table">
+          <tbody>
+            {block.items.map((item) => {
+              const [label, ...details] = item.split(" — ");
+              return <tr key={item}><th scope="row">{label}</th><td>{details.join(" — ")}</td></tr>;
+            })}
+          </tbody>
+        </table>
       </div>
     );
   }

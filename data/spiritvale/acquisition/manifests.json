@@ -1,0 +1,1952 @@
+[
+  {
+    "manifestId": "manifest-community-abomination-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-abomination-card",
+    "rawData": {
+      "name": "Abomination Card",
+      "category": "Chest",
+      "rarity": null,
+      "effect": "Atk: +1 per refine; Def: -1% per refine",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Abomination Card",
+      "category": "Chest",
+      "rarity": null,
+      "effect": "Atk: +1 per refine; Def: -1% per refine",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.773Z"
+  },
+  {
+    "manifestId": "manifest-community-bull-shark-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-bull-shark-card",
+    "rawData": {
+      "name": "Bull Shark Card",
+      "category": "Legwear",
+      "rarity": null,
+      "effect": "ThreatMult",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Bull Shark Card",
+      "category": "Legwear",
+      "rarity": null,
+      "effect": "ThreatMult",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.773Z"
+  },
+  {
+    "manifestId": "manifest-community-bumblebee-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-bumblebee-card",
+    "rawData": {
+      "name": "Bumblebee Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Mp Regen +25%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Bumblebee Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Mp Regen +25%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.773Z"
+  },
+  {
+    "manifestId": "manifest-community-bunny-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-bunny-card",
+    "rawData": {
+      "name": "Bunny Card",
+      "category": "Weapon",
+      "rarity": null,
+      "effect": "Neutral Damage: +6%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Bunny Card",
+      "category": "Weapon",
+      "rarity": null,
+      "effect": "Neutral Damage: +6%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-cacti-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-cacti-card",
+    "rawData": {
+      "name": "Cacti Card",
+      "category": "Shield",
+      "rarity": null,
+      "effect": "Reflect Damage: +2% per refine",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Cacti Card",
+      "category": "Shield",
+      "rarity": null,
+      "effect": "Reflect Damage: +2% per refine",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-cactus-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-cactus-card",
+    "rawData": {
+      "name": "Cactus Card",
+      "category": "Weapon",
+      "rarity": null,
+      "effect": "Reflect Damage: +10%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Cactus Card",
+      "category": "Weapon",
+      "rarity": null,
+      "effect": "Reflect Damage: +10%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-cactus-king-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-cactus-king-card",
+    "rawData": {
+      "name": "Cactus King Card",
+      "category": "Shoes",
+      "rarity": null,
+      "effect": "Grants Lv.5 Endure; Hp: +10%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Cactus King Card",
+      "category": "Shoes",
+      "rarity": null,
+      "effect": "Grants Lv.5 Endure; Hp: +10%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-canary-merling-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-canary-merling-card",
+    "rawData": {
+      "name": "Canary Merling Card",
+      "category": "Legwear",
+      "rarity": null,
+      "effect": "Crit: +5; Crit Damage: +5%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Canary Merling Card",
+      "category": "Legwear",
+      "rarity": null,
+      "effect": "Crit: +5; Crit Damage: +5%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-candle-mimic-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-candle-mimic-card",
+    "rawData": {
+      "name": "Candle Mimic Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Dex: +3",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Candle Mimic Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Dex: +3",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-celestial-moth-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-celestial-moth-card",
+    "rawData": {
+      "name": "Celestial Moth Card",
+      "category": "Chest",
+      "rarity": null,
+      "effect": "Cast Spd: +15%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Celestial Moth Card",
+      "category": "Chest",
+      "rarity": null,
+      "effect": "Cast Spd: +15%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-chest-mimic-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-chest-mimic-card",
+    "rawData": {
+      "name": "Chest Mimic Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Luk: +3",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Chest Mimic Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Luk: +3",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-chick-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-chick-card",
+    "rawData": {
+      "name": "Chick Card",
+      "category": "Weapon",
+      "rarity": null,
+      "effect": "Atk: +5",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Chick Card",
+      "category": "Weapon",
+      "rarity": null,
+      "effect": "Atk: +5",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-chompbloom-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-chompbloom-card",
+    "rawData": {
+      "name": "Chompbloom Card",
+      "category": "Shield",
+      "rarity": null,
+      "effect": "Immune to Slow: +50%; Immune to Bleeding: +50%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Chompbloom Card",
+      "category": "Shield",
+      "rarity": null,
+      "effect": "Immune to Slow: +50%; Immune to Bleeding: +50%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-chomproot-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-chomproot-card",
+    "rawData": {
+      "name": "Chomproot Card",
+      "category": "Shoes",
+      "rarity": null,
+      "effect": "Immune to Bleeding: +50%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Chomproot Card",
+      "category": "Shoes",
+      "rarity": null,
+      "effect": "Immune to Bleeding: +50%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-cindermaw-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-cindermaw-card",
+    "rawData": {
+      "name": "Cindermaw Card",
+      "category": "Chest",
+      "rarity": null,
+      "effect": "Immune to Knockback",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Cindermaw Card",
+      "category": "Chest",
+      "rarity": null,
+      "effect": "Immune to Knockback",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-cinderwheel-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-cinderwheel-card",
+    "rawData": {
+      "name": "Cinderwheel Card",
+      "category": "Headgear",
+      "rarity": null,
+      "effect": "Immune to Stun: +50%; Mp: -25%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Cinderwheel Card",
+      "category": "Headgear",
+      "rarity": null,
+      "effect": "Immune to Stun: +50%; Mp: -25%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-imp-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-imp-card",
+    "rawData": {
+      "name": "Imp Card",
+      "category": "Legwear",
+      "rarity": null,
+      "effect": "Move Spd: +10%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Imp Card",
+      "category": "Legwear",
+      "rarity": null,
+      "effect": "Move Spd: +10%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-inferno-wyvern-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-inferno-wyvern-card",
+    "rawData": {
+      "name": "Inferno Wyvern Card",
+      "category": "Weapon",
+      "rarity": null,
+      "effect": "Atk: +4%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Inferno Wyvern Card",
+      "category": "Weapon",
+      "rarity": null,
+      "effect": "Atk: +4%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-jade-beholder-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-jade-beholder-card",
+    "rawData": {
+      "name": "Jade Beholder Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Undead Damage: +6%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Jade Beholder Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Undead Damage: +6%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-jade-eyestalk-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-jade-eyestalk-card",
+    "rawData": {
+      "name": "Jade Eyestalk Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Mp: +10%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Jade Eyestalk Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Mp: +10%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-jade-gazer-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-jade-gazer-card",
+    "rawData": {
+      "name": "Jade Gazer Card",
+      "category": "Shield",
+      "rarity": null,
+      "effect": "Undead Resistance: +25%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Jade Gazer Card",
+      "category": "Shield",
+      "rarity": null,
+      "effect": "Undead Resistance: +25%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-jellooze-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-jellooze-card",
+    "rawData": {
+      "name": "Jellooze Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Poison Damage: +6%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Jellooze Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Poison Damage: +6%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-lady-fey-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-lady-fey-card",
+    "rawData": {
+      "name": "Lady Fey Card",
+      "category": "Headgear",
+      "rarity": null,
+      "effect": "Immune to Silence: +50%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Lady Fey Card",
+      "category": "Headgear",
+      "rarity": null,
+      "effect": "Immune to Silence: +50%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-lightning-glimmer-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-lightning-glimmer-card",
+    "rawData": {
+      "name": "Lightning Glimmer Card",
+      "category": "Chest",
+      "rarity": null,
+      "effect": "Wind Damage: +1% per refine; Matk: +1%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Lightning Glimmer Card",
+      "category": "Chest",
+      "rarity": null,
+      "effect": "Wind Damage: +1% per refine; Matk: +1%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-lightning-wisp-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-lightning-wisp-card",
+    "rawData": {
+      "name": "Lightning Wisp Card",
+      "category": "Weapon",
+      "rarity": null,
+      "effect": "Wind Damage: +6%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Lightning Wisp Card",
+      "category": "Weapon",
+      "rarity": null,
+      "effect": "Wind Damage: +6%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-little-star-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-little-star-card",
+    "rawData": {
+      "name": "Little Star Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Holy Damage: +6%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Little Star Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Holy Damage: +6%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.774Z"
+  },
+  {
+    "manifestId": "manifest-community-luna-moth-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-luna-moth-card",
+    "rawData": {
+      "name": "Luna Moth Card",
+      "category": "Weapon",
+      "rarity": null,
+      "effect": "Cast Spd: +10%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Luna Moth Card",
+      "category": "Weapon",
+      "rarity": null,
+      "effect": "Cast Spd: +10%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-lurker-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-lurker-card",
+    "rawData": {
+      "name": "Lurker Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Crit Damage: +10%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Lurker Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Crit Damage: +10%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-lycanthrope-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-lycanthrope-card",
+    "rawData": {
+      "name": "Lycanthrope Card",
+      "category": "Chest",
+      "rarity": null,
+      "effect": "Convert to Shadow element",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Lycanthrope Card",
+      "category": "Chest",
+      "rarity": null,
+      "effect": "Convert to Shadow element",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-maggot-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-maggot-card",
+    "rawData": {
+      "name": "Maggot Card",
+      "category": "Legwear",
+      "rarity": null,
+      "effect": "Poison Resistance: +15%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Maggot Card",
+      "category": "Legwear",
+      "rarity": null,
+      "effect": "Poison Resistance: +15%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-magma-golem-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-magma-golem-card",
+    "rawData": {
+      "name": "Magma Golem Card",
+      "category": "Headgear",
+      "rarity": null,
+      "effect": "Def: +10%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Magma Golem Card",
+      "category": "Headgear",
+      "rarity": null,
+      "effect": "Def: +10%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-man-eater-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-man-eater-card",
+    "rawData": {
+      "name": "Man-Eater Card",
+      "category": "Weapon",
+      "rarity": null,
+      "effect": "Damage vs Neutral Enemies: +10%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Man-Eater Card",
+      "category": "Weapon",
+      "rarity": null,
+      "effect": "Damage vs Neutral Enemies: +10%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-mandrake-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-mandrake-card",
+    "rawData": {
+      "name": "Mandrake Card",
+      "category": "Headgear",
+      "rarity": null,
+      "effect": "Grants Lv.1 Earth Spikes",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Mandrake Card",
+      "category": "Headgear",
+      "rarity": null,
+      "effect": "Grants Lv.1 Earth Spikes",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-maple-ancient-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-maple-ancient-card",
+    "rawData": {
+      "name": "Maple Ancient Card",
+      "category": "Shield",
+      "rarity": null,
+      "effect": "Max mp recovered per second: +1%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Maple Ancient Card",
+      "category": "Shield",
+      "rarity": null,
+      "effect": "Max mp recovered per second: +1%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-maple-sapling-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-maple-sapling-card",
+    "rawData": {
+      "name": "Maple Sapling Card",
+      "category": "Shoes",
+      "rarity": null,
+      "effect": "Mp: +20; Mp Regen: +25%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Maple Sapling Card",
+      "category": "Shoes",
+      "rarity": null,
+      "effect": "Mp: +20; Mp Regen: +25%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-maple-treant-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-maple-treant-card",
+    "rawData": {
+      "name": "Maple Treant Card",
+      "category": "Chest",
+      "rarity": null,
+      "effect": "Mp: +20%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Maple Treant Card",
+      "category": "Chest",
+      "rarity": null,
+      "effect": "Mp: +20%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-miasma-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-miasma-card",
+    "rawData": {
+      "name": "Miasma Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Status Duration: +15%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Miasma Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Status Duration: +15%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-mole-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-mole-card",
+    "rawData": {
+      "name": "Mole Card",
+      "category": "Legwear",
+      "rarity": null,
+      "effect": "Hp: +10%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Mole Card",
+      "category": "Legwear",
+      "rarity": null,
+      "effect": "Hp: +10%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-moon-moth-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-moon-moth-card",
+    "rawData": {
+      "name": "Moon Moth Card",
+      "category": "Chest",
+      "rarity": null,
+      "effect": "Perfect Cloak",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Moon Moth Card",
+      "category": "Chest",
+      "rarity": null,
+      "effect": "Perfect Cloak",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-mosquito-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-mosquito-card",
+    "rawData": {
+      "name": "Mosquito Card",
+      "category": "Legwear",
+      "rarity": null,
+      "effect": "Wind Resistance: +15%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Mosquito Card",
+      "category": "Legwear",
+      "rarity": null,
+      "effect": "Wind Resistance: +15%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-naga-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-naga-card",
+    "rawData": {
+      "name": "Naga Card",
+      "category": "Weapon",
+      "rarity": null,
+      "effect": "Double Attack: +30%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Naga Card",
+      "category": "Weapon",
+      "rarity": null,
+      "effect": "Double Attack: +30%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-nautilus-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-nautilus-card",
+    "rawData": {
+      "name": "Nautilus Card",
+      "category": "Weapon",
+      "rarity": null,
+      "effect": "Damage vs Water Enemies: +10%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Nautilus Card",
+      "category": "Weapon",
+      "rarity": null,
+      "effect": "Damage vs Water Enemies: +10%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-night-baron-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-night-baron-card",
+    "rawData": {
+      "name": "Night Baron Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Siphon Mp: +3",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Night Baron Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Siphon Mp: +3",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-night-drake-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-night-drake-card",
+    "rawData": {
+      "name": "Night Drake Card",
+      "category": "Headgear",
+      "rarity": null,
+      "effect": "Crit Damage: +10%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Night Drake Card",
+      "category": "Headgear",
+      "rarity": null,
+      "effect": "Crit Damage: +10%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-nightbloom-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-nightbloom-card",
+    "rawData": {
+      "name": "Nightbloom Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Status Damage: +5%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Nightbloom Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Status Damage: +5%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-nightfiend-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-nightfiend-card",
+    "rawData": {
+      "name": "Nightfiend Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "All Stats: +1; Hp: +5%; Mp: +5%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Nightfiend Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "All Stats: +1; Hp: +5%; Mp: +5%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-nightlord-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-nightlord-card",
+    "rawData": {
+      "name": "Nightlord Card",
+      "category": "Headgear",
+      "rarity": null,
+      "effect": "Siphon Mp: +3; Mp: -50%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Nightlord Card",
+      "category": "Headgear",
+      "rarity": null,
+      "effect": "Siphon Mp: +3; Mp: -50%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-nightwing-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-nightwing-card",
+    "rawData": {
+      "name": "Nightwing Card",
+      "category": "Shoes",
+      "rarity": null,
+      "effect": "Mp: +10%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Nightwing Card",
+      "category": "Shoes",
+      "rarity": null,
+      "effect": "Mp: +10%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-eyeclops-arcanist-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-eyeclops-arcanist-card",
+    "rawData": {
+      "name": "Eyeclops Arcanist Card",
+      "category": "Headgear",
+      "rarity": null,
+      "effect": "Cast Spd: +15%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Eyeclops Arcanist Card",
+      "category": "Headgear",
+      "rarity": null,
+      "effect": "Cast Spd: +15%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  },
+  {
+    "manifestId": "manifest-community-soul-mage-card",
+    "sourceId": "source-community-spiritvale-info-cards",
+    "entityType": "card",
+    "entityIdCandidate": "card-soul-mage-card",
+    "rawData": {
+      "name": "Soul Mage Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Cast Spd: +10%",
+      "description": null,
+      "sourceLocator": "https://www.spiritvale.info/cards",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "extractedFields": {
+      "name": "Soul Mage Card",
+      "category": "Accessory",
+      "rarity": null,
+      "effect": "Cast Spd: +10%",
+      "description": "Source-listed card record; no narrative description is published by the community source.",
+      "notes": "Community record; rarity and acquisition details are not published in the indexed card record."
+    },
+    "fieldEvidence": {
+      "name": "https://www.spiritvale.info/cards",
+      "category": "https://www.spiritvale.info/cards",
+      "rarity": "https://www.spiritvale.info/cards",
+      "effect": "https://www.spiritvale.info/cards",
+      "description": "https://www.spiritvale.info/cards",
+      "notes": "https://www.spiritvale.info/cards"
+    },
+    "sourceLocator": "https://www.spiritvale.info/cards",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-community-import",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Community record checked against the registered card index; fields not published by the source remain null.",
+    "reviewer": "playaig-data-review",
+    "reviewDate": "2026-08-10T09:17:16.775Z"
+  }
+]

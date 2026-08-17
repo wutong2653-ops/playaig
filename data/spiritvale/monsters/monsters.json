@@ -1,1 +1,2265 @@
-[]
+[
+  {
+    "id": "monster-crawler",
+    "slug": "crawler",
+    "name": "Crawler",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Source evidence, field evidence, allowed fields, confidence and conflict status reviewed for the Monster pilot. Unsupported stats, abilities, weaknesses and resistances remain unavailable. Source locator: https://spiritvale.info/monsters/crawler",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 45,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Forgotten Depths 1"
+    ],
+    "drop": [
+      "Ashwalker Shoes 4%",
+      "Royal Dagger 3%",
+      "Dualblade Sheath 2%",
+      "Repeater Crossbow 3%",
+      "Cosmetic Converter 0.01%",
+      "Gravion Shard 10%",
+      "Spider Web 100%",
+      "Box of Origins 1%",
+      "Crawler Card 0.5%",
+      "Earth Splitter Gem 0.1%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-egg",
+    "slug": "egg",
+    "name": "Egg",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Source evidence, field evidence, allowed fields, confidence and conflict status reviewed for the Monster pilot. Unsupported stats, abilities, weaknesses and resistances remain unavailable. Source locator: https://spiritvale.info/monsters/egg",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 4,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Sunny Meadows 1"
+    ],
+    "drop": [
+      "Novice Shoes 10%",
+      "Knife 5%",
+      "Sunflower Clip 4%",
+      "Sword 5%",
+      "Cosmetic Converter 0.01%",
+      "Lunaris Shard 2%",
+      "Flax 100%",
+      "Box of Origins 1%",
+      "Egg Card 0.5%",
+      "Firebolt Gem 0.1%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-seed",
+    "slug": "seed",
+    "name": "Seed",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Source evidence, field evidence, allowed fields, confidence and conflict status reviewed for the Monster pilot. Unsupported stats, abilities, weaknesses and resistances remain unavailable. Source locator: https://spiritvale.info/monsters/seed",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 5,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Forest Labyrinth",
+      "Sunny Meadows 1"
+    ],
+    "drop": [
+      "Novice Chest 9%",
+      "Mace 6%",
+      "Potions 4%",
+      "Wooden Guard 6%",
+      "Cosmetic Converter 0.01%",
+      "Vulkanite Shard 2%",
+      "Flax 100%",
+      "Box of Origins 1%",
+      "Seed 0.5%",
+      "Fireball Gem 0.1%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-spook",
+    "slug": "spook",
+    "name": "Spook",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Source evidence, field evidence, allowed fields, confidence and conflict status reviewed for the Monster pilot. Unsupported stats, abilities, weaknesses and resistances remain unavailable. Source locator: https://spiritvale.info/monsters/spook",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 82,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Sanctum of Light"
+    ],
+    "drop": [
+      "Skystrider Legs 3%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-shroom",
+    "slug": "shroom",
+    "name": "Shroom",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Source evidence, field evidence, allowed fields, confidence and conflict status reviewed for the Monster pilot. Unsupported stats, abilities, weaknesses and resistances remain unavailable. Source locator: https://spiritvale.info/monsters/shroom",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 26,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Lake Field"
+    ],
+    "drop": [
+      "Island Spirit Chest 4%",
+      "Windcarver 3%",
+      "Dino Cub Backpack 2%",
+      "Windroot 3%",
+      "Cosmetic Converter 0.01%",
+      "Lunaris Shard 6%",
+      "Mushroom 100%",
+      "Box of Origins 1%",
+      "Mushroom 0.5%",
+      "Piercing Flurry Gem 0.1%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-venom-bud",
+    "slug": "venom-bud",
+    "name": "Venom Bud",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/venom-bud",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 86,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Underground Cavern"
+    ],
+    "drop": [
+      "Stormplate Chest 3%",
+      "Blight Reaver 2%",
+      "Oxygen Tank 1%",
+      "Razor Kunai 2%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-slime",
+    "slug": "slime",
+    "name": "Slime",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/slime",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 38,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Swamp"
+    ],
+    "drop": [
+      "Gravemarrow Legs 4%",
+      "Abyss Shard 3%",
+      "Lucky Drops 2%",
+      "Gravemarrow Shoes 4%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-man-eater",
+    "slug": "man-eater",
+    "name": "Man-Eater",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/man-eater",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 34,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Windy Desert South"
+    ],
+    "drop": [
+      "Windstrider Chest 4%",
+      "Parrying Knife 3%",
+      "Crown of Spikes 2%",
+      "Combat Knife 3%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-skeleton",
+    "slug": "skeleton",
+    "name": "Skeleton",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/skeleton",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 25,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Festering Woods 1"
+    ],
+    "drop": [
+      "Drooping Skeleton 0.3%",
+      "Cleric Chest 5%",
+      "Witch's Whisk 4%",
+      "Wilderness Pack 3%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-rat-grey",
+    "slug": "rat-grey",
+    "name": "Rat Grey",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/rat-grey",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 18,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Nevaris Sewers"
+    ],
+    "drop": [
+      "Verdant Striders 6%",
+      "Buckler 4%",
+      "Bloom Pendant 3%",
+      "Bonefang 4%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-egglet",
+    "slug": "egglet",
+    "name": "Egglet",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/egglet",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 23,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Bunny Woods",
+      "Forest Labyrinth"
+    ],
+    "drop": [
+      "Ferncloak 5%",
+      "Radiant Wand 4%",
+      "Bunny Cap 3%",
+      "Fleetrunner 5%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-bunny",
+    "slug": "bunny",
+    "name": "Bunny",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/bunny",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 21,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Bunny Woods"
+    ],
+    "drop": [
+      "Bunny Cap 1%",
+      "Sonic Shoes 5%",
+      "Oak Bow 4%",
+      "Bunny Backpack 3%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-cindermaw",
+    "slug": "cindermaw",
+    "name": "Cindermaw",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/cindermaw",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 130,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Night Garden"
+    ],
+    "drop": [
+      "Axe of Oblivion 1%",
+      "Trident of Tides 1%",
+      "Harvester of Souls 1%",
+      "Night Armor 1%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-bird",
+    "slug": "bird",
+    "name": "Bird",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/bird",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 10,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Forest Labyrinth",
+      "Sunny Meadows 2"
+    ],
+    "drop": [
+      "Novice Legs 9%",
+      "Broad Sword 6%",
+      "Golden Hoop 4%",
+      "Sunflower Clip 4%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-pollen",
+    "slug": "pollen",
+    "name": "Pollen",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/pollen",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 1,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Sunny Meadows 1"
+    ],
+    "drop": [
+      "Novice Chest 10%",
+      "Knife 5%",
+      "Potions 4%",
+      "Sword 5%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-cinderspike",
+    "slug": "cinderspike",
+    "name": "Cinderspike",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/cinderspike",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 92,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Dark Forest"
+    ],
+    "drop": [
+      "Voidthreads 3%",
+      "Executioner Axe 2%",
+      "Darkhide Gloves 1%",
+      "Chains of Binding 2%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-ghost",
+    "slug": "ghost",
+    "name": "Ghost",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/ghost",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 77,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Sanctum of Light"
+    ],
+    "drop": [
+      "Ghostly Hat 0.3%",
+      "Skystrider Legs 3%",
+      "Master Axe 2%",
+      "Plum Talisman 1%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-ice",
+    "slug": "ice",
+    "name": "Ice",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/ice",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 71,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Crystal Cave"
+    ],
+    "drop": [
+      "Mage Plate 3%",
+      "Crystal Slammer 2%",
+      "Crystal Cache 1%",
+      "Frostspire Kunai 2%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-gadfly",
+    "slug": "gadfly",
+    "name": "Gadfly",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/gadfly",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 37,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Swamp"
+    ],
+    "drop": [
+      "Swampy Hat 0.3%",
+      "Gravemarrow Legs 4%",
+      "Scalpel 3%",
+      "Lucky Drops 2%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-gnat",
+    "slug": "gnat",
+    "name": "Gnat",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/gnat",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 37,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Swamp"
+    ],
+    "drop": [
+      "Swampy Hat 0.3%",
+      "Gravemarrow Shoes 4%",
+      "Abyss Shard 3%",
+      "Lucky Drops 2%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-amber-octopus",
+    "slug": "amber-octopus",
+    "name": "Amber Octopus",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/amber-octopus",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 133,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Turtle Nexus"
+    ],
+    "drop": [
+      "Endurance Greaves 1%",
+      "Power Greaves 1%",
+      "Plasma Boots 1%",
+      "Violet Arc 1%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-fungi",
+    "slug": "fungi",
+    "name": "Fungi",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/fungi",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 28,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Lake Field"
+    ],
+    "drop": [
+      "Island Spirit Legs 4%",
+      "Stiletto 3%",
+      "Fruit Bowl 2%",
+      "Mage Guard 3%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-flora",
+    "slug": "flora",
+    "name": "Flora",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/flora",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 34,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Mystic Lake 1"
+    ],
+    "drop": [
+      "Drooping Flora 0.3%",
+      "Spellthread Shoes 4%",
+      "Relic Trident 3%",
+      "Whale Backpack 2%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-goblin-minion",
+    "slug": "goblin-minion",
+    "name": "Goblin Minion",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/goblin-minion",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 41,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Goblin Field"
+    ],
+    "drop": [
+      "Stonebound Boots 4%",
+      "Iron Reaver 3%",
+      "War Banner 2%",
+      "Stonepoint Spear 3%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-goblin-trooper",
+    "slug": "goblin-trooper",
+    "name": "Goblin Trooper",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/goblin-trooper",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 44,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Goblin Field"
+    ],
+    "drop": [
+      "Stonebound Boots 4%",
+      "Spiked Club 3%",
+      "Doom Keg 2%",
+      "Direwolf Chest 4%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-goblin-warlock",
+    "slug": "goblin-warlock",
+    "name": "Goblin Warlock",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/goblin-warlock",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 121,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Goblin Warcamp"
+    ],
+    "drop": [
+      "Mind Plate 1%",
+      "Precision Plate 1%",
+      "Riftbreaker 1%",
+      "Ragebound Fury 1%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-goblin-trooper-assassin",
+    "slug": "goblin-trooper-assassin",
+    "name": "Goblin Trooper Assassin",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/goblin-trooper-assassin",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 43,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Goblin Field"
+    ],
+    "drop": [
+      "Direwolf Shoes 4%",
+      "Iron Reaver 3%",
+      "War Banner 2%",
+      "Stonepoint Spear 3%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-goblin-giant-devil",
+    "slug": "goblin-giant-devil",
+    "name": "Goblin Giant Devil",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/goblin-giant-devil",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 50,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Goblin Village"
+    ],
+    "drop": [
+      "Golden Hammer 1%",
+      "Direwolf Shoes 4%",
+      "Skullhacker 3%",
+      "Bronze Plugs 2%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-goblin-warblade",
+    "slug": "goblin-warblade",
+    "name": "Goblin Warblade",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/goblin-warblade",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 123,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Goblin Warcamp"
+    ],
+    "drop": [
+      "Speed Plate 1%",
+      "Fate Plate 1%",
+      "Riftbreaker 1%",
+      "Stormfeather Kunai 1%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-goblin-grunt",
+    "slug": "goblin-grunt",
+    "name": "Goblin Grunt",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/goblin-grunt",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 44,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Goblin Field"
+    ],
+    "drop": [
+      "Stonebound Boots 4%",
+      "Stonepoint Spear 3%",
+      "Doom Keg 2%",
+      "Spiked Club 3%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-zombie-goblin-giant",
+    "slug": "zombie-goblin-giant",
+    "name": "Zombie Goblin Giant",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/zombie-goblin-giant",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 58,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Goblin Cave 2"
+    ],
+    "drop": [
+      "Direwolf Legs 4%",
+      "Wraithlight 3%",
+      "Treasure Box 2%",
+      "Gatling Gun 3%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-rabbit",
+    "slug": "rabbit",
+    "name": "Rabbit",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/rabbit",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 25,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Bunny Woods",
+      "Forest Labyrinth"
+    ],
+    "drop": [
+      "Bunny Cap 1%",
+      "Sonic Shoes 5%",
+      "Oak Bow 4%",
+      "Bunny Backpack 3%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-frost-wyvern",
+    "slug": "frost-wyvern",
+    "name": "Frost Wyvern",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/frost-wyvern",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 74,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Crystal Cave"
+    ],
+    "drop": [
+      "Drooping Dragon 0.3%",
+      "Moonfrost 1%",
+      "Weaver Shoes 3%",
+      "Crystal Slammer 2%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-zombie-goblin",
+    "slug": "zombie-goblin",
+    "name": "Zombie Goblin",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/zombie-goblin",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 53,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Goblin Cave 1"
+    ],
+    "drop": [
+      "Direwolf Legs 4%",
+      "Shotgun 3%",
+      "Treasure Box 2%",
+      "Arrowcatch Wall 3%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-skimmer",
+    "slug": "skimmer",
+    "name": "Skimmer",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/skimmer",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 39,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Swamp"
+    ],
+    "drop": [
+      "Swampy Hat 0.3%",
+      "Gravemarrow Chest 4%",
+      "Abyss Shard 3%",
+      "Lucky Drops 2%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-dragonfly-arrow",
+    "slug": "dragonfly-arrow",
+    "name": "Dragonfly Arrow",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/dragonfly-arrow",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 36,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Swamp"
+    ],
+    "drop": [
+      "Swampy Hat 0.3%",
+      "Gravemarrow Chest 4%",
+      "Abyss Shard 3%",
+      "Lucky Drops 2%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-housefly-nom",
+    "slug": "housefly-nom",
+    "name": "Housefly Nom",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/housefly-nom",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 39,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Swamp"
+    ],
+    "drop": [
+      "Swampy Hat 0.3%",
+      "Gravemarrow Legs 4%",
+      "Zephyr Cross 3%",
+      "Lucky Drops 2%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-whirlwind",
+    "slug": "whirlwind",
+    "name": "Whirlwind",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/whirlwind",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 26,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Windy Desert"
+    ],
+    "drop": [
+      "Tempest Robes 4%",
+      "Skybreaker Staff 3%",
+      "Star 2%",
+      "Stormpiercer 3%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-grub",
+    "slug": "grub",
+    "name": "Grub",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/grub",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 87,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Underground Cavern"
+    ],
+    "drop": [
+      "Stormplate Shoes 3%",
+      "Blight Reaver 2%",
+      "Oxygen Tank 1%",
+      "Razor Kunai 2%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-wind",
+    "slug": "wind",
+    "name": "Wind",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/wind",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 28,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Windy Desert"
+    ],
+    "drop": [
+      "Windstrider Shoes 4%",
+      "Skybreaker Staff 3%",
+      "Star 2%",
+      "Stormpiercer 3%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-icicle",
+    "slug": "icicle",
+    "name": "Icicle",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/icicle",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 73,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Crystal Cave"
+    ],
+    "drop": [
+      "Weaver Chest 3%",
+      "Frost Mark 2%",
+      "Azure Prism 1%",
+      "Weaver Legs 3%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-dragon-ice",
+    "slug": "dragon-ice",
+    "name": "Dragon Ice",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/dragon-ice",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 73,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Crystal Cave"
+    ],
+    "drop": [
+      "Weaver Shoes 3%",
+      "Frostshard 2%",
+      "Crystal Cache 1%",
+      "Crystal Slammer 2%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-golem-ice",
+    "slug": "golem-ice",
+    "name": "Golem Ice",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/golem-ice",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 75,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Crystal Cave"
+    ],
+    "drop": [
+      "Weaver Chest 3%",
+      "Frostshard 2%",
+      "Crystal Cache 1%",
+      "Weaver Legs 3%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-bee",
+    "slug": "bee",
+    "name": "Bee",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/bee",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 6,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Forest Labyrinth",
+      "Sunny Meadows 2"
+    ],
+    "drop": [
+      "Novice Chest 5%",
+      "Broad Sword 4%",
+      "Potions 3%",
+      "Axe 4%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-fledgling",
+    "slug": "fledgling",
+    "name": "Fledgling",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/fledgling",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 8,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Forest Labyrinth",
+      "Sunny Meadows 2"
+    ],
+    "drop": [
+      "Novice Shoes 5%",
+      "Broad Sword 4%",
+      "Sunflower Clip 3%",
+      "Axe 4%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-wind-mage",
+    "slug": "wind-mage",
+    "name": "Wind Mage",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/wind-mage",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 30,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Windy Desert"
+    ],
+    "drop": [
+      "Windstrider Legs 4%",
+      "Skybreaker Staff 3%",
+      "Star 2%",
+      "Windstrider Shoes 4%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-glow-wisp-purple",
+    "slug": "glow-wisp-purple",
+    "name": "Glow Wisp Purple",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/glow-wisp-purple",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 27,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Windy Desert"
+    ],
+    "drop": [
+      "Windstrider Chest 4%",
+      "Zephyrlight 3%",
+      "Star 2%",
+      "Windstrider Legs 4%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-zombie-grunt",
+    "slug": "zombie-grunt",
+    "name": "Zombie Grunt",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/zombie-grunt",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 55,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Goblin Cave 1"
+    ],
+    "drop": [
+      "Direwolf Shoes 4%",
+      "Doom Crescent 3%",
+      "Digger's Flask 2%",
+      "Iron Morningstar 3%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-cat-lightning",
+    "slug": "cat-lightning",
+    "name": "Cat Lightning",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/cat-lightning",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 29,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Windy Desert"
+    ],
+    "drop": [
+      "Drooping Cat 0.3%",
+      "Neko Hood 1%",
+      "Tempest Robes 4%",
+      "Zephyrlight 3%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-cacti",
+    "slug": "cacti",
+    "name": "Cacti",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/cacti",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 31,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Windy Desert South"
+    ],
+    "drop": [
+      "Windstrider Chest 4%",
+      "Wasteland Cleaver 3%",
+      "Crown of Spikes 2%",
+      "Brimblade 3%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-rime-drake",
+    "slug": "rime-drake",
+    "name": "Rime Drake",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/rime-drake",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 73,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Crystal Cave"
+    ],
+    "drop": [
+      "Drooping Dragon 0.3%",
+      "Weaver Shoes 3%",
+      "Frostshard 2%",
+      "Crystal Cache 1%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  },
+  {
+    "id": "monster-raiju",
+    "slug": "raiju",
+    "name": "Raiju",
+    "shortDescription": null,
+    "description": null,
+    "status": "published",
+    "verificationStatus": "partially-verified",
+    "sourceIds": [
+      "source-community-spiritvale-info-monsters"
+    ],
+    "gameVersionId": null,
+    "imageAssetIds": [],
+    "createdAt": "2026-08-10T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "verifiedAt": "2026-08-10T00:00:00Z",
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "notes": "Human review simulation: source evidence, field evidence, allowed fields, confidence and conflict status checked. Unsupported combat fields remain unavailable. Source locator: https://spiritvale.info/monsters/raiju",
+    "monsterTypeId": null,
+    "mapIds": [],
+    "level": 35,
+    "elementIds": [],
+    "stats": [],
+    "abilities": [],
+    "weaknessIds": [],
+    "dropIds": [],
+    "cardDropIds": [],
+    "spawnNotes": null,
+    "location": [
+      "Windy Desert"
+    ],
+    "drop": [
+      "Drooping Cat 0.3%",
+      "Neko Hood 30%",
+      "Tempest Robes 20%",
+      "Stormpiercer 15%"
+    ],
+    "relatedGuideIds": [
+      "guide-beginner",
+      "guide-leveling",
+      "guide-classes"
+    ]
+  }
+]

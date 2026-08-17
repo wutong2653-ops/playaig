@@ -1,0 +1,297 @@
+[
+  {
+    "manifestId": "manifest-monster-crawler",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-crawler",
+    "rawData": {
+      "name": "Crawler",
+      "level": 45,
+      "element": "Shadow",
+      "behavior": "Aggressive",
+      "drops": [
+        "Ashwalker Shoes 4%",
+        "Royal Dagger 3%",
+        "Dualblade Sheath 2%",
+        "Repeater Crossbow 3%",
+        "Cosmetic Converter 0.01%",
+        "Gravion Shard 10%",
+        "Spider Web 100%",
+        "Box of Origins 1%",
+        "Crawler Card 0.5%",
+        "Earth Splitter Gem 0.1%"
+      ],
+      "locations": [
+        "Forgotten Depths 1"
+      ]
+    },
+    "extractedFields": {
+      "name": "Crawler",
+      "level": 45,
+      "location": [
+        "Forgotten Depths 1"
+      ],
+      "drop": [
+        "Ashwalker Shoes 4%",
+        "Royal Dagger 3%",
+        "Dualblade Sheath 2%",
+        "Repeater Crossbow 3%",
+        "Cosmetic Converter 0.01%",
+        "Gravion Shard 10%",
+        "Spider Web 100%",
+        "Box of Origins 1%",
+        "Crawler Card 0.5%",
+        "Earth Splitter Gem 0.1%"
+      ],
+      "notes": "The page also displays Shadow element, aggressive behavior and a Stomp skill; those fields remain outside this pilot's approved field set."
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/crawler",
+      "level": "https://spiritvale.info/monsters/crawler",
+      "location": "https://spiritvale.info/monsters/crawler",
+      "drop": "https://spiritvale.info/monsters/crawler",
+      "notes": "https://spiritvale.info/monsters/crawler"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/crawler",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-source-pilot",
+    "confidenceScore": 86,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field evidence, allowed fields, confidence and conflict status reviewed for the Monster pilot. Unsupported stats, abilities, weaknesses and resistances remain unavailable.",
+    "reviewer": "playaig-monster-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-egg",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-egg",
+    "rawData": {
+      "name": "Egg",
+      "level": 4,
+      "element": "Neutral",
+      "drops": [
+        "Novice Shoes 10%",
+        "Knife 5%",
+        "Sunflower Clip 4%",
+        "Sword 5%",
+        "Cosmetic Converter 0.01%",
+        "Lunaris Shard 2%",
+        "Flax 100%",
+        "Box of Origins 1%",
+        "Egg Card 0.5%",
+        "Firebolt Gem 0.1%"
+      ],
+      "locations": [
+        "Sunny Meadows 1"
+      ]
+    },
+    "extractedFields": {
+      "name": "Egg",
+      "level": 4,
+      "location": [
+        "Sunny Meadows 1"
+      ],
+      "drop": [
+        "Novice Shoes 10%",
+        "Knife 5%",
+        "Sunflower Clip 4%",
+        "Sword 5%",
+        "Cosmetic Converter 0.01%",
+        "Lunaris Shard 2%",
+        "Flax 100%",
+        "Box of Origins 1%",
+        "Egg Card 0.5%",
+        "Firebolt Gem 0.1%"
+      ],
+      "notes": "Elemental effectiveness and other combat fields are not extracted without a dedicated field-evidence review."
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/egg",
+      "level": "https://spiritvale.info/monsters/egg",
+      "location": "https://spiritvale.info/monsters/egg",
+      "drop": "https://spiritvale.info/monsters/egg",
+      "notes": "https://spiritvale.info/monsters/egg"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/egg",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-source-pilot",
+    "confidenceScore": 84,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field evidence, allowed fields, confidence and conflict status reviewed for the Monster pilot. Unsupported stats, abilities, weaknesses and resistances remain unavailable.",
+    "reviewer": "playaig-monster-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-seed",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-seed",
+    "rawData": {
+      "name": "Seed",
+      "level": 5,
+      "element": "Earth",
+      "behavior": "Aggressive",
+      "drops": [
+        "Novice Chest 9%",
+        "Mace 6%",
+        "Potions 4%",
+        "Wooden Guard 6%",
+        "Cosmetic Converter 0.01%",
+        "Vulkanite Shard 2%",
+        "Flax 100%",
+        "Box of Origins 1%",
+        "Seed 0.5%",
+        "Fireball Gem 0.1%"
+      ],
+      "locations": [
+        "Forest Labyrinth",
+        "Sunny Meadows 1"
+      ]
+    },
+    "extractedFields": {
+      "name": "Seed",
+      "level": 5,
+      "location": [
+        "Forest Labyrinth",
+        "Sunny Meadows 1"
+      ],
+      "drop": [
+        "Novice Chest 9%",
+        "Mace 6%",
+        "Potions 4%",
+        "Wooden Guard 6%",
+        "Cosmetic Converter 0.01%",
+        "Vulkanite Shard 2%",
+        "Flax 100%",
+        "Box of Origins 1%",
+        "Seed 0.5%",
+        "Fireball Gem 0.1%"
+      ],
+      "notes": "The source page lists an aggressive behavior and elemental effectiveness; neither is normalized into this pilot."
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/seed",
+      "level": "https://spiritvale.info/monsters/seed",
+      "location": "https://spiritvale.info/monsters/seed",
+      "drop": "https://spiritvale.info/monsters/seed",
+      "notes": "https://spiritvale.info/monsters/seed"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/seed",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-source-pilot",
+    "confidenceScore": 85,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field evidence, allowed fields, confidence and conflict status reviewed for the Monster pilot. Unsupported stats, abilities, weaknesses and resistances remain unavailable.",
+    "reviewer": "playaig-monster-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-spook",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-spook",
+    "rawData": {
+      "name": "Spook",
+      "level": 82,
+      "element": "Ghost",
+      "behavior": "Aggressive",
+      "skills": [
+        "Cloaking"
+      ],
+      "drops": [
+        "Skystrider Legs 3%"
+      ],
+      "locations": [
+        "Sanctum of Light"
+      ]
+    },
+    "extractedFields": {
+      "name": "Spook",
+      "level": 82,
+      "location": [
+        "Sanctum of Light"
+      ],
+      "drop": [
+        "Skystrider Legs 3%"
+      ],
+      "notes": "The page exposes a Cloaking skill and an incomplete effectiveness marker; these remain excluded pending field-specific evidence policy."
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/spook",
+      "level": "https://spiritvale.info/monsters/spook",
+      "location": "https://spiritvale.info/monsters/spook",
+      "drop": "https://spiritvale.info/monsters/spook",
+      "notes": "https://spiritvale.info/monsters/spook"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/spook",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-source-pilot",
+    "confidenceScore": 82,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field evidence, allowed fields, confidence and conflict status reviewed for the Monster pilot. Unsupported stats, abilities, weaknesses and resistances remain unavailable.",
+    "reviewer": "playaig-monster-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  },
+  {
+    "manifestId": "manifest-monster-shroom",
+    "sourceId": "source-community-spiritvale-info-monsters",
+    "entityType": "monster",
+    "entityIdCandidate": "monster-shroom",
+    "rawData": {
+      "name": "Shroom",
+      "level": 26,
+      "element": "Water",
+      "drops": [
+        "Island Spirit Chest 4%",
+        "Windcarver 3%",
+        "Dino Cub Backpack 2%",
+        "Windroot 3%",
+        "Cosmetic Converter 0.01%",
+        "Lunaris Shard 6%",
+        "Mushroom 100%",
+        "Box of Origins 1%",
+        "Mushroom 0.5%",
+        "Piercing Flurry Gem 0.1%"
+      ],
+      "locations": [
+        "Lake Field"
+      ]
+    },
+    "extractedFields": {
+      "name": "Shroom",
+      "level": 26,
+      "location": [
+        "Lake Field"
+      ],
+      "drop": [
+        "Island Spirit Chest 4%",
+        "Windcarver 3%",
+        "Dino Cub Backpack 2%",
+        "Windroot 3%",
+        "Cosmetic Converter 0.01%",
+        "Lunaris Shard 6%",
+        "Mushroom 100%",
+        "Box of Origins 1%",
+        "Mushroom 0.5%",
+        "Piercing Flurry Gem 0.1%"
+      ],
+      "notes": "The source page lists Water element and elemental effectiveness; those fields are intentionally not promoted by this pilot."
+    },
+    "fieldEvidence": {
+      "name": "https://spiritvale.info/monsters/shroom",
+      "level": "https://spiritvale.info/monsters/shroom",
+      "location": "https://spiritvale.info/monsters/shroom",
+      "drop": "https://spiritvale.info/monsters/shroom",
+      "notes": "https://spiritvale.info/monsters/shroom"
+    },
+    "sourceLocator": "https://spiritvale.info/monsters/shroom",
+    "extractionDate": "2026-08-10T00:00:00Z",
+    "operator": "playaig-monster-source-pilot",
+    "confidenceScore": 84,
+    "status": "approved",
+    "reviewNotes": "Source evidence, field evidence, allowed fields, confidence and conflict status reviewed for the Monster pilot. Unsupported stats, abilities, weaknesses and resistances remain unavailable.",
+    "reviewer": "playaig-monster-review",
+    "reviewDate": "2026-08-10T00:00:00Z"
+  }
+]

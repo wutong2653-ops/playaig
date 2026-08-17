@@ -1,0 +1,18 @@
+{
+  "entity": "SpiritValeCard",
+  "description": "Schema for source-backed SpiritVale card entities. The collection remains empty until official card records are verified.",
+  "fields": {
+    "id": {"type": "string", "required": true},
+    "slug": {"type": "string", "required": true, "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "name": {"type": "string", "required": true},
+    "category": {"type": ["string", "null"], "required": true},
+    "rarity": {"type": ["string", "null"], "required": true},
+    "effect": {"type": ["string", "null"], "required": true},
+    "description": {"type": ["string", "null"], "required": true},
+    "sourceIds": {"type": "string[]", "required": true, "minItems": 1},
+    "imageAssetId": {"type": ["string", "null"], "required": true},
+    "verifiedAt": {"type": ["string", "null"], "required": true},
+    "notes": {"type": ["string", "null"], "required": true},
+    "relatedGuideIds": {"type": "string[]", "required": true}
+  }
+}

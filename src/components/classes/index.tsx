@@ -15,14 +15,14 @@ export function ClassBreadcrumb({ gameClass }: { gameClass?: SpiritValeClass }) 
   return <Breadcrumb items={items} />;
 }
 
-export function ClassHeader({ gameClass, imageAssetId }: { gameClass: SpiritValeClass; imageAssetId: string }) {
+export function ClassHeader({ gameClass, imageAssetId, title }: { gameClass: SpiritValeClass; imageAssetId: string; title?: string }) {
   return (
     <header className="class-header">
       <div className="class-header__meta">
         <Tag>Base Class</Tag>
         <VerificationBadge status={gameClass.verificationStatus} />
       </div>
-      <h1>{gameClass.name}</h1>
+      <h1>{title ?? gameClass.name}</h1>
       <p>{gameClass.name} is an officially confirmed SpiritVale base class. No unverified role, weapon, stat, skill, or build claim is shown here.</p>
       <AssetImage className="class-header__image" imageAssetId={imageAssetId} priority />
       <p className="class-header__caption">Official general class artwork. It is not presented as an individual {gameClass.name} portrait.</p>

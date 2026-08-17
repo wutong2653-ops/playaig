@@ -1,4 +1,5 @@
-import { classVisualAssetId, resolveSpiritValeAsset, type DatabaseCategory, type DatabaseCategoryId, type SpiritValeClass, type SpiritValeGuide } from "../data";
+import { classVisualAssetId, resolveSpiritValeAsset, type DatabaseCategory, type DatabaseCategoryId, type SpiritValeCard, type SpiritValeClass, type SpiritValeEquipment, type SpiritValeGuide, type SpiritValeMonster, type SpiritValeSkill } from "../data";
+import { getClassLandingContent, getDatabaseLandingContent, getGuideLandingContent } from "./seoLandingContent";
 
 export const siteOrigin = "https://playaig.com";
 export const siteName = "PlayAIG";
@@ -50,10 +51,37 @@ export const classesIndexMetadata = {
 } as const;
 
 export const databaseIndexMetadata = {
-  title: "SpiritVale Database",
-  description: "Browse officially verified SpiritVale game data including skills, equipment, cards, artifacts, monsters, bosses and maps.",
+  title: "SpiritVale Database — Verified Game Data | PlayAIG",
+  description: "Explore the SpiritVale Database for verified skills, equipment, cards, artifacts, monsters, bosses and maps. New entries appear as official information is confirmed.",
   canonicalPath: "/database/"
 } as const;
+
+export const databaseIndexFaqItems = [
+  {
+    question: "What is the SpiritVale Database?",
+    answer: "The SpiritVale Database is a reference index for SpiritVale information that can be tied to registered official sources."
+  },
+  {
+    question: "What information will the SpiritVale Database include?",
+    answer: "The index covers skills, equipment, cards, artifacts, monsters, bosses and maps. Individual entries appear only after their details are officially confirmed."
+  },
+  {
+    question: "How do I use the SpiritVale Database?",
+    answer: "Choose a category, check its verification status, and open an entry when one is available. Categories marked Data Collection In Progress do not yet contain verified records."
+  },
+  {
+    question: "Are SpiritVale Database entries verified?",
+    answer: "Entries are added only when their details can be tied to a registered official SpiritVale source. Information will be updated as official details are confirmed."
+  },
+  {
+    question: "How often is the SpiritVale Database updated?",
+    answer: "There is no fixed public update schedule. The database is reviewed when official SpiritVale sources publish information that can be verified."
+  },
+  {
+    question: "Is the SpiritVale Database an official game website?",
+    answer: "PlayAIG is an independent fan resource. It uses registered official sources for verification and is not affiliated with or endorsed by Baikun Interactive."
+  }
+] as const;
 
 function setMetaAttribute(selector: string, attribute: "name" | "property", value: string, content: string) {
   const element = document.head.querySelector<HTMLMetaElement>(selector) ?? document.head.appendChild(document.createElement("meta"));
@@ -132,12 +160,16 @@ function breadcrumbJsonLd(name: string, canonicalPath: string) {
 }
 
 export function guideStructuredData(guide: SpiritValeGuide) {
+  const landing = getGuideLandingContent(guide.slug);
+  const title = landing?.title ?? guide.seo.title;
+  const description = landing?.description ?? guide.seo.description;
+  const faqItems = landing ? [...guide.faqItems, ...landing.faq.map((item) => ({ ...item, sourceIds: guide.sourceIds }))] : guide.faqItems;
   const cover = resolveSpiritValeAsset(guide.imageAssetIds[0]);
   const article = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: guide.seo.title,
-    description: guide.seo.description,
+    headline: title,
+    description,
     image: cover ? absoluteUrl(cover.src) : undefined,
     mainEntityOfPage: absoluteUrl(guide.seo.canonicalPath),
     dateModified: guide.updatedAt,
@@ -146,7 +178,7 @@ export function guideStructuredData(guide: SpiritValeGuide) {
   const faq = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: guide.faqItems.map((item) => ({
+    mainEntity: faqItems.map((item) => ({
       "@type": "Question",
       name: item.question,
       acceptedAnswer: { "@type": "Answer", text: item.answer }
@@ -156,9 +188,10 @@ export function guideStructuredData(guide: SpiritValeGuide) {
 }
 
 export function applyGuideMetadata(guide: SpiritValeGuide) {
+  const landing = getGuideLandingContent(guide.slug);
   applyPageMetadata({
-    title: guide.seo.title,
-    description: guide.seo.description,
+    title: landing?.title ?? guide.seo.title,
+    description: landing?.description ?? guide.seo.description,
     canonicalPath: guide.seo.canonicalPath,
     imageAssetId: guide.imageAssetIds[0],
     structuredData: guideStructuredData(guide),
@@ -206,15 +239,16 @@ function classBreadcrumbJsonLd(name: string, canonicalPath: string) {
 
 export function classMetadata(gameClass: SpiritValeClass) {
   const canonicalPath = "/classes/" + gameClass.slug + "/";
-  const title = "SpiritVale " + gameClass.name + " Class — Officially Confirmed Base Class";
-  const description = gameClass.name + " is an officially confirmed SpiritVale base class. View first-party-source information and future verified updates.";
+  const landing = getClassLandingContent(gameClass.slug);
+  const title = landing?.title ?? "SpiritVale " + gameClass.name + " Class — Officially Confirmed Base Class";
+  const description = landing?.description ?? gameClass.name + " is an officially confirmed SpiritVale base class. View first-party-source information and future verified updates.";
   const cover = resolveSpiritValeAsset(classVisualAssetId);
   return { canonicalPath, description, title, imageAssetId: classVisualAssetId, cover };
 }
 
 export function classStructuredData(gameClass: SpiritValeClass) {
   const metadata = classMetadata(gameClass);
-  return [
+  const records = [
     {
       "@context": "https://schema.org",
       "@type": "Article",
@@ -227,6 +261,16 @@ export function classStructuredData(gameClass: SpiritValeClass) {
     },
     classBreadcrumbJsonLd(gameClass.name, metadata.canonicalPath)
   ];
+  const landing = getClassLandingContent(gameClass.slug);
+  return landing ? [...records, {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: landing.faq.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: { "@type": "Answer", text: item.answer }
+    }))
+  }] : records;
 }
 
 export function applyClassMetadata(gameClass: SpiritValeClass) {
@@ -290,9 +334,10 @@ export function databaseCategoryMetadata(category: DatabaseCategory) {
     maps: "map"
   };
   const singular = singularByCategory[category.id];
+  const landing = getDatabaseLandingContent(category.id);
   return {
-    title: "SpiritVale " + category.label + " Database — Verified Game Data",
-    description: "Browse officially verified SpiritVale " + singular + " data. No verified entries are currently available.",
+    title: landing?.title ?? "SpiritVale " + category.label + " Database — Verified Game Data",
+    description: landing?.description ?? "Browse officially verified SpiritVale " + singular + " data. No verified entries are currently available.",
     canonicalPath: category.path,
     imageAssetId: category.imageAssetId
   };
@@ -300,7 +345,7 @@ export function databaseCategoryMetadata(category: DatabaseCategory) {
 
 export function databaseCategoryStructuredData(category: DatabaseCategory) {
   const metadata = databaseCategoryMetadata(category);
-  return [
+  const records = [
     {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
@@ -310,6 +355,16 @@ export function databaseCategoryStructuredData(category: DatabaseCategory) {
     },
     databaseBreadcrumbJsonLd(category.label, metadata.canonicalPath)
   ];
+  const landing = getDatabaseLandingContent(category.id);
+  return landing ? [...records, {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: landing.faq.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: { "@type": "Answer", text: item.answer }
+    }))
+  }] : records;
 }
 
 export function applyDatabaseCategoryMetadata(category: DatabaseCategory) {
@@ -323,7 +378,220 @@ export function applyDatabaseCategoryMetadata(category: DatabaseCategory) {
   });
 }
 
+function cardBreadcrumbJsonLd(name: string, canonicalPath: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") },
+      { "@type": "ListItem", position: 2, name: "Database", item: absoluteUrl("/database/") },
+      { "@type": "ListItem", position: 3, name: "Cards", item: absoluteUrl("/database/cards/") },
+      { "@type": "ListItem", position: 4, name, item: absoluteUrl(canonicalPath) }
+    ]
+  };
+}
+
+export function cardMetadata(card: SpiritValeCard) {
+  const canonicalPath = "/database/cards/" + card.slug + "/";
+  const title = "SpiritVale " + card.name + " Card Guide | PlayAIG";
+  const description = card.description
+    ? card.description + " Review verified SpiritVale card information on PlayAIG."
+    : "Review verified information about the SpiritVale " + card.name + " card, including effect context, sources and future updates on PlayAIG.";
+  return { canonicalPath, description, title, imageAssetId: card.imageAssetId ?? "sv-guide-cards-build-banner" };
+}
+
+export function cardStructuredData(card: SpiritValeCard) {
+  const metadata = cardMetadata(card);
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: metadata.title,
+      description: metadata.description,
+      image: resolveSpiritValeAsset(metadata.imageAssetId) ? absoluteUrl(resolveSpiritValeAsset(metadata.imageAssetId)!.src) : undefined,
+      mainEntityOfPage: absoluteUrl(metadata.canonicalPath),
+      author: { "@type": "Organization", name: siteName, url: siteOrigin + "/" }
+    },
+    cardBreadcrumbJsonLd(card.name, metadata.canonicalPath)
+  ];
+}
+
+export function applyCardMetadata(card: SpiritValeCard) {
+  const metadata = cardMetadata(card);
+  applyPageMetadata({
+    title: metadata.title,
+    description: metadata.description,
+    canonicalPath: metadata.canonicalPath,
+    imageAssetId: metadata.imageAssetId,
+    structuredData: cardStructuredData(card),
+    type: "article"
+  });
+}
+
+function equipmentBreadcrumbJsonLd(name: string, canonicalPath: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") },
+      { "@type": "ListItem", position: 2, name: "Database", item: absoluteUrl("/database/") },
+      { "@type": "ListItem", position: 3, name: "Equipment", item: absoluteUrl("/database/equipment/") },
+      { "@type": "ListItem", position: 4, name, item: absoluteUrl(canonicalPath) }
+    ]
+  };
+}
+
+export function equipmentMetadata(equipment: SpiritValeEquipment) {
+  const canonicalPath = "/database/equipment/" + equipment.slug + "/";
+  const title = "SpiritVale " + equipment.name + " Equipment Guide | PlayAIG";
+  const description = equipment.description
+    ? equipment.description + " Review source-backed SpiritVale equipment information on PlayAIG."
+    : "Review source-backed information about the SpiritVale " + equipment.name + " equipment, including stats, effects, acquisition evidence and sources on PlayAIG.";
+  return { canonicalPath, description, title, imageAssetId: "sv-guide-stats-crafting-banner" };
+}
+
+export function equipmentStructuredData(equipment: SpiritValeEquipment) {
+  const metadata = equipmentMetadata(equipment);
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: metadata.title,
+      description: metadata.description,
+      image: resolveSpiritValeAsset(metadata.imageAssetId) ? absoluteUrl(resolveSpiritValeAsset(metadata.imageAssetId)!.src) : undefined,
+      mainEntityOfPage: absoluteUrl(metadata.canonicalPath),
+      dateModified: equipment.updatedAt,
+      author: { "@type": "Organization", name: siteName, url: siteOrigin + "/" }
+    },
+    equipmentBreadcrumbJsonLd(equipment.name, metadata.canonicalPath)
+  ];
+}
+
+export function applyEquipmentMetadata(equipment: SpiritValeEquipment) {
+  const metadata = equipmentMetadata(equipment);
+  applyPageMetadata({
+    title: metadata.title,
+    description: metadata.description,
+    canonicalPath: metadata.canonicalPath,
+    imageAssetId: metadata.imageAssetId,
+    structuredData: equipmentStructuredData(equipment),
+    type: "article"
+  });
+}
+
+function monsterBreadcrumbJsonLd(name: string, canonicalPath: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") },
+      { "@type": "ListItem", position: 2, name: "Database", item: absoluteUrl("/database/") },
+      { "@type": "ListItem", position: 3, name: "Monsters", item: absoluteUrl("/database/monsters/") },
+      { "@type": "ListItem", position: 4, name, item: absoluteUrl(canonicalPath) }
+    ]
+  };
+}
+
+export function monsterMetadata(monster: SpiritValeMonster) {
+  const canonicalPath = "/database/monsters/" + monster.slug + "/";
+  const title = "SpiritVale " + monster.name + " Monster Guide | PlayAIG";
+  const description = monster.description
+    ? monster.description + " Review source-backed SpiritVale monster information on PlayAIG."
+    : "Review source-backed information about the SpiritVale " + monster.name + " monster, including level, location evidence, drops evidence and sources on PlayAIG.";
+  return { canonicalPath, description, title, imageAssetId: "sv-guide-beginner-combat-banner" };
+}
+
+export function monsterStructuredData(monster: SpiritValeMonster) {
+  const metadata = monsterMetadata(monster);
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: metadata.title,
+      description: metadata.description,
+      image: resolveSpiritValeAsset(metadata.imageAssetId) ? absoluteUrl(resolveSpiritValeAsset(metadata.imageAssetId)!.src) : undefined,
+      mainEntityOfPage: absoluteUrl(metadata.canonicalPath),
+      dateModified: monster.updatedAt,
+      author: { "@type": "Organization", name: siteName, url: siteOrigin + "/" }
+    },
+    monsterBreadcrumbJsonLd(monster.name, metadata.canonicalPath)
+  ];
+}
+
+export function applyMonsterMetadata(monster: SpiritValeMonster) {
+  const metadata = monsterMetadata(monster);
+  applyPageMetadata({
+    title: metadata.title,
+    description: metadata.description,
+    canonicalPath: metadata.canonicalPath,
+    imageAssetId: metadata.imageAssetId,
+    structuredData: monsterStructuredData(monster),
+    type: "article"
+  });
+}
+
+function skillBreadcrumbJsonLd(name: string, canonicalPath: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") },
+      { "@type": "ListItem", position: 2, name: "Database", item: absoluteUrl("/database/") },
+      { "@type": "ListItem", position: 3, name: "Skills", item: absoluteUrl("/database/skills/") },
+      { "@type": "ListItem", position: 4, name, item: absoluteUrl(canonicalPath) }
+    ]
+  };
+}
+
+export function skillMetadata(skill: SpiritValeSkill) {
+  const canonicalPath = "/database/skills/" + skill.slug + "/";
+  const title = "SpiritVale " + skill.name + " Skill Guide | PlayAIG";
+  const description = skill.description
+    ? skill.description + " Review source-backed SpiritVale skill information, level details and evidence on PlayAIG."
+    : "Review source-backed information about the SpiritVale " + skill.name + " skill, including verified level details, class relation and sources on PlayAIG.";
+  return { canonicalPath, description, title, imageAssetId: "sv-guide-classes-selection-banner" };
+}
+
+export function skillStructuredData(skill: SpiritValeSkill) {
+  const metadata = skillMetadata(skill);
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: metadata.title,
+      description: metadata.description,
+      image: resolveSpiritValeAsset(metadata.imageAssetId) ? absoluteUrl(resolveSpiritValeAsset(metadata.imageAssetId)!.src) : undefined,
+      mainEntityOfPage: absoluteUrl(metadata.canonicalPath),
+      dateModified: skill.updatedAt,
+      author: { "@type": "Organization", name: siteName, url: siteOrigin + "/" }
+    },
+    skillBreadcrumbJsonLd(skill.name, metadata.canonicalPath)
+  ];
+}
+
+export function applySkillMetadata(skill: SpiritValeSkill) {
+  const metadata = skillMetadata(skill);
+  applyPageMetadata({
+    title: metadata.title,
+    description: metadata.description,
+    canonicalPath: metadata.canonicalPath,
+    imageAssetId: metadata.imageAssetId,
+    structuredData: skillStructuredData(skill),
+    type: "article"
+  });
+}
+
 export function applyDatabaseIndexMetadata(categoryIds: DatabaseCategoryId[]) {
+  applyPageMetadata({
+    title: databaseIndexMetadata.title,
+    description: databaseIndexMetadata.description,
+    canonicalPath: databaseIndexMetadata.canonicalPath,
+    imageAssetId: "sv-home-hero",
+    structuredData: databaseIndexStructuredData(categoryIds)
+  });
+}
+
+export function databaseIndexStructuredData(categoryIds: DatabaseCategoryId[]) {
   const collection = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
@@ -331,6 +599,14 @@ export function applyDatabaseIndexMetadata(categoryIds: DatabaseCategoryId[]) {
     description: databaseIndexMetadata.description,
     url: absoluteUrl(databaseIndexMetadata.canonicalPath),
     hasPart: categoryIds.map((id) => ({ "@type": "CollectionPage", identifier: id }))
+  };
+  const webpage = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: databaseIndexMetadata.title,
+    description: databaseIndexMetadata.description,
+    url: absoluteUrl(databaseIndexMetadata.canonicalPath),
+    isPartOf: { "@type": "WebSite", name: siteName, url: absoluteUrl("/") }
   };
   const breadcrumb = {
     "@context": "https://schema.org",
@@ -340,13 +616,16 @@ export function applyDatabaseIndexMetadata(categoryIds: DatabaseCategoryId[]) {
       { "@type": "ListItem", position: 2, name: "Database", item: absoluteUrl("/database/") }
     ]
   };
-  applyPageMetadata({
-    title: databaseIndexMetadata.title,
-    description: databaseIndexMetadata.description,
-    canonicalPath: databaseIndexMetadata.canonicalPath,
-    imageAssetId: "sv-home-hero",
-    structuredData: [collection, breadcrumb]
-  });
+  const faq = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: databaseIndexFaqItems.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: { "@type": "Answer", text: item.answer }
+    }))
+  };
+  return [collection, webpage, breadcrumb, faq];
 }
 
 export function applySearchMetadata(query: string) {

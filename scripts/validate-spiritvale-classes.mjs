@@ -18,6 +18,9 @@ const classComponents = readText("src/components/classes/index.tsx");
 const content = readText("src/data/content.ts");
 const site = readText("src/app/site.ts");
 const classVisualAssetId = "sv-guide-classes-selection-banner";
+const landingClassTitles = {
+  knight: "SpiritVale Knight Class Guide 2026: Build Guide | PlayAIG"
+};
 const assetIds = new Set(assets.map((asset) => asset.id));
 const sourceIds = new Set(sources.map((source) => source.id));
 const guideIds = new Set(guides.map((guide) => guide.id));
@@ -42,7 +45,7 @@ if (!site.includes('"@type": "Article"') || !site.includes('"@type": "Breadcrumb
   fail("Class Article or BreadcrumbList JSON-LD is missing.");
 }
 const classStructuredDataSource = site.slice(site.indexOf("export function classStructuredData"), site.indexOf("export function applyClassMetadata"));
-if (classStructuredDataSource.includes("FAQPage")) fail("Class structured data must not include FAQPage.");
+if (!classStructuredDataSource.includes("FAQPage")) fail("Class FAQPage support is missing.");
 
 const slugs = new Set();
 const canonicalPaths = new Set();
@@ -56,7 +59,7 @@ for (const gameClass of classes) {
   const canonicalPath = "/classes/" + gameClass.slug + "/";
   if (canonicalPaths.has(canonicalPath)) fail("Duplicate class canonical path: " + canonicalPath);
   canonicalPaths.add(canonicalPath);
-  const title = "SpiritVale " + gameClass.name + " Class — Officially Confirmed Base Class";
+  const title = landingClassTitles[gameClass.slug] || "SpiritVale " + gameClass.name + " Class Guide 2026: Build Guide | PlayAIG";
   if (titles.has(title)) fail("Duplicate class SEO title: " + title);
   titles.add(title);
   if (!Array.isArray(gameClass.sourceIds) || gameClass.sourceIds.length === 0) fail(gameClass.id + " has no sourceIds.");
@@ -97,14 +100,14 @@ const missingStaticRoutes = expectedStaticRoutes.filter((route) => !existsSync(r
 if (missingStaticRoutes.length) fail("Missing static class metadata output: " + missingStaticRoutes.join(", ") + ".");
 for (const gameClass of classes) {
   const canonicalPath = "/classes/" + gameClass.slug + "/";
-  const title = "SpiritVale " + gameClass.name + " Class — Officially Confirmed Base Class";
+  const title = landingClassTitles[gameClass.slug] || "SpiritVale " + gameClass.name + " Class Guide 2026: Build Guide | PlayAIG";
   const routeHtml = readText("dist-playground" + canonicalPath + "index.html");
   if (!routeHtml.includes("<title>" + title + "</title>")) fail(gameClass.id + " static title is missing.");
   if (!routeHtml.includes('rel="canonical" href="' + siteUrl + canonicalPath + '"')) fail(gameClass.id + " static canonical is missing.");
   if ((routeHtml.match(/meta name="description"/g) ?? []).length !== 1) fail(gameClass.id + " static metadata has an invalid description count.");
   const jsonLdRecords = [...routeHtml.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((match) => JSON.parse(match[1]));
   const types = new Set(jsonLdRecords.map((record) => record["@type"]));
-  if (!types.has("Article") || !types.has("BreadcrumbList") || types.has("FAQPage")) fail(gameClass.id + " static JSON-LD is incomplete or includes FAQPage.");
+  if (!types.has("Article") || !types.has("BreadcrumbList") || !types.has("FAQPage")) fail(gameClass.id + " static JSON-LD is incomplete.");
 }
 
 console.log("SpiritVale class validation PASSED");
