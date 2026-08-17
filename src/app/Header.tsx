@@ -7,7 +7,7 @@ const primaryNavigation = [
   { label: "Home", path: "/" },
   { label: "Guides", path: "/guides/" },
   { label: "Classes", path: "/classes/" },
-  { label: "Builds", path: "/builds/" },
+  { label: "Builds", path: "/guides/class-guide/" },
   { label: "Database", path: "/database/" },
   { label: "Bosses", path: "/database/bosses/" }
 ];

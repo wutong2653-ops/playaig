@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && node scripts/prerender-spiritvale-guides.mjs && node scripts/prerender-spiritvale-classes.mjs && node scripts/prerender-spiritvale-database.mjs && node scripts/generate-spiritvale-seo.mjs",
+    "build": "tsc -b && vite build && node scripts/prerender-spiritvale-guides.mjs && node scripts/prerender-spiritvale-classes.mjs && node scripts/prerender-spiritvale-database.mjs && node scripts/generate-spiritvale-seo.mjs && node scripts/prerender-spiritvale-static-content.mjs",
     "typecheck": "tsc -b --pretty false",
     "lint": "eslint .",
     "playground": "vite --host 127.0.0.1",

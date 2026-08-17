@@ -219,9 +219,7 @@ for (const category of categories) {
 for (const card of cards) {
   const canonicalPath = "/database/cards/" + card.slug + "/";
   const title = "SpiritVale " + card.name + " Card Guide | PlayAIG";
-  const description = card.description
-    ? card.description + " Review verified SpiritVale card information on PlayAIG."
-    : "Review verified information about the SpiritVale " + card.name + " card, including effect context, sources and future updates on PlayAIG.";
+  const description = card.name + " is a verified SpiritVale card entry. View its source-backed database record and currently confirmed information on PlayAIG.";
   const imageAssetId = card.imageAssetId || "sv-guide-cards-build-banner";
   await emitRoute(canonicalPath, pageHtml({
     title,
