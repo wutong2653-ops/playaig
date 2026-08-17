@@ -53,7 +53,7 @@ export const databaseCategories: DatabaseCategory[] = [
   {
     id: "cards",
     label: "Cards",
-    description: "Verified card records will appear here when official information is available.",
+    description: "Browse the SpiritVale Cards Database and open each source-backed card entry with its verification status.",
     path: "/database/cards/",
     icon: "arrowRight",
     imageAssetId: "sv-guide-cards-build-banner"

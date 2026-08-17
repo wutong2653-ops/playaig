@@ -1,3 +1,5 @@
+import { getCards } from "../data/content";
+
 export type SeoLandingSection = {
   heading: string;
   paragraphs: string[];
@@ -22,6 +24,8 @@ export type SeoLandingContent = {
   faq: SeoLandingFaq[];
   links: SeoLandingLink[];
 };
+
+const verifiedCardCount = getCards().length;
 
 export const guideLandingContent: Record<string, SeoLandingContent> = {
   "beginner-guide": {
@@ -276,7 +280,8 @@ const tier1GuideLandingContent: Record<string, SeoLandingContent> = {
       { label: "SpiritVale Class Comparison", href: "/guides/class-comparison/" },
       { label: "SpiritVale Equipment Database", href: "/database/equipment/" },
       { label: "SpiritVale Skills Database", href: "/database/skills/" },
-      { label: "SpiritVale Classes", href: "/classes/" }
+      { label: "SpiritVale Classes", href: "/classes/" },
+      { label: "SpiritVale Warrior Class Guide", href: "/classes/warrior/" }
     ]
   },
   "common-beginner-mistakes": {
@@ -526,18 +531,18 @@ if (cardGuideLanding) {
   cardGuideLanding.sections.splice(1, 0, {
     heading: "Verified Card Records",
     paragraphs: [
-      "The SpiritVale Cards Database currently contains 50 source-backed card records from a registered community source. These records preserve names, category labels and source-listed effect text where available; they are community evidence, not official developer records.",
+      `The SpiritVale Cards Database currently contains ${verifiedCardCount} source-backed card records from a registered community source. These records preserve names, category labels and source-listed effect text where available; they are community evidence, not official developer records.`,
       "Use the records as a transparent lookup starting point. Rarity, acquisition rules, class compatibility and rankings remain unconfirmed unless the individual entry displays evidence for that field. The database keeps those fields marked as unavailable instead of inferring them from a familiar game system."
     ],
     bullets: [
-      "50 source-backed card records are currently listed.",
+      `${verifiedCardCount} source-backed card records are currently listed.`,
       "Community records are labelled separately from official Steam confirmation.",
       "Unsupported rarity, acquisition and ranking claims remain open questions."
     ]
   });
   cardGuideLanding.faq = [
     ...cardGuideLanding.faq,
-    { question: "How many card records are currently listed?", answer: "The Cards Database currently lists 50 source-backed community records; they are not official developer records." }
+    { question: "How many card records are currently listed?", answer: `The Cards Database currently lists ${verifiedCardCount} source-backed community records; they are not official developer records.` }
   ];
   cardGuideLanding.links = [
     ...cardGuideLanding.links,
@@ -556,7 +561,7 @@ export const databaseLandingContent: Record<string, SeoLandingContent> = {
       {
         heading: "Cards Overview",
         paragraphs: [
-          "Cards are one of the systems named by the official SpiritVale Steam store. The source places cards alongside skills, equipment, artifacts, loot and character customization, which makes the card collection a useful area for players who want to understand how a character may grow. The PlayAIG collection now lists 50 source-backed community records with their source status visible on each entry.",
+          `Cards are one of the systems named by the official SpiritVale Steam store. The source places cards alongside skills, equipment, artifacts, loot and character customization, which makes the card collection a useful area for players who want to understand how a character may grow. The PlayAIG collection now lists ${verifiedCardCount} source-backed community records with their source status visible on each entry.`,
           "Those records are not official developer records and they do not establish a complete rarity, acquisition or ranking system. A trustworthy database shows both the available evidence and its limits: names, categories and source-listed effect text can be reviewed, while unsupported fields remain marked as unavailable rather than inferred."
         ]
       },
@@ -567,7 +572,7 @@ export const databaseLandingContent: Record<string, SeoLandingContent> = {
           "A record is useful for lookup, not a promise that the card is best, universally available or compatible with a particular class. Read the category and effect fields as published by the registered community source, then check the entry status before using it to plan a build."
         ],
         bullets: [
-          "50 source-backed card records are currently available.",
+          `${verifiedCardCount} source-backed card records are currently available.`,
           "Community evidence is distinct from official Steam confirmation.",
           "Rarity, acquisition and ranking remain unverified where the source does not publish them."
         ]
@@ -623,7 +628,7 @@ export const databaseLandingContent: Record<string, SeoLandingContent> = {
       }
     ],
     faq: [
-      { question: "Are any SpiritVale card entries available?", answer: "Yes. The formal PlayAIG collection currently lists 50 source-backed community records, clearly separated from official developer confirmation." },
+      { question: "Are any SpiritVale card entries available?", answer: `Yes. The formal PlayAIG collection currently lists ${verifiedCardCount} source-backed community records, clearly separated from official developer confirmation.` },
       { question: "What card effects are confirmed?", answer: "The collection preserves source-listed effect text where the registered community source publishes it; unsupported conditions and official balance claims remain unverified." },
       { question: "Does SpiritVale have a card rarity system?", answer: "A formal rarity scale is not yet confirmed by the registered official sources." },
       { question: "How do players obtain cards?", answer: "The official store mentions cards and loot but does not provide a verified acquisition table yet." },
@@ -856,8 +861,8 @@ const additionalGuideProfiles: GuideProfile[] = [
   {
     slug: "leveling-guide",
     topic: "Leveling",
-    title: "SpiritVale Leveling Guide 2026: Complete Tips | PlayAIG",
-    description: "Use this SpiritVale leveling guide for confirmed progression systems, safe early planning, equipment context and source-led updates from PlayAIG.",
+    title: "SpiritVale Leveling Guide 2026 | PlayAIG",
+    description: "Follow PlayAIG's SpiritVale leveling guide for currently verified progression information, source-backed updates, and links to related classes and game resources.",
     confirmed: "Official SpiritVale information says players can level characters and mentions skill progression, class switching, equipment, loot, combat and multiplayer.",
     method: "record the activity, character state, date and observed change before calling a route or reward a rule",
     caution: "no fastest route, level cap, experience formula or level table is currently verified"
@@ -1139,6 +1144,8 @@ if (knightLanding) {
 
 const warriorLanding = classLandingContent.warrior;
 if (warriorLanding) {
+  warriorLanding.title = "SpiritVale Warrior Class Guide 2026 | PlayAIG";
+  warriorLanding.description = "Explore the SpiritVale Warrior class with currently verified, source-backed information and links to related class, skill, equipment and database resources.";
   warriorLanding.sections.splice(3, 0, {
     heading: "Warrior Build Research",
     paragraphs: [

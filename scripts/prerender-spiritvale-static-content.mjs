@@ -1,6 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { mkdir } from "node:fs/promises";
+import { cardDescription } from "../src/shared/card-seo.mjs";
 
 const root = process.cwd();
 const outputRoot = resolve(root, "dist-playground");
@@ -84,6 +85,14 @@ function bodyForPath(path) {
   }
   const guide = guides.find((record) => record.seo.canonicalPath === path);
   if (guide) {
+    if (guide.slug === "leveling-guide") {
+      const levelingContent = [
+        "<section><h2>What We Know About Leveling in SpiritVale</h2><p>Official SpiritVale information confirms character leveling and references skill progression, class switching, equipment, loot, combat and multiplayer. It does not publish a verified fastest route, experience formula, level cap or recommended area, so this page keeps those details marked as awaiting confirmation.</p></section>",
+        "<section><h2>Leveling Information Still Being Verified</h2><p>XP requirements, progression routes, recommended areas and efficient leveling methods remain unverified in the registered source set. Information will be updated when a first-party SpiritVale source confirms one of these details.</p><ul><li>XP requirements: awaiting official information.</li><li>Level cap and progression table: awaiting official information.</li><li>Route, area and efficiency claims: not published as verified facts.</li></ul></section>",
+        "<section><h2>Related SpiritVale Guides</h2><p>Use the <a href=\"/guides/class-guide/\">SpiritVale Class Guide</a> and <a href=\"/classes/\">SpiritVale Classes</a> to compare confirmed class names. The <a href=\"/database/skills/\">SpiritVale Skills Database</a>, <a href=\"/database/equipment/\">SpiritVale Equipment Database</a> and <a href=\"/database/\">SpiritVale Database</a> show where source-backed records are tracked.</p></section>"
+      ].join("");
+      return shell("SpiritVale Leveling Guide", "Follow PlayAIG's SpiritVale leveling guide for currently verified progression information and clearly marked unknowns.", levelingContent, [link("/guides/", "SpiritVale Guides"), link("/guides/class-guide/", "SpiritVale Class Guide"), link("/classes/", "SpiritVale Classes")]);
+    }
     const sections = guide.sections.slice(0, 8).map((section) => "<section><h2>" + escapeHtml(section.heading) + "</h2>" + section.contentBlocks.slice(0, 3).map((block) => {
       if (block.type === "list") return list(block.items.map(escapeHtml));
       return block.text ? "<p>" + escapeHtml(block.text) + "</p>" : "";
@@ -98,6 +107,14 @@ function bodyForPath(path) {
   }
   const gameClass = baseClasses.find((record) => path === "/classes/" + record.slug + "/");
   if (gameClass) {
+    if (gameClass.slug === "warrior") {
+      const warriorContent = [
+        "<section><h2>Warrior Class Overview</h2><p>Warrior is one of the seven confirmed SpiritVale base-class names. The official record confirms the class identity, but does not assign a role, weapon, main stat, difficulty or universal progression route.</p></section>",
+        "<section><h2>SpiritVale Warrior Build Information</h2><p>Reliable Warrior build recommendations are not yet sufficiently verified. Related community skill records may be useful for research, but they do not establish a best rotation, stat priority, equipment set, damage ranking or meta build.</p><ul><li>Skills: review only source-backed records.</li><li>Equipment and stats: awaiting a complete verified relationship.</li><li>Best build and tier claims: not published.</li></ul></section>",
+        "<section><h2>Related Warrior Resources</h2><p>Read the <a href=\"/guides/class-guide/\">SpiritVale Class Guide</a>, <a href=\"/guides/leveling-guide/\">SpiritVale Leveling Guide</a>, <a href=\"/classes/\">SpiritVale Classes</a>, <a href=\"/database/skills/\">SpiritVale Skills Database</a> and <a href=\"/database/equipment/\">SpiritVale Equipment Database</a> for source status and related research.</p></section>"
+      ].join("");
+      return shell("SpiritVale Warrior Class Guide", "Explore the SpiritVale Warrior class with currently verified information and clearly marked build questions.", warriorContent, [link("/classes/", "SpiritVale Classes"), link("/guides/class-guide/", "SpiritVale Class Guide"), link("/guides/leveling-guide/", "SpiritVale Leveling Guide")]);
+    }
     return shell("SpiritVale " + gameClass.name + " Class Guide", gameClass.name + " is an officially confirmed SpiritVale base class. Role, weapon and build details remain source-dependent.", "<section><h2>Officially confirmed information</h2><p>Current formal records confirm the class identity and verification status. Unsupported abilities, stats and equipment are not added.</p></section>", [link("/classes/", "All Classes"), link("/guides/class-guide/", "Class Guide"), link("/guides/beginner-guide/", "Beginner Guide"), link("/database/skills/", "Skills Database"), link("/database/equipment/", "Equipment Database")]);
   }
   const categoryMatch = path.match(/^\/database\/([a-z-]+)\/$/);
@@ -106,6 +123,12 @@ function bodyForPath(path) {
     const labels = new Map(categoryInfo);
     const label = labels.get(category) ?? category;
     const records = category === "cards" ? validCards : category === "equipment" ? validEquipment : category === "monsters" ? validMonsters : category === "skills" ? validSkills : [];
+    if (category === "cards") {
+      const intro = "Browse the SpiritVale Cards Database with " + validCards.length + " currently verified card entries. Each card links to its own source-backed database page, with additional details added as reliable information becomes available.";
+      const content = "<section><h2>About SpiritVale Cards</h2><p>SpiritVale includes a card system connected to character builds and equipment customization. This database organizes currently verified card records into individual pages so players can quickly browse known SpiritVale cards. Only source-backed information should be presented as confirmed.</p></section>" +
+        "<section><h2>Verified Card Entries</h2>" + list(entityLinks(category, records)) + "</section>";
+      return shell("SpiritVale Cards Database - Complete Card List", intro, content, [link("/guides/card-system-guide/", "SpiritVale Card System Guide"), link("/database/", "SpiritVale Database"), link("/guides/", "SpiritVale Guides")]);
+    }
     const entries = records.length ? "<section><h2>Verified " + escapeHtml(label) + " entries</h2>" + list(entityLinks(category, records)) + "</section>" : "<section><h2>Data collection status</h2><p>No verified " + escapeHtml(label.toLowerCase()) + " entries are available in the current source-backed collection. Information will be updated after verification.</p></section>";
     return shell("SpiritVale " + label + " Database", "Review source-backed " + label.toLowerCase() + " records and their current verification status.", entries, [link("/database/", "Database Home"), link("/guides/", "Guides"), link("/classes/", "Classes")]);
   }
@@ -115,7 +138,7 @@ function bodyForPath(path) {
     const records = category === "cards" ? validCards : category === "equipment" ? validEquipment : category === "monsters" ? validMonsters : validSkills;
     const record = records.find((item) => item.slug === slug);
     if (record) {
-      const description = category === "cards" ? record.name + " is a verified SpiritVale card entry. View its source-backed database record and currently confirmed information on PlayAIG." : (record.description ?? record.shortDescription ?? "Source-backed information is available only for fields confirmed by the registered source.");
+      const description = category === "cards" ? cardDescription(record.name) : (record.description ?? record.shortDescription ?? "Source-backed information is available only for fields confirmed by the registered source.");
       const fields = [record.category ? "Category: " + record.category : "", record.rarity ? "Rarity: " + record.rarity : "", record.effect ? "Effect: " + record.effect : "", record.level ? "Level: " + record.level : ""].filter(Boolean);
       return shell(record.name, description, "<section><h2>Overview</h2><p>" + escapeHtml(description) + "</p>" + (fields.length ? list(fields.map(escapeHtml)) : "") + "</section>", [link("/database/" + category + "/", labelForCategory(category) + " Database"), link("/guides/", "SpiritVale Guides"), link("/classes/", "SpiritVale Classes"), link("/guides/class-guide/", "Class Guide")]);
     }
@@ -128,7 +151,7 @@ function labelForCategory(category) {
 }
 
 function updateCardMetadata(html, card) {
-  const description = card.name + " is a verified SpiritVale card entry. View its source-backed database record and currently confirmed information on PlayAIG.";
+  const description = cardDescription(card.name);
   html = html.replace(/(<meta name="description"[^>]*content=")[^"]*(")/i, "$1" + escapeHtml(description) + "$2");
   html = html.replace(/(<meta property="og:description"[^>]*content=")[^"]*(")/i, "$1" + escapeHtml(description) + "$2");
   html = html.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/gi, (match, raw) => {

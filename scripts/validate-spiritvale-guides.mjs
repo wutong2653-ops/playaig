@@ -24,7 +24,7 @@ const landingGuideTitles = {
   "beginner-guide": "SpiritVale Beginner Guide 2026: Starter Guide | PlayAIG",
   "class-guide": "SpiritVale Class Guide 2026: Base Classes | PlayAIG",
   "card-system-guide": "SpiritVale Card System Guide 2026: Complete Tips | PlayAIG",
-  "leveling-guide": "SpiritVale Leveling Guide 2026: Complete Tips | PlayAIG",
+  "leveling-guide": "SpiritVale Leveling Guide 2026 | PlayAIG",
   "stats-guide": "SpiritVale Stats Guide 2026: Complete Review | PlayAIG",
   "first-steps": "SpiritVale First Steps Guide 2026 | PlayAIG",
   "early-game-strategy": "SpiritVale Early Game Strategy Guide 2026 | PlayAIG",

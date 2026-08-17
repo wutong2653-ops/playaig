@@ -1,5 +1,6 @@
 import { classVisualAssetId, resolveSpiritValeAsset, type DatabaseCategory, type DatabaseCategoryId, type SpiritValeCard, type SpiritValeClass, type SpiritValeEquipment, type SpiritValeGuide, type SpiritValeMonster, type SpiritValeSkill } from "../data";
 import { getClassLandingContent, getDatabaseLandingContent, getGuideLandingContent } from "./seoLandingContent";
+import { cardDescription, cardTitle } from "../shared/card-seo.mjs";
 
 export const siteOrigin = "https://playaig.com";
 export const siteName = "PlayAIG";
@@ -393,10 +394,8 @@ function cardBreadcrumbJsonLd(name: string, canonicalPath: string) {
 
 export function cardMetadata(card: SpiritValeCard) {
   const canonicalPath = "/database/cards/" + card.slug + "/";
-  const title = "SpiritVale " + card.name + " Card Guide | PlayAIG";
-  const description = card.description
-    ? card.description + " Review verified SpiritVale card information on PlayAIG."
-    : "Review verified information about the SpiritVale " + card.name + " card, including effect context, sources and future updates on PlayAIG.";
+  const title = cardTitle(card.name);
+  const description = cardDescription(card.name);
   return { canonicalPath, description, title, imageAssetId: card.imageAssetId ?? "sv-guide-cards-build-banner" };
 }
 

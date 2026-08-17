@@ -19,7 +19,8 @@ const content = readText("src/data/content.ts");
 const site = readText("src/app/site.ts");
 const classVisualAssetId = "sv-guide-classes-selection-banner";
 const landingClassTitles = {
-  knight: "SpiritVale Knight Class Guide 2026: Build Guide | PlayAIG"
+  knight: "SpiritVale Knight Class Guide 2026: Build Guide | PlayAIG",
+  warrior: "SpiritVale Warrior Class Guide 2026 | PlayAIG"
 };
 const assetIds = new Set(assets.map((asset) => asset.id));
 const sourceIds = new Set(sources.map((source) => source.id));

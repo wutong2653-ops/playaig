@@ -1,6 +1,7 @@
 import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { checkFieldPermission } from "./source-registry/registry.mjs";
+import { cardTitle } from "../src/shared/card-seo.mjs";
 
 const root = process.cwd();
 const readJson = (file) => JSON.parse(readFileSync(resolve(root, file), "utf8"));
@@ -89,6 +90,9 @@ for (const card of cards) {
 
 const validCards = cards.filter((card) => card.sourceIds.length && card.sourceIds.every((sourceId) => sourceIds.has(sourceId)));
 const sitemap = readText("public/sitemap.xml");
+const cardsHub = readText("dist-playground/database/cards/index.html");
+if (!cardsHub.includes("SpiritVale Cards Database") || !cardsHub.includes("SpiritVale Card System Guide") || !cardsHub.includes("/guides/card-system-guide/")) fail("Cards Hub is missing its Card System Guide link or title.");
+if (!cardsHub.includes(validCards.length + " currently verified card entries")) fail("Cards Hub verified count is not dynamically reflected in static HTML.");
 for (const card of validCards) if (!sitemap.includes("https://playaig.com/database/cards/" + card.slug + "/")) fail("Sitemap is missing valid card " + card.id + ".");
 if (validCards.length === 0 && /https:\/\/playaig\.com\/database\/cards\/[^<]+/.test(sitemap)) fail("Empty Cards collection must not add entity URLs to sitemap.");
 for (const card of validCards) {
@@ -96,8 +100,10 @@ for (const card of validCards) {
   if (!existsSync(resolve(root, routePath))) fail("Missing static Card route: " + card.slug);
   const html = readText(routePath);
   const canonical = "https://playaig.com/database/cards/" + card.slug + "/";
-  if (!html.includes("<title>SpiritVale " + card.name + " Card Guide | PlayAIG</title>")) fail("Card title is missing: " + card.id);
+  if (card.name.match(/card\s+card/i) || cardTitle(card.name).match(/card\s+card|guide\s+guide/i)) fail("Card title normalization failed before rendering: " + card.id);
+  if (!html.includes("<title>" + cardTitle(card.name) + "</title>")) fail("Card title is missing: " + card.id);
   if (!html.includes('rel="canonical" href="' + canonical + '"')) fail("Card canonical is missing: " + card.id);
+  if (!html.includes('href="/database/cards/"')) fail("Card detail is missing Cards Database backlink: " + card.id);
   const structuredData = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((match) => JSON.parse(match[1]));
   const types = new Set(structuredData.map((record) => record["@type"]));
   if (!types.has("Article") || !types.has("BreadcrumbList")) fail("Card JSON-LD is incomplete: " + card.id);

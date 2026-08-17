@@ -23,6 +23,17 @@ const landingClassMeta = {
       ["Is Knight a tank class?", "That role has not been confirmed. The class name alone is not evidence of a tank, damage or support role."],
       ["Where should Knight players find updates?", "Check the registered official SpiritVale Steam source and this page’s verification status for future updates."]
     ]
+  },
+  warrior: {
+    title: "SpiritVale Warrior Class Guide 2026 | PlayAIG",
+    description: "Explore the SpiritVale Warrior class with currently verified, source-backed information and links to related class, skill, equipment and database resources.",
+    faq: [
+      ["Is Warrior an officially confirmed SpiritVale class?", "Yes. Warrior is recorded as one of the seven officially confirmed SpiritVale base classes."],
+      ["What Warrior information is currently verified?", "The class name and base-class identity are confirmed. Related community skill records are shown with their source status; they do not establish a complete Warrior build."],
+      ["What is the best Warrior build?", "No verified best Warrior build is available because a complete source-backed combination of skills, equipment, stats and progression is not confirmed."],
+      ["Does Warrior have a confirmed role or weapon?", "No role or weapon assignment is currently confirmed by the registered official sources."],
+      ["Where should Warrior players find updates?", "Check the Warrior page, related database records and registered SpiritVale sources for future verified updates."]
+    ]
   }
 };
 

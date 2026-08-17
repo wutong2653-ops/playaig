@@ -41,8 +41,8 @@ const landingGuideMeta = {
     ]
   },
   "leveling-guide": {
-    title: "SpiritVale Leveling Guide 2026: Complete Tips | PlayAIG",
-    description: "Use this SpiritVale leveling guide for confirmed progression systems, safe early planning, equipment context and source-led updates from PlayAIG.",
+    title: "SpiritVale Leveling Guide 2026 | PlayAIG",
+    description: "Follow PlayAIG's SpiritVale leveling guide for currently verified progression information, source-backed updates, and links to related classes and game resources.",
     faq: [
       ["What does the SpiritVale Leveling system confirm?", "Official SpiritVale information says players can level characters and mentions skill progression, class switching, equipment, loot, combat and multiplayer."],
       ["Does this guide list unverified leveling data?", "No. No fastest route, level cap, experience formula or level table is currently verified; information will be updated when official details are confirmed."],

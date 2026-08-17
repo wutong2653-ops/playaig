@@ -45,6 +45,14 @@ export function CardDetailPage({ card }: { card: SpiritValeCard }) {
             </ul>
             <RelatedGuides guides={relatedGuides} />
           </section>
+          <section className="database-section" id="related-resources">
+            <h2>Related SpiritVale Resources</h2>
+            <ul>
+              <li><a className="sv-focusable" href="/database/cards/">SpiritVale Cards Database</a></li>
+              <li><a className="sv-focusable" href="/guides/card-system-guide/">SpiritVale Card System Guide</a></li>
+              <li><a className="sv-focusable" href="/database/">SpiritVale Database</a></li>
+            </ul>
+          </section>
           <DatabaseSources sources={sources} />
           <DatabaseDisclaimer />
         </DatabaseLayout>

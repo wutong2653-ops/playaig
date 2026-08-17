@@ -1,5 +1,6 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
+import { cardDescription, cardTitle } from "../src/shared/card-seo.mjs";
 
 const root = process.cwd();
 const outputRoot = resolve(root, "dist-playground");
@@ -14,6 +15,7 @@ const skillRecords = JSON.parse(await readFile(resolve(root, "data/spiritvale/sk
 const sourceRecords = JSON.parse(await readFile(resolve(root, "data/spiritvale/sources/sources.json"), "utf8"));
 const sourceIds = new Set(sourceRecords.map((source) => source.id));
 const cards = cardRecords.filter((card) => card.id && card.slug && card.name && card.sourceIds?.length && card.sourceIds.every((sourceId) => sourceIds.has(sourceId)));
+const verifiedCardCount = cards.length;
 const equipment = equipmentRecords.filter((item) => item.id && item.slug && item.name && item.sourceIds?.length && item.sourceIds.every((sourceId) => sourceIds.has(sourceId)) && item.status === "published");
 const monsters = monsterRecords.filter((monster) => monster.id && monster.slug && monster.name && monster.sourceIds?.length && monster.sourceIds.every((sourceId) => sourceIds.has(sourceId)) && monster.status === "published");
 const skills = skillRecords.filter((skill) => skill.id && skill.slug && skill.name && skill.sourceIds?.length && skill.sourceIds.every((sourceId) => sourceIds.has(sourceId)) && skill.status === "published");
@@ -99,7 +101,7 @@ const landingCategoryMeta = {
     title: "SpiritVale Cards Database: Complete List | PlayAIG",
     description: "Explore the SpiritVale Cards Database for collection status, card categories and verified effects, with transparent updates from PlayAIG today.",
     faq: [
-      ["Are any SpiritVale card entries verified?", "The first Card records are verified against a registered community source and are clearly labelled; they are not official developer records."],
+      ["Are any SpiritVale card entries verified?", verifiedCardCount + " Card records are verified against a registered community source and are clearly labelled; they are not official developer records."],
       ["What card effects are confirmed?", "The Cards collection includes effect wording from the registered community source for its approved records; fields not published by that source remain empty."],
       ["Does SpiritVale have a card rarity system?", "A formal rarity scale is not yet confirmed by the registered official sources."],
       ["How do players obtain cards?", "The official store mentions cards and loot but does not provide a verified acquisition table yet."],
@@ -218,8 +220,8 @@ for (const category of categories) {
 
 for (const card of cards) {
   const canonicalPath = "/database/cards/" + card.slug + "/";
-  const title = "SpiritVale " + card.name + " Card Guide | PlayAIG";
-  const description = card.name + " is a verified SpiritVale card entry. View its source-backed database record and currently confirmed information on PlayAIG.";
+  const title = cardTitle(card.name);
+  const description = cardDescription(card.name);
   const imageAssetId = card.imageAssetId || "sv-guide-cards-build-banner";
   await emitRoute(canonicalPath, pageHtml({
     title,
