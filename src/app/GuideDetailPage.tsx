@@ -20,6 +20,7 @@ import {
 } from "../components";
 import { applyGuideMetadata } from "./site";
 import { getGuideLandingContent } from "./seoLandingContent";
+import { CardGuideQuickAnswer } from "./cardGuideQuickAnswer";
 
 export function GuideDetailPage({ guide }: { guide: SpiritValeGuide }) {
   const classes = getClasses();
@@ -45,6 +46,7 @@ export function GuideDetailPage({ guide }: { guide: SpiritValeGuide }) {
         <GuideLayout tableOfContents={<GuideTableOfContents sections={guide.sections} />}>
           <GuideHeader categoryName={categoryName} guide={guide} title={landing?.h1} />
           {guide.intro ? <p className="guide-page__intro">{guide.intro}</p> : null}
+          {guide.slug === "card-system-guide" ? <CardGuideQuickAnswer /> : null}
           <GuideTableOfContents sections={guide.sections} />
           {guide.sections.map((section) => <GuideSection classes={classes} key={section.id} section={section} sources={sources} />)}
           {landing ? (
