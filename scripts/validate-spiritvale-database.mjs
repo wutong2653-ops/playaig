@@ -43,7 +43,7 @@ const landingCategoryTitles = {
   equipment: "SpiritVale Equipment Database: Complete List | PlayAIG",
   artifacts: "SpiritVale Artifacts Database: Complete List | PlayAIG",
   bosses: "SpiritVale Bosses Database: Complete List | PlayAIG",
-  maps: "SpiritVale Maps Database: Complete Map List | PlayAIG",
+  maps: readJson("src/app/mapsDirectoryData.json").title,
   monsters: "SpiritVale Monsters Database: Complete List | PlayAIG",
   skills: "SpiritVale Skills Database: Complete List | PlayAIG"
 };
@@ -195,3 +195,21 @@ console.log("Verified database entries: " + verifiedDatabaseEntries + " Cards; p
 console.log("Related guide references: " + relatedGuideReferences);
 console.log("General database image assets: " + new Set(categoryDefinitions.map((category) => category.imageAssetId)).size);
 console.log("Shared Database template, CollectionPage/Breadcrumb JSON-LD, Empty State, sources, related guides, and Not Found: present");
+
+// Maps-only checks: keep every official game identifier, including repeated names.
+const mapsDirectory = readJson("src/app/mapsDirectoryData.json");
+const mapsHtml = readText("dist-playground/database/maps/index.html");
+const escapeMapsText = value => String(value).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#39;");
+if (new Set(mapsDirectory.maps.map(map => map.identifier)).size !== mapsDirectory.maps.length) fail("Maps have duplicate game identifiers.");
+if ((mapsHtml.match(/data-map-record=/g) ?? []).length !== mapsDirectory.maps.length) fail("Maps are missing from static HTML.");
+for (const map of mapsDirectory.maps) {
+  if (!mapsHtml.includes('data-map-record="' + escapeMapsText(map.identifier) + '"') || !mapsHtml.includes(escapeMapsText(map.name))) fail("Official map record is absent from static HTML: " + map.identifier);
+}
+if ((mapsHtml.match(/<h1[ >]/g) ?? []).length !== 1 || !mapsHtml.includes(escapeMapsText(mapsDirectory.h1))) fail("Maps H1 is not unique or correct.");
+const mapsSchemas = [...mapsHtml.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(match => JSON.parse(match[1]));
+const mapsFaq = mapsSchemas.find(item => item["@type"] === "FAQPage");
+if (JSON.stringify(mapsFaq.mainEntity.map(item => ({ question: item.name, answer: item.acceptedAnswer.text }))) !== JSON.stringify(mapsDirectory.faq)) fail("Maps FAQ JSON-LD diverges from source content.");
+for (const faq of mapsDirectory.faq) if (!mapsHtml.includes(escapeMapsText(faq.question)) || !mapsHtml.includes(escapeMapsText(faq.answer))) fail("Maps visible FAQ is incomplete.");
+if (mapsSchemas.find(item => item["@type"] === "CollectionPage").mainEntity.numberOfItems !== mapsDirectory.maps.length) fail("Maps schema count is incorrect.");
+if (/no verified map|noindex|awaiting official details/i.test(mapsHtml)) fail("Maps still contain an empty collection or noindex state.");
+console.log("Official maps static records, identifiers, metadata and visible FAQ validation PASSED");
