@@ -1,0 +1,365 @@
+{
+  "sourceUrl": "https://spiritvale.info/maps",
+  "identitySource": "https://store.steampowered.com/api/appdetails?appids=3767850",
+  "worldMapUrl": "https://spiritvale.info/world-map",
+  "verifiedAt": "2026-09-09T07:14:45.967769+00:00",
+  "verifiedLabel": "September 9, 2026, 07:14 UTC",
+  "title": "SpiritVale Maps: 48 Official Map Records & Levels | PlayAIG",
+  "h1": "SpiritVale Maps — Official Map Directory",
+  "description": "Find SpiritVale maps by name or identifier. Browse 48 official map records, filter listed monster levels, and open official sources. Verified September 9, 2026.",
+  "intro": "Browse 48 map records from the official SpiritVale directory. Search names or game identifiers, compare listed monster level ranges, and open the official world map.",
+  "usage": "Search by map name or game identifier, filter by the exact monster level range published in the source, and sort by name or minimum listed level. Use the official world map for the spatial view.",
+  "boundary": "PlayAIG is an independent guide, not an official game service. Monster level ranges are source values, not recommended character levels or difficulty ratings. A 0–0 range is reproduced as published and is not interpreted as level guidance. World, chapter, routes, coordinates, rewards and release dates are not supplied by this map listing and are not inferred. Records with the same display name remain separate when their game identifiers differ.",
+  "faq": [
+    {
+      "question": "How many SpiritVale maps are listed here?",
+      "answer": "This directory contains 48 official map records checked on September 9, 2026. Repeated display names are kept as separate records when their game identifiers differ."
+    },
+    {
+      "question": "What do the monster level ranges mean?",
+      "answer": "They reproduce the official MonsterMinLevel and MonsterMaxLevel fields. They are not recommended character levels or difficulty ratings. The source value 0–0 is shown without inferring level guidance."
+    },
+    {
+      "question": "Where can I find the SpiritVale world map?",
+      "answer": "Open the official SpiritVale world map at spiritvale.info/world-map for the spatial map. This page is a searchable directory of source-listed records."
+    }
+  ],
+  "maps": [
+    {
+      "name": "Abyss Castle Crypt",
+      "slug": "abyss-castle-crypt",
+      "identifier": "Castle Crypt",
+      "minLevel": 116,
+      "maxLevel": 120
+    },
+    {
+      "name": "Abyss Castle Dungeon",
+      "slug": "abyss-castle-dungeon",
+      "identifier": "Castle Dungeon",
+      "minLevel": 106,
+      "maxLevel": 110
+    },
+    {
+      "name": "Abyss Castle Keep",
+      "slug": "abyss-castle-keep",
+      "identifier": "Castle Keep",
+      "minLevel": 111,
+      "maxLevel": 115
+    },
+    {
+      "name": "Abyss Castle Library",
+      "slug": "abyss-castle-library",
+      "identifier": "Castle Library",
+      "minLevel": 121,
+      "maxLevel": 125
+    },
+    {
+      "name": "Arena",
+      "slug": "arena",
+      "identifier": "Pvp Arena",
+      "minLevel": 0,
+      "maxLevel": 0
+    },
+    {
+      "name": "Bunny Woods",
+      "slug": "bunny-woods",
+      "identifier": "Bunny Woods",
+      "minLevel": 21,
+      "maxLevel": 25
+    },
+    {
+      "name": "Crystal Cave",
+      "slug": "crystal-cave",
+      "identifier": "Ice Cave",
+      "minLevel": 71,
+      "maxLevel": 75
+    },
+    {
+      "name": "Dark Forest",
+      "slug": "dark-forest",
+      "identifier": "Dark Forest",
+      "minLevel": 91,
+      "maxLevel": 95
+    },
+    {
+      "name": "Demon's Maw",
+      "slug": "demon-s-maw",
+      "identifier": "Demon's Maw",
+      "minLevel": 96,
+      "maxLevel": 100
+    },
+    {
+      "name": "Fairy Glen",
+      "slug": "fairy-glen",
+      "identifier": "Enchanted Forest",
+      "minLevel": 31,
+      "maxLevel": 35
+    },
+    {
+      "name": "Festering Woods 1",
+      "slug": "festering-woods-1",
+      "identifier": "Festering Woods 1",
+      "minLevel": 21,
+      "maxLevel": 25
+    },
+    {
+      "name": "Festering Woods 2",
+      "slug": "festering-woods-2",
+      "identifier": "Festering Woods 2",
+      "minLevel": 26,
+      "maxLevel": 30
+    },
+    {
+      "name": "Forest Field 1",
+      "slug": "forest-field-1",
+      "identifier": "Forest Field 1",
+      "minLevel": 11,
+      "maxLevel": 15
+    },
+    {
+      "name": "Forest Field 2",
+      "slug": "forest-field-2",
+      "identifier": "Forest Field 2",
+      "minLevel": 16,
+      "maxLevel": 20
+    },
+    {
+      "name": "Forest Labyrinth",
+      "slug": "forest-labyrinth",
+      "identifier": "Labyrinth 1",
+      "minLevel": 0,
+      "maxLevel": 0
+    },
+    {
+      "name": "Forest Labyrinth",
+      "slug": "forest-labyrinth",
+      "identifier": "Labyrinth 2",
+      "minLevel": 0,
+      "maxLevel": 0
+    },
+    {
+      "name": "Forest Labyrinth",
+      "slug": "forest-labyrinth",
+      "identifier": "Labyrinth 3",
+      "minLevel": 0,
+      "maxLevel": 0
+    },
+    {
+      "name": "Forest Labyrinth",
+      "slug": "forest-labyrinth",
+      "identifier": "Labyrinth 4",
+      "minLevel": 0,
+      "maxLevel": 0
+    },
+    {
+      "name": "Forgotten Depths 1",
+      "slug": "forgotten-depths-1",
+      "identifier": "Dungeon Outside",
+      "minLevel": 41,
+      "maxLevel": 45
+    },
+    {
+      "name": "Forgotten Depths 2",
+      "slug": "forgotten-depths-2",
+      "identifier": "Dungeon Boss",
+      "minLevel": 46,
+      "maxLevel": 50
+    },
+    {
+      "name": "Goblin Cave 1",
+      "slug": "goblin-cave-1",
+      "identifier": "Goblin Cave 1",
+      "minLevel": 51,
+      "maxLevel": 55
+    },
+    {
+      "name": "Goblin Cave 2",
+      "slug": "goblin-cave-2",
+      "identifier": "Goblin Cave 2",
+      "minLevel": 56,
+      "maxLevel": 60
+    },
+    {
+      "name": "Goblin Field",
+      "slug": "goblin-field",
+      "identifier": "Goblin Field 1",
+      "minLevel": 41,
+      "maxLevel": 45
+    },
+    {
+      "name": "Goblin Village",
+      "slug": "goblin-village",
+      "identifier": "Goblin Village",
+      "minLevel": 46,
+      "maxLevel": 50
+    },
+    {
+      "name": "Goblin Warcamp",
+      "slug": "goblin-warcamp",
+      "identifier": "Goblin Warcamp",
+      "minLevel": 121,
+      "maxLevel": 125
+    },
+    {
+      "name": "Lake Field",
+      "slug": "lake-field",
+      "identifier": "Lake Field 1",
+      "minLevel": 26,
+      "maxLevel": 30
+    },
+    {
+      "name": "Mystic Lake 1",
+      "slug": "mystic-lake-1",
+      "identifier": "Mystic Lake 1",
+      "minLevel": 31,
+      "maxLevel": 35
+    },
+    {
+      "name": "Mystic Lake 2",
+      "slug": "mystic-lake-2",
+      "identifier": "Mystic Lake 2",
+      "minLevel": 36,
+      "maxLevel": 40
+    },
+    {
+      "name": "Nevaris",
+      "slug": "nevaris",
+      "identifier": "Nevaris",
+      "minLevel": 0,
+      "maxLevel": 0
+    },
+    {
+      "name": "Nevaris Sewers",
+      "slug": "nevaris-sewers",
+      "identifier": "Sewers",
+      "minLevel": 16,
+      "maxLevel": 20
+    },
+    {
+      "name": "Night Garden",
+      "slug": "night-garden",
+      "identifier": "Night Garden",
+      "minLevel": 126,
+      "maxLevel": 130
+    },
+    {
+      "name": "Sanctum of Light",
+      "slug": "sanctum-of-light",
+      "identifier": "Sanctum Inner",
+      "minLevel": 76,
+      "maxLevel": 80
+    },
+    {
+      "name": "Sanctum of Light",
+      "slug": "sanctum-of-light",
+      "identifier": "Sanctum Throne",
+      "minLevel": 81,
+      "maxLevel": 85
+    },
+    {
+      "name": "Starfall Tundra",
+      "slug": "starfall-tundra",
+      "identifier": "Ice Field",
+      "minLevel": 131,
+      "maxLevel": 135
+    },
+    {
+      "name": "Stormreef Isle",
+      "slug": "stormreef-isle",
+      "identifier": "Island",
+      "minLevel": 61,
+      "maxLevel": 65
+    },
+    {
+      "name": "Sunken Depths",
+      "slug": "sunken-depths",
+      "identifier": "Sunken Depths 1",
+      "minLevel": 101,
+      "maxLevel": 105
+    },
+    {
+      "name": "Sunny Meadows 1",
+      "slug": "sunny-meadows-1",
+      "identifier": "Sunny Meadows 1",
+      "minLevel": 1,
+      "maxLevel": 5
+    },
+    {
+      "name": "Sunny Meadows 2",
+      "slug": "sunny-meadows-2",
+      "identifier": "Sunny Meadows 2",
+      "minLevel": 6,
+      "maxLevel": 10
+    },
+    {
+      "name": "Swamp",
+      "slug": "swamp",
+      "identifier": "Swamp",
+      "minLevel": 36,
+      "maxLevel": 40
+    },
+    {
+      "name": "Swamp Wilderness",
+      "slug": "swamp-wilderness",
+      "identifier": "Swamp Wilderness",
+      "minLevel": 66,
+      "maxLevel": 70
+    },
+    {
+      "name": "The Forge",
+      "slug": "the-forge",
+      "identifier": "Forge",
+      "minLevel": 126,
+      "maxLevel": 130
+    },
+    {
+      "name": "Treant Trail",
+      "slug": "treant-trail",
+      "identifier": "Treant Trail",
+      "minLevel": 16,
+      "maxLevel": 20
+    },
+    {
+      "name": "Turtle Nexus",
+      "slug": "turtle-nexus",
+      "identifier": "Island Dungeon",
+      "minLevel": 131,
+      "maxLevel": 135
+    },
+    {
+      "name": "Underground Cavern",
+      "slug": "underground-cavern",
+      "identifier": "Poison Cave",
+      "minLevel": 86,
+      "maxLevel": 90
+    },
+    {
+      "name": "Wayfarer's Landing",
+      "slug": "wayfarer-s-landing",
+      "identifier": "Port Town",
+      "minLevel": 0,
+      "maxLevel": 0
+    },
+    {
+      "name": "Windy Desert",
+      "slug": "windy-desert",
+      "identifier": "Desert Field 1",
+      "minLevel": 26,
+      "maxLevel": 30
+    },
+    {
+      "name": "Windy Desert North",
+      "slug": "windy-desert-north",
+      "identifier": "Desert Field 2",
+      "minLevel": 31,
+      "maxLevel": 35
+    },
+    {
+      "name": "Windy Desert South",
+      "slug": "windy-desert-south",
+      "identifier": "Desert Field 3",
+      "minLevel": 31,
+      "maxLevel": 35
+    }
+  ]
+}

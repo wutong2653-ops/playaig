@@ -13,6 +13,7 @@ const equipmentRecords = JSON.parse(await readFile(resolve(root, "data/spiritval
 const monsterRecords = JSON.parse(await readFile(resolve(root, "data/spiritvale/monsters/monsters.json"), "utf8"));
 const skillRecords = JSON.parse(await readFile(resolve(root, "data/spiritvale/skills/skills.json"), "utf8"));
 const sourceRecords = JSON.parse(await readFile(resolve(root, "data/spiritvale/sources/sources.json"), "utf8"));
+const mapsDirectory = JSON.parse(await readFile(resolve(root, "src/app/mapsDirectoryData.json"), "utf8"));
 const sourceIds = new Set(sourceRecords.map((source) => source.id));
 const cards = cardRecords.filter((card) => card.id && card.slug && card.name && card.sourceIds?.length && card.sourceIds.every((sourceId) => sourceIds.has(sourceId)));
 const verifiedCardCount = cards.length;
@@ -97,6 +98,7 @@ const databaseIndexFaqItems = [
 ];
 
 const landingCategoryMeta = {
+  maps: { title: mapsDirectory.title, description: mapsDirectory.description, faq: mapsDirectory.faq.map(item => [item.question, item.answer]) },
   cards: {
     title: "SpiritVale Cards Database: Complete List | PlayAIG",
     description: "Explore the SpiritVale Cards Database for collection status, card categories and verified effects, with transparent updates from PlayAIG today.",
@@ -194,7 +196,8 @@ for (const category of categories) {
         "@type": "CollectionPage",
         name: title,
         description,
-        url: canonicalPath
+        url: canonicalPath,
+        ...(category.id === "maps" ? { dateModified: mapsDirectory.verifiedAt, mainEntity: { "@type": "ItemList", numberOfItems: mapsDirectory.maps.length, itemListElement: mapsDirectory.maps.map((map, index) => ({ "@type": "ListItem", position: index + 1, name: map.name, url: absolute(canonicalPath) + "#map-" + map.identifier.toLowerCase().replace(/[^a-z0-9]+/g, "-") })) } } : {})
       },
       {
         "@context": "https://schema.org",

@@ -15,6 +15,7 @@ const equipment = JSON.parse(await readFile(resolve(root, "data/spiritvale/equip
 const monsters = JSON.parse(await readFile(resolve(root, "data/spiritvale/monsters/monsters.json"), "utf8"));
 const skills = JSON.parse(await readFile(resolve(root, "data/spiritvale/skills/skills.json"), "utf8"));
 const sources = JSON.parse(await readFile(resolve(root, "data/spiritvale/sources/sources.json"), "utf8"));
+const mapsDirectory = JSON.parse(await readFile(resolve(root, "src/app/mapsDirectoryData.json"), "utf8"));
 const sourceIds = new Set(sources.map((source) => source.id));
 const baseClasses = classes.filter((gameClass) => gameClass.classType === "base");
 const validCards = cards.filter((card) => card.id && card.slug && card.name && card.sourceIds?.length && card.sourceIds.every((sourceId) => sourceIds.has(sourceId)));
@@ -116,6 +117,24 @@ function bodyForPath(path) {
       return shell("SpiritVale Warrior Class Guide", "Explore the SpiritVale Warrior class with currently verified information and clearly marked build questions.", warriorContent, [link("/classes/", "SpiritVale Classes"), link("/guides/class-guide/", "SpiritVale Class Guide"), link("/guides/leveling-guide/", "SpiritVale Leveling Guide")]);
     }
     return shell("SpiritVale " + gameClass.name + " Class Guide", gameClass.name + " is an officially confirmed SpiritVale base class. Role, weapon and build details remain source-dependent.", "<section><h2>Officially confirmed information</h2><p>Current formal records confirm the class identity and verification status. Unsupported abilities, stats and equipment are not added.</p></section>", [link("/classes/", "All Classes"), link("/guides/class-guide/", "Class Guide"), link("/guides/beginner-guide/", "Beginner Guide"), link("/database/skills/", "Skills Database"), link("/database/equipment/", "Equipment Database")]);
+  }
+  if (path === "/database/maps/") {
+    const d = mapsDirectory;
+    const panel = "padding:20px;border:1px solid #697386;border-radius:12px;min-width:0;overflow-wrap:anywhere";
+    const control = "width:100%;min-width:0;min-height:44px;padding:10px 12px;border:1px solid #697386;border-radius:8px;color:#f4f7ff;background:#161d2a;font-size:16px";
+    const ranges = [...new Map(d.maps.map(map => [map.minLevel + "–" + map.maxLevel, map.minLevel])).entries()].sort((a, b) => a[1] - b[1]).map(([range]) => range);
+    const records = d.maps.map(map => '<article id="map-' + escapeHtml(map.identifier.toLowerCase().replace(/[^a-z0-9]+/g, "-")) + '" data-map-record="' + escapeHtml(map.identifier) + '" style="' + panel + '"><h3 style="margin-top:0">' + escapeHtml(map.name) + '</h3><dl><dt>Game identifier</dt><dd style="margin-left:0">' + escapeHtml(map.identifier) + '</dd><dt style="margin-top:12px">Listed monster levels</dt><dd style="margin-left:0">' + map.minLevel + '–' + map.maxLevel + (map.minLevel === 0 && map.maxLevel === 0 ? ' (source value; no level guidance inferred)' : '') + '</dd></dl></article>').join("");
+    const faq = d.faq.map(item => '<details style="' + panel + ';margin-bottom:12px"><summary>' + escapeHtml(item.question) + '</summary><p>' + escapeHtml(item.answer) + '</p></details>').join("");
+    return '<main id="main-content"><div id="maps-directory" class="sv-container" style="padding-top:32px;padding-bottom:48px;overflow-wrap:anywhere">' + globalNav() + '<style>#maps-directory a { color: var(--sv-color-primary); } #maps-directory :is(input, select, button, summary, a):focus-visible { outline: 3px solid var(--sv-color-primary); outline-offset: 3px; }</style><nav aria-label="Breadcrumb">' + link('/database/', 'Database') + ' / Maps</nav>' +
+      '<header style="margin:24px 0"><p>Official source directory · ' + d.maps.length + ' records</p><h1>' + escapeHtml(d.h1) + '</h1><p style="max-width:800px">' + escapeHtml(d.intro) + '</p><p>Last verified: <time datetime="' + escapeHtml(d.verifiedAt) + '">' + escapeHtml(d.verifiedLabel) + '</time></p><p>' + link(d.worldMapUrl, 'Open the official world map ↗') + ' · ' + link('#map-sources', 'View data sources') + '</p></header>' +
+      '<section aria-labelledby="directory-controls-heading" style="' + panel + '"><h2 id="directory-controls-heading">Find a SpiritVale map</h2><p>' + escapeHtml(d.usage) + '</p><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:16px">' +
+      '<label>Search maps<input id="maps-search" type="search" placeholder="Name or game identifier" disabled style="' + control + '"></label>' +
+      '<label>Monster level range<select id="maps-level-range" disabled style="' + control + '"><option value="">All published ranges</option>' + ranges.map(range => '<option value="' + range + '">' + range + (range === '0–0' ? ' (source value)' : '') + '</option>').join('') + '</select></label>' +
+      '<label>Sort maps<select id="maps-sort" disabled style="' + control + '"><option value="name">Name: A–Z</option><option value="reverse">Name: Z–A</option><option value="level">Monster level: low to high</option></select></label></div>' +
+      '<p id="maps-result-count" role="status" aria-live="polite">' + d.maps.length + ' of ' + d.maps.length + ' map records</p><button type="button" disabled style="' + control + ';width:auto">Reset filters</button><noscript>All ' + d.maps.length + ' map records are shown below. Search, filtering and sorting require JavaScript.</noscript></section>' +
+      '<section aria-labelledby="map-records-heading" style="margin-top:32px"><h2 id="map-records-heading">Official map records</h2><div id="maps-results" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:16px">' + records + '</div></section>' +
+      '<section id="map-sources" style="' + panel + ';margin-top:32px"><h2>Sources and data boundaries</h2><p>' + escapeHtml(d.boundary) + '</p><p>Source: ' + link(d.sourceUrl, 'SpiritVale official map directory') + '. Identity verified through ' + link(d.identitySource, 'Steam App 3767850 official support information') + '.</p><p>All records were checked at <time datetime="' + escapeHtml(d.verifiedAt) + '">' + escapeHtml(d.verifiedLabel) + '</time>. The count describes this source snapshot.</p></section>' +
+      '<section aria-labelledby="map-faq-heading" style="margin-top:32px"><h2 id="map-faq-heading">Map directory questions</h2>' + faq + '</section></div></main>';
   }
   const categoryMatch = path.match(/^\/database\/([a-z-]+)\/$/);
   if (categoryMatch) {

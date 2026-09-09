@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { MapsDirectory } from "./MapsDirectory";
 import { EmptyState, PageHeader, Section } from "../design-system";
 import { getCards, getDatabaseEntries, getEquipments, getGuidesRelatedToDatabaseCategory, getMonsters, getOfficialSteamSource, getSkills, getSource, type DatabaseCategory, type SpiritValeSource } from "../data";
 import { CardEntityList, DatabaseBreadcrumb, DatabaseCurrentStatus, DatabaseDisclaimer, DatabaseEmptyEntries, DatabaseHeader, DatabaseLayout, DatabaseSources, EquipmentEntityList, MonsterEntityList, SkillEntityList, type DatabaseVerificationStatus, RelatedGuides } from "../components";
@@ -31,8 +32,10 @@ export function DatabaseCategoryPage({ category }: { category: DatabaseCategory 
   const landing = getDatabaseLandingContent(category.id);
 
   useEffect(() => {
-    applyDatabaseCategoryMetadata(category);
+    if (category.id !== "maps") applyDatabaseCategoryMetadata(category);
   }, [category]);
+
+  if (category.id === "maps") return <MapsDirectory />;
 
   return (
     <main id="main-content">
